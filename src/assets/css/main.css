@@ -3460,25 +3460,27 @@ a.project-slide:hover .project-slide__name {
   padding-left: 0;
 }
 .top-banner {
-  height: 60vh;
-  max-height: 700px;
-  max-width: 2000px;
+  height: 100vh;
+  /* max-height: 700px; */
+  /* max-width: 2000px; */
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 @media (max-width: 1900px) {
-  .top-banner {
+  /* .top-banner {
     max-height: 600px;
-  }
+  } */
 }
 @media (max-width: 1500px) {
-  .top-banner {
+  /* .top-banner {
     max-height: 500px;
-  }
+  } */
 }
  @media (max-width:600px) {
   .top-banner {
-    max-height: 550px;
+    background-image: url(../img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
   
  }

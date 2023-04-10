@@ -20,6 +20,15 @@ font-size: 16px !important;
   background-position: 50%;
   z-index: -1;
 }
+.abs-content{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.video-bg{
+  width: 100%;
+}
 .top-banner__cards-left,
 .top-banner__cards-right {
   position: absolute;
@@ -71,11 +80,23 @@ font-size: 16px !important;
   bottom: -100px;
   left: 0;
 }
+.top-banner{
+  overflow: hidden;
+}
+.video-bg{
+  width:-webkit-fill-available;
+}
 .hidden {
   display: none !important;
 }
 
+@media (max-width: 1200px) {
+  .video-bg{
+  width:max-content;
+}
+}
 @media (max-width: 600px) {
+  .video-bg{display: none;}
   /*.homepage .hero-row h1.title {
     font-size: 30px !important;
   }*/

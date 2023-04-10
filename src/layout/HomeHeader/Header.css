@@ -1,5 +1,6 @@
 .header {
-  position: relative;
+  position: absolute;
+  z-index: 99999;
 }
 .header__connect-wallet span {
   background-color: hsla(0, 0%, 100%, 0.1);
