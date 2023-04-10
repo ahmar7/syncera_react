@@ -3476,11 +3476,12 @@ a.project-slide:hover .project-slide__name {
     max-height: 500px;
   }
 }
-@media (max-width: 1300px) {
+ @media (max-width:600px) {
   .top-banner {
-    max-height: 400px;
-  }
+    max-height: 550px;
 }
+  
+ }
 .hero-row,
 .top-banner .container {
   height: 100%;

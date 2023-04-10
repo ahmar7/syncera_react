@@ -93,7 +93,7 @@
   width: 100%;
 }
 .projects-slider .swiper-slide {
-  width: 392px;
+  width: auto;
   transition: opacity 0.15s linear;
 }
 .projects-slider
