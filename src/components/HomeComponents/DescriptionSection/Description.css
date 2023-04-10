@@ -1,0 +1,70 @@
+.description-section {
+  margin-bottom: 110px;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.description-section .title {
+  font-size: 36px;
+  line-height: 1.12;
+  margin-bottom: 28px;
+}
+.description-section__text {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  margin-right: 19%;
+}
+.description-section__text p {
+  margin-bottom: 35px;
+}
+.nft-token__description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.nft-token__description dl {
+  margin-bottom: 28px;
+}
+.nft-token__description dd,
+.nft-token__description dt {
+  display: inline;
+}
+.nft-token__description dt {
+  font-weight: 400;
+}
+.nft-token__description dd {
+  font-weight: 700;
+}
+.nft-token__description-list ~ p {
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+.fs-nft-section__description .title {
+  font-size: 32px;
+}
+.fs-nft-section__description dl {
+  margin-bottom: 28px;
+}
+.fs-nft-section__description dd,
+.fs-nft-section__description dt {
+  display: inline;
+}
+.fs-nft-section__description dt {
+  font-weight: 400;
+}
+.fs-nft-section__description dd {
+  font-weight: 700;
+}
+.fs-nft-section__description-list ~ p {
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+@media (max-width: 1160px) {
+  .description-section {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important ;
+    margin-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,9 @@
+.bg-con2{
+    background-image: url(https://static.solanium.com/media/projects/reign_of_terror_logo.png);
+}.bg-new { 
+    background-color: rgb(255 245 240 );
+}
+.hover:hover{
+ transform: scale(1.01);
+    transition: all 0.3s ease !important;
+}
