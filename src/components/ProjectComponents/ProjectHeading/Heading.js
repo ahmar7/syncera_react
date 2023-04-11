@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Heading.css'
 const Heading = () => {
     return (
       <section className="project-top">
         <div className="py-5 containerer">
-          <div className="d-flex align-items-center justify-content-between">
+          <div className="d-flex align-items-center justify-content-between noflx">
             <h1 className="title mb-0">Projects</h1>
             <nav className="navbar navbar-expand navbar-light">
               <div className="project-filter d-flex align-items-center">
