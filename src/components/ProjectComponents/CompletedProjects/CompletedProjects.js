@@ -27,11 +27,11 @@ const CompletedProjects = () => {
                       Gaming, NFT
                     </span>
                   </div>
-                  <span className="block font-poppins-bold sm-no text-sm mb-7 sm:line-clamp-1 leading-6 sm:mb-[10px] sm:text-base">
+                  <span className="block font-poppins-bold sm-no  text-sm mb-7 sm:line-clamp-1 leading-6 sm:mb-[10px] sm:text-base">
                     Honeyland is a fun-first, play and own casual strategy
                     mobile game from Hexagon Studios.
                   </span>
-                  <span className="pb-30px leading-[26px] text-sm text-paragraph-text hide-para sm:line-clamp-3">
+                  <span className="pb-30px  sm-no leading-[26px] text-sm text-paragraph-text hide-para sm:line-clamp-3">
                     AAA play and own casual-strategy game for Android/iOS with
                     simple onboarding experience and partnership with Samsung to
                     500,000 downloads in the next 6 months. Play α version:
