@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Roadmap.css'
 const Roadmap = () => {
     return (
         <> 
@@ -11,7 +11,7 @@ const Roadmap = () => {
                 className="-ml-px absolute mt-0.5 top-4 left-[10px] w-px h-full bg-solanium-bright-blue"
                 aria-hidden="true"
               />
-              <span className="relative flex items-start group">
+              <span className="relative flex items-start sm-center group">
                 <span className="h-9 flex items-center">
                   <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-blue-700 rounded-full">
                     <svg
