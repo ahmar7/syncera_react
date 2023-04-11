@@ -1,10 +1,16 @@
 .header {
-  position: fixed;
+  position: absolute;
   z-index: 99999;
-  background-color: black;
+  /* background-color: black; */
   padding-bottom: 10px;
   top
   :0
+}
+.sticky-head{
+  position: fixed;
+  top: 0;
+   animation: mymove 1s forwards;
+  background-color: black;
 }
 .header__connect-wallet span {
   background-color: hsla(0, 0%, 100%, 0.1);
@@ -111,4 +117,9 @@
   .nav-dropdown.dropdown {
     margin-bottom: 10px;
   }
+}
+
+@keyframes mymove {
+  from {top: -100px;}
+  to {top: 0px;}
 }
