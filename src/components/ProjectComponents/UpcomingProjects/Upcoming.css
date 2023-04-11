@@ -7,3 +7,9 @@
  transform: scale(1.01);
     transition: all 0.3s ease !important;
 }
+@media (max-width:640px) {
+    .sm-no{
+        margin-bottom: 0 !important;
+    }
+    
+}

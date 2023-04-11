@@ -31,7 +31,7 @@ const UpComingProjects = () => {
                         Gaming, NFT, Metaverse
                       </span>
                     </div>
-                    <span className="block font-poppins-bold text-sm mb-7 sm:line-clamp-1 leading-6 sm:mb-[10px] sm:text-base">
+                    <span className="block sm-no font-poppins-bold text-sm mb-7 sm:line-clamp-1 leading-6 sm:mb-[10px] sm:text-base">
                       A Cyberpunk SRPG Developed by Red Door Digital
                     </span>
                     <span className="pb-30px leading-[26px] text-sm text-paragraph-text hide-para sm:line-clamp-3">
