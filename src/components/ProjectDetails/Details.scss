@@ -477,7 +477,12 @@
 .ml-5 {
     margin-left: 1.25rem !important;
 }
-
+@media (max-width:1024px) {
+    .ml-5{
+        margin-left: 20px !important;
+    }
+    
+}
 .ml-auto {
     margin-left: auto
 }
