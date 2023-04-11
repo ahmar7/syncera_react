@@ -4,7 +4,7 @@ const CompletedProjects = () => {
   return (
     <section className="projects-live">
       <div className="containerer">
-        <h2 className="title mb-5">Completed Projects</h2>
+        <h2 className="title mbd-5">Completed Projects</h2>
         <div className="g-4 row">
           <div className="col-md-6">
             <div className="w-full max-w-[580px] shadow-md rounded-solaniumDefault hover hover:shadow-xl transition-all duration-500 bg-white">
@@ -88,7 +88,7 @@ const CompletedProjects = () => {
                   <span className="font-inter-bold block text-3xl">80,000</span>
                 </div>
               </div>
-              <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-center h-9 gap-1 text-xs text-black bg-cyan-50">
+              <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-centere h-9 gap-1 text-xs text-black bg-cyan-50">
                 HXD IDO has ended. <b className="font-poppins-bold"></b>
               </div>
             </div>

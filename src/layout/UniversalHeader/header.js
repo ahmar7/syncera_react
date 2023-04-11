@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [drop, setDrop] = useState(false);
   const [nav, setNav] = useState(false);
+  const [sticky, setSticky] = useState(false);
   let toggleDrop = () => {
     if (drop === false) {
       setDrop(true);
@@ -18,10 +19,24 @@ const Header = () => {
       setNav(true);
     }
   };
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 150) {
+      setSticky(true);
+    } else if (window.scrollY === 0) {
+      setSticky(false);
+    }
+  });
   return (
     <div>
       <div onClick={toggleDrop} className={drop ? "overlay-active" : ""}></div>
-      <header className="header container-fluid home-background-section">
+      <header
+        className={
+          sticky
+            ? "header sticky-head container-fluid home-background-section"
+            : "header container-fluid home-background-section"
+        }
+      >
         <nav className="navbar navbar-expand navbar-light">
           <span className="navbar-brand">
             <Link to="/">
@@ -42,7 +57,7 @@ const Header = () => {
             <a href="#" className="nav-link nav-txt">
               FAQs
             </a>
-            <Link  to="/projects" className="nav-link btn-one">
+            <Link to="/projects" className="nav-link btn-one">
               <span className="btn-nav-txt">Projects</span>
             </Link>
             {/*

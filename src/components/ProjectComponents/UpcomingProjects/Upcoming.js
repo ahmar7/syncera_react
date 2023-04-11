@@ -1,14 +1,18 @@
 import React from 'react';
 import './Upcoming.css'
+import { Link } from 'react-router-dom';
 const UpComingProjects = () => {
     return (
       <section className="projects-live">
         <div className="containerer">
-          <h2 className="title mb-5">Upcoming Projects</h2>
+          <h2 className="title mbd-5">Upcoming Projects</h2>
           <div className="g-4 row">
             <div className="col-md-6">
               <div className="w-full max-w-[580px] shadow-md rounded-solaniumDefault hover hover:shadow-xl transition-all duration-500 bg-white">
-                <a href="#" className="w-full no-decor card-bg h-full">
+                <Link
+                  to="/projectdetail"
+                  className="w-full no-decor card-bg h-full"
+                >
                   <div className="flex absolute flex-row-reverse w-full max-w-[580px]">
                     <div className="rounded-lg bg-[#2047F4] h-10 w-10 flex z-30  lop-mar border-2 border-[#ffffff]">
                       <img
@@ -37,7 +41,7 @@ const UpComingProjects = () => {
                       supporting multichain.
                     </span>
                   </div>
-                </a>
+                </Link>
                 <div className="peb-5 card-bg bot-pad pex-5 flex flex-col gaep-5 sm:flex-row-reverse sm:items-center sm:justify-between sm:pb-30px sm:px-30px">
                   <div>
                     <div>
@@ -122,7 +126,7 @@ const UpComingProjects = () => {
                     </span>
                   </div>
                 </div>
-                <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-center h-9 gap-1 text-xs text-black bg-new">
+                <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-centere h-9 gap-1 text-xs text-black bg-new">
                   Distribution starts in:{" "}
                   <b className="font-poppins-bold">02:15:40:05</b>
                 </div>

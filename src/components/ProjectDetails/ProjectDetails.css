@@ -1,0 +1,13 @@
+.top-margin{
+    margin-top: 8rem;
+}
+.bg-log{
+     background-image: url("https://static.solanium.com/media/projects/reign_of_terror_header.png");
+}
+.token-bg{
+    background-image: url("https://static.solanium.com/media/reign_of_terror_saletoken.png") !important; 
+    border-radius: 50%;
+}
+.sale-bg{
+    background-image: url("https://static.solanium.com/media/reign_of_terror_saletoken.png");
+}

@@ -8,7 +8,7 @@ const BelowBanner = () => {
     <section className="below-banner text-center">
       <div className="below-banner__powered-by">
         <span className="below-banner__powered-by__title">Backed by</span>
-        <div className="icons mt-3 below-banner__powered-by__icons justify-center backed-by-section">
+        <div className="icons mt-3 below-banner__powered-by__icons justify-centere backed-by-section">
           <img src={TrushIcon} className="partner-icon"></img>
         </div>
       </div>

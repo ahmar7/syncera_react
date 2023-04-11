@@ -68,7 +68,7 @@ const TopBanner = () => {
               <span className="below-banner__powered-by__title powered-by-size">
                 Powered by
               </span>
-              <div className="icons mt-3 below-banner__powered-by__icons justify-center">
+              <div className="icons mt-3 below-banner__powered-by__icons justify-centere">
                 <svg
                   width="216"
                   height="81"
