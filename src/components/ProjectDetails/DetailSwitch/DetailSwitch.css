@@ -33,6 +33,11 @@
     border-bottom: 2px solid #7e1bcc !important;
     border-right: none !important;
 }
+.border-solanium-bright-blue {
+    --tw-border-opacity: 1;
+    border-color: #7f1bccb7  !important
+}
+
 .bg-theme button{
     padding-bottom: 0 !important;
     padding-right: 0 !important;
