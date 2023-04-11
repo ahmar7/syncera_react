@@ -1,16 +1,11 @@
 import React from 'react';
-
+import Title from '../../ProjectTitle/Title';
+import './socialIcons.css'
 const SocialIcons = () => {
     return (
       <div className="flex flex-col justify-center mb-10 lg:justify-end lg:flex-row px-5 lg:px-0">
-        <div className="mb-8 flex items-center gap-5 lg:hidden">
-          <div className="h-20 w-20 sale-bg bg-contain bg-no-repeat" />
-          <div>
-            <h1 className="font-poppins-bold text-3xl">Reign of Terror</h1>
-            <span className="text-[#6376AE] text-sm">
-              Gaming, NFT, Metaverse
-            </span>
-          </div>
+        <div className="shom">
+          <Title  />
         </div>
         <div>
           <div>
@@ -43,22 +38,14 @@ const SocialIcons = () => {
                   className="z-10 h-8 w-8 h-10 w-10"
                 />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                className="h-full hover:opacity-80"
-              >
+              <a href="#" target="_blank" className="h-full hover:opacity-80">
                 <img
                   src="https://www.solanium.io/socials/telegram.svg"
                   alt="Telegram chat"
                   className="z-10 h-8 w-8 h-10 w-10"
                 />
               </a>
-              <a
-                href="#"
-                target="_blank"
-                className="h-full hover:opacity-80"
-              >
+              <a href="#" target="_blank" className="h-full hover:opacity-80">
                 <img
                   src="https://www.solanium.io/socials/discord.svg"
                   alt="Discord"

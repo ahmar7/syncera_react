@@ -6,8 +6,7 @@ import Banner from "../components/ProjectDetails/ProjectBanner/Banner";
 import Title from "../components/ProjectDetails/ProjectTitle/Title";
 import Description from "../components/ProjectDetails/ProjectDescription/Description";
 import ProjectSidebar from "../components/ProjectDetails/ProjectSidebar/Sidebar";
-import "../components/ProjectDetails/Details.scss";
-import "../components/ProjectDetails/ProjectDetails.css";
+import "../components/ProjectDetails/Details.scss"; 
 const ProjectDetail = () => {
   return (
     <>
@@ -20,7 +19,9 @@ const ProjectDetail = () => {
             <Banner />
             <div className="flex flex-col-reverse gap-14 lg:grid lg:grid-cols-3 w-full max-w-[1200px] mx-auto">
               <div className="w-full lg:col-span-2 px-5 lg:pl-5 lg:pr-0 xl:px-0">
-                <Title />
+                <div className="desktp">
+                  <Title />
+                </div>
                 <Description />
               </div>
               <ProjectSidebar />
