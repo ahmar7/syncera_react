@@ -3,11 +3,11 @@ import Header from "../layout/UniversalHeader/header";
 import Footer from "../layout/Footer/Footer";
 import PageNavigation from "../components/ProjectDetails/PageNavigation/PageNavigation";
 import Banner from "../components/ProjectDetails/ProjectBanner/Banner";
-import Title from "../components/ProjectDetails/ProjectTitle/Title"; 
+import Title from "../components/ProjectDetails/ProjectTitle/Title";
 import Description from "../components/ProjectDetails/ProjectDescription/Description";
 import ProjectSidebar from "../components/ProjectDetails/ProjectSidebar/Sidebar";
-import '../components/ProjectDetails/Details.scss'
-import '../components/ProjectDetails/ProjectDetails.css'
+import "../components/ProjectDetails/Details.scss";
+import "../components/ProjectDetails/ProjectDetails.css";
 const ProjectDetail = () => {
   return (
     <>
@@ -23,7 +23,7 @@ const ProjectDetail = () => {
                 <Title />
                 <Description />
               </div>
-              {/* <ProjectSidebar /> */}
+              <ProjectSidebar />
             </div>
           </div>
         </div>

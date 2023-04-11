@@ -1,4 +1,5 @@
 import React from 'react';
+import './PageNavigation.css'
 import { Link } from 'react-router-dom';
 const PageNavigation = (props) => {
     return (
