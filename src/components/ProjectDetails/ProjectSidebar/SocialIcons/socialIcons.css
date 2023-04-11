@@ -9,4 +9,7 @@
     .desktp{
         display: none;
     }
+    .sm-pad{
+        padding-left: 0 !important;
+    }
 }

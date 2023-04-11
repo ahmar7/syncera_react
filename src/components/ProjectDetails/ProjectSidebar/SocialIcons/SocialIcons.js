@@ -3,7 +3,7 @@ import Title from '../../ProjectTitle/Title';
 import './socialIcons.css'
 const SocialIcons = () => {
     return (
-      <div className="flex flex-col justify-center mb-10 lg:justify-end lg:flex-row px-5 lg:px-0">
+      <div className="flex flex-col sm-pad justify-center mb-10 lg:justify-end lg:flex-row px-5 lg:px-0">
         <div className="shom">
           <Title  />
         </div>
