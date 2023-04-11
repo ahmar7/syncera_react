@@ -1985,11 +1985,7 @@
     background-color: rgb(255 237 213/var(--tw-bg-opacity))
 }
 
-.bg-orange-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(253 186 116/var(--tw-bg-opacity))
-}
-
+ 
 .bg-pink-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(252 231 243/var(--tw-bg-opacity))
@@ -5075,41 +5071,6 @@
     border-bottom: none
 }
 
-.swv-button-trigger {
-    --tw-border-opacity: 1;
-    --tw-bg-opacity: 1;
-    --tw-text-opacity: 1;
-    align-items: center;
-    background-color: rgb(32 71 244/var(--tw-bg-opacity));
-    border-color: rgb(32 71 244/var(--tw-border-opacity));
-    border-radius: 9999px;
-    border-width: 1px;
-    color: rgb(255 255 255/var(--tw-text-opacity));
-    display: inline-flex;
-    font-size: 14px;
-    height: 2.5rem;
-    justify-content: center;
-    position: relative;
-    text-transform: uppercase
-}
-
-@media(min-width: 1024px) {
-    .swv-button-trigger {
-        height:60px
-    }
-}
-
-.swv-button-trigger i {
-    height: 1.5rem;
-    margin-right: 0;
-    width: 1.5rem
-}
-
-@media(min-width: 1024px) {
-    .swv-button-trigger i {
-        margin-right:.75rem
-    }
-}
 
 @keyframes little-bounce {
     50% {

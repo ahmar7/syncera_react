@@ -1,10 +1,37 @@
-import React from 'react';
-import DetailSwitch from '../DetailSwitch/DetailSwitch';
-
+import React, { useState } from "react";
+import DetailSwitch from "../DetailSwitch/DetailSwitch";
+import walletIco from '../../../assets/img/wallet.svg'
+import './Description.css'
 const Description = () => {
-    return (
-      <>
-      <DetailSwitch/>
+  const [activeInfo, setactiveInfo] = useState(true);
+  const [activeWhitlist, setactiveWhitlist] = useState(false);
+  const [activeSale, setactiveSale] = useState(false);
+  let InfoTrue = () => {
+    setactiveInfo(true);
+    setactiveWhitlist(false);
+    setactiveSale(false);
+  };
+  let whiteListTrue = () => {
+    setactiveInfo(false);
+    setactiveWhitlist(true);
+    setactiveSale(false);
+  };
+  let SaleTrue = () => {
+    setactiveInfo(false);
+    setactiveWhitlist(false);
+    setactiveSale(true);
+  };
+  return (
+    <>
+      <DetailSwitch
+        InfoTrue={InfoTrue}
+        activeInfo={activeInfo}
+        activeWhitlist={activeWhitlist}
+        activeSale={activeSale}
+        whiteListTrue={whiteListTrue}
+        SaleTrue={SaleTrue}
+      />
+      {activeInfo && (
         <div>
           <div
             id="headlessui-tabs-panel-4"
@@ -156,8 +183,67 @@ const Description = () => {
             }}
           />
         </div>
-      </>
-    );
-}
+      )}
+      {activeWhitlist && (
+        <div>
+          <span id="headlessui-tabs-panel-4" />
+          <div id="headlessui-tabs-panel-5">
+            <div>
+              <div>
+                <div className="flex justify-center items-center flex-col">
+                  <div className="border flex flex-col bg-opacity-25 rounded-md w-full px-5 py-3 mb-9 text-sm text-center border-orange-500 bg-orange-300 text-orange-600">
+                    <span>
+                      Please connect your wallet before you can apply or view
+                      your whitelist application.
+                    </span>
+                  </div>
+                  <div className="w-60">
+                    <button className="w-60 swv-button swv-button-trigger">
+                      <span className=" maxi lg:block">Select Wallet</span>
+                      <span className="mini lg:hidden">
+                        <img src={walletIco} />
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/**/}
+          </div>
+        </div>
+      )}
+      {activeSale && (
+        <div>
+          <span id="headlessui-tabs-panel-4" />
+          <div id="headlessui-tabs-panel-5">
+            <div>
+              <div className="text-center">
+                <div className="flex justify-center items-center flex-col">
+                  <div className="border flex flex-col bg-opacity-25 rounded-md w-full px-5 py-3 mb-9 text-sm text-center border-orange-500 bg-orange-300 text-orange-600">
+                    <span>
+                      {" "}
+                      Please connect your wallet before you can view the project
+                      sale.{" "}
+                    </span>
+                  </div>
+                  <div className="w-60">
+                    <button className="w-60 swv-button swv-button-trigger">
+                      <span className="hidden lg:block">Select Wallet</span>
+                      <span className="lg:hidden">
+                        <img src={walletIco} />
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                {/**/}
+              </div>
+            </div>
+            {/**/}
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Description;

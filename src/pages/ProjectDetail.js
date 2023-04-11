@@ -23,7 +23,7 @@ const ProjectDetail = () => {
                 <Title />
                 <Description />
               </div>
-              <ProjectSidebar />
+              {/* <ProjectSidebar /> */}
             </div>
           </div>
         </div>

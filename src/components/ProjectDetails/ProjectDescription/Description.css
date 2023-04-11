@@ -1,0 +1,51 @@
+.swv-button-trigger {
+    
+    align-items: center;
+    background-color: #7e1bcc;
+    border-color: #7e1bcc;
+    border-radius: 9999px;
+    border-width: 1px;
+    color: white;
+    display: inline-flex;
+    font-size: 14px;
+    height: 2.5rem;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+}
+.bg-orange-300{
+    background-color: #7f1bccb9;
+}
+.mini{
+    display: none;
+}
+@media(min-width: 1024px) {
+    .swv-button-trigger {
+        height:60px
+    }
+
+}
+@media (max-width:1024px) {
+     .swv-button-trigger {
+        height:2.6rem
+    }
+    .maxi{
+        display: none;
+    }
+    .mini{
+        display: flex;
+    }
+    
+}
+
+.swv-button-trigger i {
+    height: 1.5rem;
+    margin-right: 0;
+    width: 1.5rem
+}
+
+@media(min-width: 1024px) {
+    .swv-button-trigger i {
+        margin-right:.75rem
+    }
+}
