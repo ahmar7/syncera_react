@@ -128,6 +128,39 @@ const Description = () => {
           </div>
         </div>
       </div>
+      <div className="cvDLAX">
+        <div className="dPaxIe ykcDz lglmHD">
+          <div className="cgQZeg faFXTz dOwoXE">
+            <p className="kmtZwL cwNaQj">Never want to miss a sale?</p>
+            <h2 className="cTTTua cDqZXm">
+              Sign up for our newsletter and get the latest news and updates.
+            </h2>
+          </div>
+          <form className="gVoQB fTdEJq ">
+            <div className="dHJHIB">
+              <div className="idiTLw">
+                <input
+                  required
+                  placeholder="Email Address"
+                  type="email"
+                  className="hXCqXZ daBJUU"
+                /> 
+              </div>
+              <p className="bAkqOa bIYjMb" />
+            </div>
+            <div className="lboMJD bISvNz">
+              <button
+                disabled
+                value="Subscribe"
+                type="submit"
+                className="gvIMFB fobaUy  bPwuUC"
+              >
+                <div>Subscribe</div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
   );
 };

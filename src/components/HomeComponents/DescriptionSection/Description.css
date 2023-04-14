@@ -7,6 +7,13 @@
   padding-right: 16px;
   margin-bottom: 96px;
 }
+.cvDLAX {
+    max-width: 1316px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px 40px;
+}
 .dkXQFz {
   margin-top: 24px;
   margin-bottom: 32px;
@@ -284,7 +291,235 @@
   line-height: 125%;
   color: rgb(255, 255, 255);
 }
+ 
+.lglmHD {
+  border: none !important;
+    background-color: rgba(88, 104, 233, 0.15);
+    border-color: rgba(88, 104, 233, 0.15);
+} 
+.ykcDz {
+    flex-direction: column;
+    gap: 24px;
+}
+ 
+ 
+.dPaxIe {
+    display: flex;
+    padding: 40px 28px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 8px;
+}
+/*  */
+  
+.fTdEJq {
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+}
+
+ 
+/*  */
+.cTTTua {
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 12px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 125%;
+    color: rgb(255, 255, 255);
+}
+
+.kmtZwL {
+    line-height: 165%;
+    text-shadow: none;
+    white-space: normal;
+    font-size: 15px;
+    color: rgb(121, 134, 237);
+    text-align: center;
+    text-transform: none;
+}
+.faFXTz {
+    flex-direction: column;
+    gap: 6px;
+}
+ .dHJHIB {
+    width: 100%;
+}.idiTLw {
+    position: relative;
+}.gVoQB input {
+    border: 1px solid rgba(88, 104, 233, 0.16);
+    background-color: #2a3464;
+  } 
+  .gVoQB input:focus{
+    border: 2px solid #2a3464 !important;
+    background-color: rgba(36, 46, 66, 0.75);
+    outline:3px solid rgb(86 50 217 / 16%) !important;
+}
+.hXCqXZ {
+    appearance: none;
+    background-clip: padding-box;
+    background-color: rgba(36, 46, 66, 0.75);
+    border: 1px solid rgb(31, 44, 71);
+    padding: 15px 32% 15px 19px;
+    font-family: InterVariable, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 68px;
+    transition: border-color 0.1s ease-in-out 0s, box-shadow 0.1s ease-in-out 0s;
+    width: 100%;
+    cursor: auto;
+}
+.bPCXvB {
+    font-size: 16px;
+    color: rgba(148, 167, 198, 0.7);
+    padding: 26px 20px 20px;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform-origin: 0px 0px;
+    transition: color 0.1s ease-in-out 0s, transform 0.1s ease-in-out 0s;
+    font-weight: 400;
+}
+.hXCqXZ + label::after {
+    color: rgb(214, 124, 124);
+    content: "*";
+    font-size: 80%;
+    padding-left: 0.15em;
+} 
+.bIYjMb {
+    color: rgba(148, 167, 198, 0.65);
+} 
+.bAkqOa {
+    line-height: 165%;
+    text-shadow: none;
+    white-space: normal;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: inherit;
+    margin-top: 4px;
+    text-transform: none;
+}
+.lboMJD {
+    display: flex;
+    padding-right: 12px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: -18px;
+    bottom: 0px;
+}
+.fobaUy, .fobaUy svg {
+    color: rgba(121, 134, 237, 0.3);
+}
+
+.fobaUy {
+    font-weight: 500;
+    background-color: rgba(88, 104, 233, 0.35);
+}
+.fobaUy div, .fobaUy svg {
+    color: rgb(0, 0, 0);
+}
+
+.gvIMFB > div {
+    font-size: 14px;
+    height: 42px;
+    padding: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 600;
+    gap: 12px;
+}
+.gvIMFB {
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0px;
+    width: 100%;
+    cursor: not-allowed;
+    transition: all 150ms cubic-bezier(0.33, 1, 0.68, 1) 0s;
+}
+.bPCXvB {
+    font-size: 16px;
+    color: rgba(148, 167, 198, 0.7);
+    padding: 26px 20px 20px;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform-origin: 0px 0px;
+    transition: color 0.1s ease-in-out 0s, transform 0.1s ease-in-out 0s;
+    font-weight: 400;
+}
+ 
+.cgQZeg {
+    display: flex;
+    max-width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+ 
+
 @media screen and (min-width: 576px) {
+  .cvDLAX {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+  .fTdEJq {
+    width: 100%;
+}
+  .cTTTua {
+    font-size: 24px;
+}
+.cTTTua {
+    text-align: center;
+}
+  .kmtZwL {
+    text-align: center;
+}
+.kmtZwL {
+    font-size: 16px;
+}
+  .cgQZeg {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+  .cgQZeg {
+    max-width: 100%;
+}
+  .dPaxIe {
+    padding: 56px 40px;
+}
+  .dPaxIe {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
   .kSxSwY {
     font-size: 24px;
   }
@@ -309,6 +544,24 @@
 }
 
 @media screen and (min-width: 768px) {
+  .fTdEJq {
+    width: 450px;
+}
+  .cTTTua {
+    text-align: left;
+}
+  .kmtZwL {
+    text-align: left;
+}
+  .cgQZeg {
+    align-items: flex-start;
+}
+  .cgQZeg {
+    max-width: 400px;
+}
+  .lglmHD {
+    flex-direction: row;
+}
   .cJebuI {
     flex-direction: row;
     min-height: 250px;
@@ -328,4 +581,10 @@
   .djjlrX {
     grid-template-columns: 3fr 2fr;
   }
+}
+@media (max-width:768px) {
+  .cvDLAX{
+    padding-top: 10px !important;
+  }
+  
 }

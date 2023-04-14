@@ -148,6 +148,17 @@
     max-width: 100%;
     text-align: left;
 }
+.DoubleText-Item--Top--ParaInvestors::after {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    height: 7px;
+    width: 36%;
+    border: solid 3px #651FFF;
+    border-color: #651FFF transparent transparent transparent;
+    border-radius: 50%;
+}
 @media screen and (max-width: 1200px)
 
 {.PageProtocol {

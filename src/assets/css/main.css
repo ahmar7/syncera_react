@@ -3740,7 +3740,7 @@ a.project-slide:hover .project-slide__name {
 .description-section {
   margin-bottom: 110px;
   padding-top: 80px;
-  padding-bottom: 175px;
+  padding-bottom: 40px;
   /*background-image: url(../img/star-bg.d6e505b4.png);*/
   background-size: cover;
   background-position: 100%;
