@@ -1,6 +1,15 @@
-.tiers-section {
-  background: none !important;
-} 
+.helper-icon {
+    transform: translateY(-3.5px);
+}
+
+.calc-go-stake {
+    width: 100%;
+}
+
+.calc-go-stake:hover {
+    opacity: 0.8 !important;
+}
+
 .calc-carousel-container[data-v-18811a9f] {
     display: flex;
     grid-gap: 30px;
@@ -37,7 +46,7 @@ input[type=number] {
     display: flex;
     flex-flow: column;
     box-shadow: 1px 1px 20px 0 rgba(0,0,0,.2);
-    width: 550px;
+    width: 500px;
     border-radius: 10px;
     align-items: center;
     padding: 20px;
@@ -57,11 +66,12 @@ input[type=number] {
     padding: 20px 70px;
 }}
 .tiers .new-calc .new-calc-header[data-v-18811a9f] {
-    font-size: 1.4em;
+    font-weight: bold;
+    font-size: 1.8em;
     margin-bottom: 5px;
 }.tiers .new-calc .new-calc-sub-header[data-v-18811a9f] {
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }.tiers .calc-container.inputs[data-v-18811a9f] {
     padding-bottom: 10px;
@@ -70,7 +80,8 @@ input[type=number] {
  
 .tiers .calc-container[data-v-18811a9f] {
     width: 100%;
-    background: #fde4fd;
+    background: #651FFF !important;
+    color: white;
     padding: 10px 8px;
     border-radius: 8px;
 }.tiers .calc-container .input-block[data-v-18811a9f] {
@@ -101,7 +112,7 @@ input[type=number], input[type=password], input[type=text], textarea {
     width: 30%;
     font-size: 11px;
 }.tiers .sep-icon[data-v-18811a9f] {
-    background: #fde4fd;
+    background: #311B92 !important;
     border-radius: 100%;
     padding: 4px 7px 2px;
     color: #170d69;
@@ -124,7 +135,7 @@ input[type=number], input[type=password], input[type=text], textarea {
  
 .tiers .calc-container[data-v-18811a9f] {
     width: 100%;
-    background: #fde4fd;
+    background: #651FFF !important;
     padding: 10px 8px;
     border-radius: 8px;
 } 
@@ -298,6 +309,9 @@ input[type=number], input[type=password], input[type=text], textarea {
     background: linear-gradient(180deg,#0bebca,#00ffa3);
 }
 .new-calc{
+    border: 2px solid  #651FFF;
+    background: #311B92 !important;
+    color: white !important;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     background: linear-gradient(180deg,#f7f8ff,#fff6ff);

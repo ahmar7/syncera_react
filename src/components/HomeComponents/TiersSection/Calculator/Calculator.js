@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+import AnimatedNumber from "animated-number-react";
 import './Calculator.css'
 
 const Calculator = () => {
@@ -52,6 +53,8 @@ const Calculator = () => {
       [days][inputTop],
       [topNewVal]
     );
+    
+  let  formatValue = (totalSlim) => totalSlim.toFixed(2);
   return (
     <div
       data-v-18811a9f
@@ -59,17 +62,17 @@ const Calculator = () => {
       data-in-viewport="i0"
     >
       <span data-v-18811a9f className="new-calc-header">
-        xSLIM Calculator
+        xSERA Calculator
       </span>
 
       <span data-v-18811a9f className="new-calc-sub-header">
-        Calculate your xSLIM depending on the amount of staked tokens and your
+        Calculate your xSERA depending on the amount of staked tokens and your
         lock time.
       </span>
       <div data-v-18811a9f className="calc-container inputs">
         <div data-v-18811a9f className="input-block">
           <div data-v-18811a9f className="symbol">
-            SLIM
+            SERA
           </div>
           <input
             onChange={handleChange}
@@ -94,7 +97,7 @@ const Calculator = () => {
 
           <div data-v-18811a9f className="input-block">
             <div data-v-18811a9f className="symbol">
-              SLIM-LP
+              SERA-LP
             </div>
             <input
               data-v-18811a9f
@@ -125,10 +128,10 @@ const Calculator = () => {
             data-icon="plus"
             width="1em"
             height="1em"
-            fill="currentColor"
+            fill="white"
             aria-hidden="true"
             focusable="false"
-            className
+            className="helper-icon"
           >
             <path d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z" />
             <path d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z" />
@@ -171,10 +174,10 @@ const Calculator = () => {
             data-icon="arrow-down"
             width="1em"
             height="1em"
-            fill="currentColor"
+            fill="white"
             aria-hidden="true"
             focusable="false"
-            className
+            className="helper-icon"
           >
             <path d="M862 465.3h-81c-4.6 0-9 2-12.1 5.5L550 723.1V160c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v563.1L255.1 470.8c-3-3.5-7.4-5.5-12.1-5.5h-81c-6.8 0-10.5 8.1-6 13.2L487.9 861a31.96 31.96 0 0 0 48.3 0L868 478.5c4.5-5.2.8-13.2-6-13.2z" />
           </svg>
@@ -203,7 +206,11 @@ const Calculator = () => {
               style={{ padding: "5px 2.5px" }}
             >
               <span data-v-0abbdf5a data-v-07524f04>
-                {totalSlim}
+                {/* {totalSlim} */}
+                <AnimatedNumber
+                  value={totalSlim}
+                  formatValue={formatValue}
+                />
               </span>
             </div>
             <div
@@ -212,7 +219,7 @@ const Calculator = () => {
               style={{ padding: "5px 2.5px" }}
             >
               <span data-v-07524f04 className="suffix">
-                xSLIM
+                xSERA
               </span>
             </div>
           </div>
@@ -220,9 +227,9 @@ const Calculator = () => {
       </div>
 
       <span data-v-18811a9f className="tier-number">
-        locked until
+        {/* locked until */}
         <span data-v-18811a9f className="num">
-          3/10/2023
+          {/* 3/10/2023 */}
         </span>
       </span>
       <div data-v-18811a9f className={dayWarn ? "error " : "error hidden"}>
@@ -265,15 +272,15 @@ const Calculator = () => {
             <path d="M464 720a48 48 0 1 0 96 0 48 48 0 1 0-96 0zm16-304v184c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V416c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8zm475.7 440l-416-720c-6.2-10.7-16.9-16-27.7-16s-21.6 5.3-27.7 16l-416 720C56 877.4 71.4 904 96 904h832c24.6 0 40-26.6 27.7-48zm-783.5-27.9L512 239.9l339.8 588.2H172.2z" />
           </svg>
         </i>
-        You need at least 100 xSLIM.
+        You need at least 100 xSERA.
       </div>
       <button
         data-v-18811a9f
         size="large"
-        className="button is-solgreen is-fullwidth"
+        className="btn-one is-fullwidth calc-go-stake btn-disabled"
       >
-        Connect Wallet
-      </button> 
+        <i className="fas fa-external-link-alt icon-distance"></i> To stake
+      </button>
     </div>
   );
 };

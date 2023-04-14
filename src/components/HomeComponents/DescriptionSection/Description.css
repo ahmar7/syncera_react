@@ -1,70 +1,331 @@
-.description-section {
-  margin-bottom: 110px;
-  padding-top: 175px;
-  padding-bottom: 175px;
-  background-size: cover;
-  background-position: 100%;
-  background-repeat: no-repeat;
+.bZBINf {
+  max-width: 1316px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 96px;
 }
-.description-section .title {
-  font-size: 36px;
-  line-height: 1.12;
-  margin-bottom: 28px;
-}
-.description-section__text {
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  margin-right: 19%;
-}
-.description-section__text p {
-  margin-bottom: 35px;
-}
-.nft-token__description {
+.dkXQFz {
   margin-top: 24px;
   margin-bottom: 32px;
+  width: 100%;
 }
-.nft-token__description dl {
-  margin-bottom: 28px;
+
+.iYGvXj {
+  flex-direction: row;
 }
-.nft-token__description dd,
-.nft-token__description dt {
-  display: inline;
+
+.liREcv {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
 }
-.nft-token__description dt {
-  font-weight: 400;
+
+.cYolYl {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
 }
-.nft-token__description dd {
+
+.hJcZlk {
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.gCcOPY {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: baseline;
+}
+.lhAFlZ {
+  flex-direction: row;
+  gap: 8px;
+}
+
+.cfrnQw {
+  letter-spacing: -0.02em;
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 12px;
   font-weight: 700;
+  font-size: 21px;
+  line-height: 125%;
+  color: rgb(255, 255, 255);
 }
-.nft-token__description-list ~ p {
-  margin-top: 28px;
-  margin-bottom: 0;
+.jrSOwh {
+  margin-left: 0px;
 }
-.fs-nft-section__description .title {
-  font-size: 32px;
+.jzbFXV {
+  flex-direction: row;
+  gap: 4px;
 }
-.fs-nft-section__description dl {
-  margin-bottom: 28px;
+.bTkfpF {
+  line-height: 1;
+  white-space: nowrap;
+  color: rgb(121, 134, 237);
 }
-.fs-nft-section__description dd,
-.fs-nft-section__description dt {
-  display: inline;
+
+.eDuPKI {
+  line-height: 165%;
+  text-shadow: none;
+  white-space: normal;
+  font-size: 14px;
+  color: rgb(101 31 255);
+  font-weight: 500;
+  text-align: inherit;
+  text-transform: none;
 }
-.fs-nft-section__description dt {
-  font-weight: 400;
+.no-border{
+  border: none !important;
+  outline: none !important;
 }
-.fs-nft-section__description dd {
-  font-weight: 700;
+.fYUrZj {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
 }
-.fs-nft-section__description-list ~ p {
-  margin-top: 28px;
-  margin-bottom: 0;
+.jpChDs {
+  transition: all 0.2s ease-in-out 0s;
+  width: 10px;
+  position: relative;
+  right: 0px;
 }
-@media (max-width: 1160px) {
-  .description-section {
-    padding-top: 20px !important;
-    padding-bottom: 50px !important ;
-    margin-bottom: 10px !important;
+.lmROce {
+  transform: rotate(-45deg);
+  width: 6px;
+  height: 6px;
+}
+.jwYeKU::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-width: 0px 2px 2px 0px;
+  border-style: solid;
+  display: block;
+  transition: all 0.2s ease-in-out 0s;
+  border-color: rgb(121, 134, 237);
+}
+.fUa-dVJ {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  width: 0px;
+  height: 2px;
+  background-color: rgb(121, 134, 237);
+  opacity: 0;
+  transition: all 0.2s cubic-bezier(0, 0, 1, 1) 0s;
+}
+
+.gwGqFO {
+  display: grid;
+  gap: 24px;
+  width: 100%;
+}
+.leEJeg {
+  padding: unset;
+  background-color: rgb(27, 35, 50);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px, rgba(0, 0, 0, 0.02) 0px 2px 2px,
+    rgba(0, 0, 0, 0.02) 0px 4px 4px, rgba(0, 0, 0, 0.02) 0px 6px 8px,
+    rgba(0, 0, 0, 0.02) 0px 8px 16px;
+  transition: background-color 150ms cubic-bezier(0.33, 1, 0.68, 1) 0s;
+  min-height: 510px;
+  overflow: hidden;
+  display: flex;
+  text-align: left;
+  position: relative;
+}
+.frFRbQ {
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: linear-gradient(
+    rgba(27, 35, 50, 0.05) 0%,
+    rgba(27, 35, 50, 0.95) 80%
+  );
+  gap: 8px;
+}
+.baseline-align{
+  align-items: baseline !important;
+}
+.jfRZuw {
+  line-height: 1.4;
+  margin-top: auto;
+}
+
+.dGTfCo {
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 12px;
+  font-size: 36px;
+  line-height: 125%;
+  color: rgb(255, 255, 255);
+}
+.bPzHKd {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+}
+
+.iYGvXj {
+  flex-direction: row;
+}
+
+.jYEhWf {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.bPzHKd svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+}
+
+.ffRWyw {
+  flex: 0 0 auto;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.ergcSf {
+  line-height: 165%;
+  text-shadow: none;
+  white-space: normal;
+  font-size: 16px;
+  color: rgb(111, 129, 159);
+  text-align: inherit;
+  text-transform: none;
+}
+.rotate-bg {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  inset: 0px;
+}
+.how-to-buy {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+.cfFUvJ {
+  border-radius: 8px;
+}
+
+.ykcDz {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fYUrZj {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.guNyXw {
+  background-color: rgb(27, 35, 50);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px, rgba(0, 0, 0, 0.02) 0px 2px 2px,
+    rgba(0, 0, 0, 0.02) 0px 4px 4px, rgba(0, 0, 0, 0.02) 0px 6px 8px,
+    rgba(0, 0, 0, 0.02) 0px 8px 16px;
+  width: 100%;
+  height: 100%;
+  padding: 32px 128px 32px 32px;
+  transition: background-color 150ms cubic-bezier(0.33, 1, 0.68, 1) 0s;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  min-height: 200px;
+}
+.kFGeBv {
+  z-index: 1;
+  line-height: 1.4;
+}
+
+.kSxSwY {
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 12px;
+  font-size: 21px;
+  line-height: 125%;
+  color: rgb(255, 255, 255);
+}
+@media screen and (min-width: 576px) {
+  .kSxSwY {
+    font-size: 24px;
+  }
+
+  .guNyXw {
+    padding-right: 192px;
+  }
+  .ergcSf {
+    font-size: 19px;
+  }
+  .dGTfCo {
+    font-size: 40px;
+  }
+
+  .cfrnQw {
+    font-size: 24px;
+  }
+  .bZBINf {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cJebuI {
+    flex-direction: row;
+    min-height: 250px;
+  }
+
+  .cYolYl {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .cJebuI {
+    flex-direction: column;
+  }
+  .djjlrX {
+    grid-template-columns: 3fr 2fr;
   }
 }

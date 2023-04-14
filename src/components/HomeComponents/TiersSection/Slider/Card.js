@@ -1,10 +1,9 @@
 import React ,{useState}from "react";
 import { Carousel } from "3d-react-carousal";
-import Card1 from "../../../../assets/img/card.png"; 
+import Card1 from "../../../../assets/img/card.svg"; 
 import "./Card.css";
 const Card = () => {
-    
-    const [slideChange, setslideChange] = useState(1);
+     
   let slides = [
     <div data-v-18811a9f className="carousel-3d-slide current" data-v-07917306>
       <div data-v-18811a9f className="gods">
@@ -13,21 +12,21 @@ const Card = () => {
         </div>
         <img data-v-18811a9f src={Card1} />
         <div data-v-18811a9f className="name">
-          RA
+          MINNOW
         </div>
         <div data-v-18811a9f className="sub">
-          God of the Sun
+          The Petite Predator
         </div>
         <div data-v-18811a9f className="amount">
           <span data-v-18811a9f className="num">
-            5000
+            100
           </span>
           <span data-v-18811a9f className="ticker ml-1">
-            xSLIM
+            xSERA
           </span>
         </div>
         <div data-v-18811a9f className="extra">
-          100 Lottery Tickets
+          1 Lottery Ticket
         </div>
       </div>
     </div>,
@@ -36,23 +35,23 @@ const Card = () => {
         <div data-v-18811a9f className="tier num">
           TIER 2
         </div>
-        <img data-v-18811a9f src={Card1} />
+        <img data-v-18811a9f src={ Card1 } />
         <div data-v-18811a9f className="name">
-          RA
+          GOLDFISH
         </div>
         <div data-v-18811a9f className="sub">
-          God of the Sun
+          The Gilded Puppy
         </div>
         <div data-v-18811a9f className="amount">
           <span data-v-18811a9f className="num">
-            5000
+            1000
           </span>
           <span data-v-18811a9f className="ticker ml-1">
-            xSLIM
+            xSERA
           </span>
         </div>
         <div data-v-18811a9f className="extra">
-          100 Lottery Tickets
+          12 Lottery Tickets
         </div>
       </div>
     </div>,
@@ -63,10 +62,10 @@ const Card = () => {
         </div>
         <img data-v-18811a9f src={Card1} />
         <div data-v-18811a9f className="name">
-          RA
+          BARRACUDA
         </div>
         <div data-v-18811a9f className="sub">
-          God of the Sun
+          The Jaws of Death
         </div>
         <div data-v-18811a9f className="amount">
           <span data-v-18811a9f className="num">
@@ -88,21 +87,21 @@ const Card = () => {
         </div>
         <img data-v-18811a9f src={Card1} />
         <div data-v-18811a9f className="name">
-          RA
+          SWORDFISH
         </div>
         <div data-v-18811a9f className="sub">
-          God of the Sun
+          The Finned Fury
         </div>
         <div data-v-18811a9f className="amount">
           <span data-v-18811a9f className="num">
-            5000
+            10000
           </span>
           <span data-v-18811a9f className="ticker ml-1">
-            xSLIM
+            xSERA
           </span>
         </div>
         <div data-v-18811a9f className="extra">
-          100 Lottery Tickets
+          Guaranteed Allocation
         </div>
       </div>
     </div>,
@@ -113,21 +112,21 @@ const Card = () => {
         </div>
         <img data-v-18811a9f src={Card1} />
         <div data-v-18811a9f className="name">
-          RA
+          BLUE WHALE
         </div>
         <div data-v-18811a9f className="sub">
-          God of the Sun
+          The Ocean Titan
         </div>
         <div data-v-18811a9f className="amount">
           <span data-v-18811a9f className="num">
-            5000
+            50000
           </span>
           <span data-v-18811a9f className="ticker ml-1">
-            xSLIM
+            xSERA
           </span>
         </div>
         <div data-v-18811a9f className="extra">
-          100 Lottery Tickets
+          Guaranteed Allocation
         </div>
       </div>
     </div>
@@ -145,8 +144,7 @@ const Card = () => {
         slides={slides}
         autoplay={false}
         slideToShow={callback2}
-        onSlideChange={callback}
-        goToSlide={3}
+        onSlideChange={callback} 
       />
     </div>
   );

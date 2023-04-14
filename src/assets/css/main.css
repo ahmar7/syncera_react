@@ -3728,9 +3728,9 @@ a.project-slide:hover .project-slide__name {
 }
 .description-section {
   margin-bottom: 110px;
-  padding-top: 175px;
+  padding-top: 80px;
   padding-bottom: 175px;
-  background-image: url(../img/star-bg.d6e505b4.png);
+  /*background-image: url(../img/star-bg.d6e505b4.png);*/
   background-size: cover;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -3773,7 +3773,7 @@ a.project-slide:hover .project-slide__name {
   margin-top: 100px;
   padding-top: 36px;
   padding-bottom: 200px;
-  background-image: url(../img/tiers-bg.eaa3fdc5.png);
+  background-image: url(../img/star-bg.d6e505b4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
