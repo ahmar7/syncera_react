@@ -4,7 +4,7 @@ const LiveProjects = () => {
     return (
       <section className="projects-live">
         <div className="containerer">
-          <h2 className="title mbd-5">Live Projects</h2>
+          <h2 className="title mb-5">Live Projects</h2>
           <div className="g-4 row">
             <div className="col-md-6">
               <div className="tile--with-shadow no-projects-tile">

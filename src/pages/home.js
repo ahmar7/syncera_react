@@ -22,11 +22,9 @@ const Home = () => {
         <Features />
         <Carousel />
         <Advantages />
-        <Description />
-        <GetReady />
         <Tiers />
-        <TimeWrap />
-        <Faq />
+        <Description />
+        {/*<TimeWrap />*/}
       </div>
       <Footer />
     </div>

@@ -29,7 +29,7 @@ const DetailSwitch = (props) => {
       </button>
       <button
         onClick={props.whiteListTrue}
-        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none"
+        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none tab-deactivated"
         id="headlessui-tabs-tab-2"
         role="tab"
         aria-selected="false"
@@ -49,7 +49,7 @@ const DetailSwitch = (props) => {
       </button>
       <button
         onClick={props.SaleTrue}
-        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none"
+        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none tab-deactivated"
         id="headlessui-tabs-tab-3"
         role="tab"
         aria-selected="false"

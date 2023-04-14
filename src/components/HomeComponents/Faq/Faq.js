@@ -46,7 +46,7 @@ const Faq = () => {
       <div className="containerer">
         <div className="faq-column justify-content-center row">
           <div className="text-center col-xxl-10 col-xl-11 col-md-12">
-            <h2 className="title faqs-title">FAQs</h2>
+            <h2 className="title faqs-title mt-5">FAQs</h2>
             <br />
             <div className="accordion">
               <div className="accordion card">
@@ -54,7 +54,7 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq1}
-                    className={faq1 ? "active btn btn-main" : " btn btn-main"}
+                    className={faq1 ? "active btn btn-main" : " btn btn-main faq-bg"}
                   >
                     What benefits do SERA token holders get?
                     <span>
@@ -108,7 +108,7 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq2}
-                    className={faq2 ? "active btn btn-main" : " btn btn-main"}
+                    className={faq2 ? "active btn btn-main" : " btn btn-main faq-bg"}
                   >
                     When is the public sale?
                     <span>
@@ -145,7 +145,7 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq3}
-                    className={faq3 ? "active btn btn-main" : " btn btn-main"}
+                    className={faq3 ? "active btn btn-main" : " btn btn-main faq-bg"}
                   >
                     How do I participate in the private sale?
                     <span>
@@ -170,8 +170,11 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      We will verify the <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/private-sale" target="_blank" className="emphasize-link">private sale</a> date by issuing an announcement on our social media. Right now, you can already acquire knowledge about the sale's structure <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/private-sale" target="_blank" className="emphasize-link">here</a>. <b>Hint: Only users with OG roles (whitelist) in our Discord community will have the opportunity to take part in the exclusive phase.</b> The deadline to claim your OG role will be announced in advance.
+                      Kindly monitor our social media channels where we will progressively disclose additional details regarding our private sale. Right now, you can already acquire knowledge about the sale's structure <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/private-sale" target="_blank" class="emphasize-link">here</a>. 
                     </p>
+                    <p>
+                      <b>Only those who are members of our Discord group with an OG role or higher will be eligible to participate in the exclusive phase.</b> The deadline to claim your OG role will be announced in advance.
+                    </p>  
                   </div>
                 </div>
               </div>
@@ -182,7 +185,7 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq4}
-                    className={faq4 ? "active btn btn-main" : " btn btn-main"}
+                    className={faq4 ? "active btn btn-main" : " btn btn-main faq-bg"}
                   >
                     What is the Syncera Ambassador Program?
                     <span>
@@ -207,8 +210,11 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      People who enrol in our <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/be-an-ambassador-crew3" className="emphasize-link" target="_blank">ambassador program</a> can track their progress and receive specific Discord roles for their participation in Syncera's community. For example, if you hold a respected position and gain sufficient recognition within our community, you will be given access to a private channel on Syncera's Discord server. This channel provides privileged benefits within the Syncera network, such as partner seed rounds, private rounds, airdrops, and several other perks. Additionally, your allocation of SERA tokens from the public SERA IDO is based on your role within the program, and those with more significant positions will receive a larger allocation.
+                      The Syncera Champion Program serves as an <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/champion-program-zealy" class="emphasize-link" target="_blank">ambassador program</a> on <a href="https://zealy.io/c/syncera/questboard" target="_blank" class="emphasize-link">Zealy</a> that allows members of the community to track their progress and receive special roles on Discord for actively taking part. The most distinguished members who have achieved a revered status will be given exclusive advantages within the Syncera network, including partner seed rounds, private rounds, airdrops, and other attractive benefits.
                     </p>
+                    <p>
+                      <b>The number of SERA tokens you're allocated in our private sale depends on your position in our program, with higher-ranking participants getting a larger allocation.</b>
+                    </p>  
                   </div>
                 </div>
               </div>
@@ -219,7 +225,7 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq5}
-                    className={faq5 ? "active btn btn-main" : " btn btn-main"}
+                    className={faq5 ? "active btn btn-main" : " btn btn-main faq-bg"}
                   >
                     I have a (formal) question for the team?!
                     <span>

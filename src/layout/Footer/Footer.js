@@ -267,6 +267,15 @@ const Footer = () => {
                 <li className="footer__list-item">
                   <a href="#">Apply for IDO</a>
                 </li>
+                <li className="footer__list-item">
+                  <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/" target="_blank">Whitepaper</a>
+                </li>
+                <li className="footer__list-item">
+                  <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/" target="_blank">Pitch Deck</a>
+                </li>
+                <li className="footer__list-item">
+                  <a href="https://linktr.ee/syncera" target="_blank">Linktree</a>
+                </li>
                 {/*
                 <li className="footer__list-item">
                   <a href="#">Join Our Network</a>

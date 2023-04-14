@@ -22,27 +22,14 @@ const Advantages = () => {
             <div className="platform-advantages">
               <div className="advantages-item">
                 <h3 className="advantages-item__title">
-                  Long Term Focus
+                  About Syncera
                 </h3>
                 <p className="advantages-item__text">
-                  Syncera aims to offer a DeFi platform that is all-encompassing, user-friendly, secure, and accessible to everyone for investing in the zkSync ecosystem, thus promoting its growth and adoption. We are excited to make you part of our road to success: Syncera is founded for the people and governed by the people!
+                  Syncera is the go-to platform for the zkSync blockchain. Participate in public raises of top tier projects, stake your tokens, trade on our DEX, participate in our governance and join our active and growing community. Our goal is to make zkSync available to everyone, with an emphasis on creating an intuitive user interface and user experience.
                 </p>
-              </div>
-              <div className="advantages-item">
-                <h3 className="advantages-item__title">
-                  Equal Opportunities
-                </h3>
-                <p className="advantages-item__text">
-                  Syncera's mission for its launchpad is to provide a decentralized platform for Initial DEX Offerings (IDO) on the zkSync blockchain, enabling upcoming projects to raise funds in a fair and equitable manner. Our goal is to build a strong community where all participants have a voice and can benefit from the growth of the zkSync ecosystem. Syncera executes a thorough due diligence process on all chosen projects for certification.
-                </p>
-              </div>
-              <div className="advantages-item">
-                <h3 className="advantages-item__title">
-                  Protecting Investors
-                </h3>
-                <p className="advantages-item__text">
-                  Syncera aims to strengthen its due diligence procedure and platform reliability by adding several types of security measures and a refund policy. We are pleased to announce the inclusion of <i>Syncera Shield</i>, which comes with a refund policy, in our pipeline process, in addition to our forthcoming governance program.
-                </p>
+                <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-overview/defi-solutions" target="_blank" className="advantages-item__text read-more">
+                  Read more about our ecosystem
+                </a>
               </div>
             </div>
           </div>

@@ -49,7 +49,7 @@ const Description = () => {
                         Whitelist start
                       </span>
                       <div className="font-poppins-bold leading-8">
-                        <span>Saturday, Feb 11, 2023, 7:00 PM</span>
+                        <span>Monday, 17 April 2023 at 07:00 UTC</span>
                       </div>
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
@@ -57,7 +57,7 @@ const Description = () => {
                         Sale start
                       </span>
                       <div className="font-poppins-bold leading-8">
-                        <span>Monday, Feb 13, 2023, 9:15 PM</span>
+                        <span>TBD</span>
                       </div>
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
@@ -65,7 +65,7 @@ const Description = () => {
                         Distribution start
                       </span>
                       <div className="font-poppins-bold leading-8">
-                        <span>Wednesday, Apr 12, 2023, 5:30 PM</span>
+                        <span>TBD</span>
                       </div>
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
@@ -73,15 +73,7 @@ const Description = () => {
                         Chain
                       </span>
                       <div className="font-poppins-bold leading-8">
-                        <span>Solana</span>
-                      </div>
-                    </div>
-                    <div className="flex justify-between w-full text-sm md:text-md">
-                      <span className="text-paragraph-text flex items-center">
-                        Chain ticker
-                      </span>
-                      <div className="font-poppins-bold leading-8">
-                        <span>SOL</span>
+                        <span>zkSnyc</span>
                       </div>
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
@@ -91,7 +83,7 @@ const Description = () => {
                       <div className="font-poppins-bold leading-8">
                         <a
                           href="https://solscan.io/tx/"
-                          className="underline hover:opacity-70"
+                          className="underline hover:opacity-70 emphasize-link"
                           target="_blank"
                         >
                           View explorer
@@ -100,52 +92,42 @@ const Description = () => {
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
                       <span className="text-paragraph-text flex items-center">
-                        Solanium Shield activated
+                        Syncera Shield
                       </span>
                       <div className="font-poppins-bold leading-8">
                         <span>Yes</span>
                       </div>
                     </div>
                   </div>
-                  <span className="font-poppins-bold text-lg w-full block leading-7 mb-5">
-                    A Cyberpunk SRPG Developed by Red Door Digital
+                  <span className="font-poppins-bold text-lg w-full block leading-7 mb-5 secondary-glow font-weight-bold">
+                    Unlock zkSync's full potential with Syncera
                   </span>
                   <span className="block w-full text-sm text-paragraph-text mb-5 leading-[26px]">
-                    A cyberpunk SRPG (featuring turn-based tactical combat) with
-                    an online persistent world that incorporates our philosophy
-                    of ownership into Play and Own as well as supporting
-                    multichain.
+                    Syncera aims to innovate and bring adoption to the zkSync ecosystem by providing an all-in-one DeFi platform that will accommodate projects and new investors entering the space for the first time.
                   </span>
                   <div
                     id="content-about"
                     className="content-image mb-5 last:mb-0"
                   >
-                    <h1 className="font-poppins-bold text-lg leading-9 mb-3">
+                    <h1 className="font-poppins-bold text-lg leading-9 mb-3 secondary-glow font-weight-bold">
                       About
                     </h1>
                     <img
-                      src="https://static.solanium.com/media/projects/reign_of_terror_about.jpg"
+                      src="https://static.solanium.com/media/projects/reign_of_terror_header.png"
                       alt="Content image"
                       className="w-full mb-30px rounded-solaniumDefault"
                     />
                     <div className="flex flex-col gap-2 mb-30px last:mb-0">
                       <p className="text-paragraph-text text-sm leading-[26px] mb-2 last:mb-0">
-                        Reign of Terror ($ROT) - is a unique cyberpunk SRPG
-                        (featuring turn-based tactical combat) with an online
-                        persistent world developed by Red Door Digital that
-                        incorporates our philosophy of ownership into Play and
-                        Own as well as supporting multichain. Run various
-                        missions with a customizable squad of upgradable Agents,
-                        each with their own backstory, multiple rarities,
-                        classes and unique skills. Gather materials to craft a
-                        variety of weapons, armor and consumables. Manage your
-                        growing base and expand your influence with different
-                        levels of risk in PvP combat on different levels
-                        (individual, guild and alliance PvP). Interact with the
-                        in-game NFT assets in different ways (trading,
-                        ransoming, burning, and raiding) through our different
-                        game systems and mechanics.
+                        Introducing Syncera.io, a decentralized platform for Initial DEX Offerings (IDO) that aims to promote and expand the adoption of the zkSync ecosystem. The project's goal is to make DeFi accessible to both existing and new investors by providing a user-friendly platform with a focus on UI/UX.
                       </p>
+                      <p className="text-paragraph-text text-sm leading-[26px] mb-2 last:mb-0">
+                        Syncera aims to become an all-in-one DeFi platform, providing tools for secure launch and management of decentralized finances. The project's vision is to create a strong DeFi community on zkSync and other chains, offering a go-to launchpad for hot projects while rewarding its holders.
+                        The platform will offer necessary tools to make investing in the zkSync ecosystem accessible and secure, with a focus on improving UX, expanding launchpad utility, streamlining token sale flow, and providing customer support. The IDO launchpad will enable investors to participate in the hottest presales of a growing ecosystem, with equal opportunities.
+                      </p>
+                      <p className="text-paragraph-text text-sm leading-[26px] mb-2 last:mb-0">   
+                        Built on zkSync Era, Syncera's platform will offer complementary services such as token swap (AMM), time-weighted token staking, token vesting, and a farm. Some of these services will be available soon after the TGE, while others will be provided later to meet the requirements of the users. The project aims to ensure the quality of services and avoid unrealistic claims to ensure long-term success.
+                      </p>  
                     </div>
                   </div>
                 </div>
@@ -228,8 +210,8 @@ const Description = () => {
                   </div>
                   <div className="w-60">
                     <button className="w-60 swv-button swv-button-trigger">
-                      <span className="hidden lg:block">Select Wallet</span>
-                      <span className="lg:hidden">
+                      <span className=" maxi lg:block">Select Wallet</span>
+                      <span className="mini lg:hidden">
                         <img src={walletIco} />
                       </span>
                     </button>

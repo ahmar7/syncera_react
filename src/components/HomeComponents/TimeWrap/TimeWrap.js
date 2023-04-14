@@ -5,7 +5,7 @@ const TimeWrap = () => {
     <div className="timer-wrap">
       <section className="partnerships">
         <div className="container">
-          <h2 className="title text-center partners-title">Partners</h2>
+          <h2 className="title text-center partners-title">Roadmap</h2>
           <div className="align-items-stretch justify-content-center row">
             <div className="partnerships-col col-lg-3 col-md-4 col-sm-6">
               <img

@@ -3,7 +3,7 @@ import './Roadmap.css'
 const Roadmap = () => {
     return (
         <> 
-      <div className="w-full bg-[#F7F7F7] rounded-solaniumDefault mb-4 p-5 mr-5">
+      <div className="w-full bg-[#F7F7F7] rounded-solaniumDefault mb-4 p-5 mr-5 pool-bg-color">
         <nav aria-label="Progress">
           <ol role="list" className="overflow-hidden no-margin-ex">
             <li className="pb-5 relative">
@@ -30,7 +30,7 @@ const Roadmap = () => {
                   </span>
                 </span>
                 <span className="ml-5 min-w-0 flex flex-col">
-                  <span className="text-md font-poppins-bold tracking-wide">
+                  <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
                     Preperation
                   </span>
                   <span className="text-xs text-solanium-bright-blue opacity-80">
@@ -44,7 +44,7 @@ const Roadmap = () => {
                 className="-ml-px absolute mt-0.5 top-4 left-[10px] w-px h-full bg-solanium-bright-blue"
                 aria-hidden="true"
               />
-              <span className="relative flex items-start group">
+              <span className="relative flex items-start sm-center group">
                 <span className="h-9 flex items-center">
                   <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-blue-700 rounded-full">
                     <svg
@@ -63,7 +63,7 @@ const Roadmap = () => {
                   </span>
                 </span>
                 <span className="ml-5 min-w-0 flex flex-col">
-                  <span className="text-md font-poppins-bold tracking-wide">
+                  <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
                     Whitelist
                   </span>
                   <span className="text-xs text-solanium-bright-blue opacity-80">
@@ -77,29 +77,17 @@ const Roadmap = () => {
                 className="-ml-px absolute mt-0.5 top-4 left-[10px] w-px h-full bg-solanium-bright-blue"
                 aria-hidden="true"
               />
-              <span className="relative flex items-start group">
-                <span className="h-9 flex items-center">
-                  <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-blue-700 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="w-3 h-3 text-white"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+             <span className="relative flex items-start group">
+                <span className="h-9 flex items-center" aria-hidden="true">
+                  <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-gray-200 border-[1px] border-solanium-bright-blue rounded-full">
+                    <span className="h-3 w-3 bg-transparent rounded-full" />
                   </span>
                 </span>
-                <span className="ml-5 min-w-0 flex flex-col">
-                  <span className="text-md font-poppins-bold tracking-wide">
+                <span className="ml-5 min-w-0 flex flex-col opacity-50">
+                  <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
                     Sale
                   </span>
-                  <span className="text-xs text-solanium-bright-blue opacity-80">
+                  <span className="text-xs text-solanium-bright-blue">
                     You can fill your allocation.
                   </span>
                 </span>
@@ -113,11 +101,11 @@ const Roadmap = () => {
                   </span>
                 </span>
                 <span className="ml-5 min-w-0 flex flex-col opacity-50">
-                  <span className="text-md font-poppins-bold tracking-wide">
+                  <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
                     Distribution
                   </span>
                   <span className="text-xs text-solanium-bright-blue">
-                    Distribution handled externally
+                    The tokens will be airdropped to you.
                   </span>
                 </span>
               </span>
@@ -126,7 +114,7 @@ const Roadmap = () => {
         </nav>
       </div>
       <div className="w-full rounded-solaniumDefault mb-4 mr-5 bg-gradient-to-tr from-green-gradient-from to-solanium-bright-blue p-0.5">
-                <div className="p-4 bg-[#F7F7F7] rounded-[1.1rem] z-50 relative border-transparent">
+                <div className="p-4 bg-[#F7F7F7] rounded-[1.1rem] z-50 relative border-transparent pool-bg-color">
                   <div
                     className="flex gap-5 items-center"
                     currprojectphase={3}
@@ -141,14 +129,7 @@ const Roadmap = () => {
                       </div>
                     </div>
                     <div>
-                      This launch is protected by Solanium Shield. Click
-                      <a
-                        href="/shield"
-                        className="underline font-inter-bold hover:text-blue-400"
-                      >
-                        here
-                      </a>
-                      to learn more.
+                      This launch is protected by Syncera Shield. <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/syncera-shield" className="underline font-inter-bold hover:text-blue-400 emphasize-link" target="_blank">Click here</a> to learn more.
                     </div>
                   </div>
                 </div>

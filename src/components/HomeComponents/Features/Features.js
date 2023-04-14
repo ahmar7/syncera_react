@@ -51,7 +51,7 @@ return(
                 type="button"
                 className="btn-two btn-disabled"
               >
-                TO STAKE
+                <i className="fas fa-external-link-alt icon-distance"></i> TO STAKE
               </button>
             </div>
           </div>
@@ -68,7 +68,7 @@ return(
                 type="button"
                 className="btn-two btn-disabled"
               >
-                TO FARM
+                <i className="fas fa-external-link-alt icon-distance"></i> TO FARM
               </button>
             </div>
           </div>

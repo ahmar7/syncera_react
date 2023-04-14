@@ -1,8 +1,11 @@
-.swv-button-trigger {
-    
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.swv-button-trigger {    
     align-items: center;
-    background-color: #7e1bcc;
-    border-color: #7e1bcc;
+    background-color: #651FFF;
+    border-color: #651FFF;
     border-radius: 9999px;
     border-width: 1px;
     color: white;
@@ -14,7 +17,7 @@
     text-transform: uppercase;
 }
 .bg-orange-300{
-    background-color: #7f1bccb9;
+    background-color: #661fffa4;
 }
 .mini{
     display: none;

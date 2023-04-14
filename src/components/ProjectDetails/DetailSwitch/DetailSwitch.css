@@ -1,8 +1,13 @@
+.tab-deactivated {
+    opacity: 0.5;
+    pointer-events: none !important;
+}
+
 [aria-selected=true][data-v-78786792] {
     box-shadow: none;
 }
 .bg-theme{
-    background-color: #7e1bcc !important;
+    background: #311B92 !important;
 }
 .bg-theme button{
     border: none;
@@ -10,6 +15,7 @@
     border-radius: 999px;
     outline: none;
     color: white ;
+    font-weight: bold;
 } .btn-live{
     background-color: white !important;
     color: black !important;
@@ -21,21 +27,21 @@
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
-    border-color:#7f1bccb7 !important
+    border-color:#661fff96 !important
   }
     .btn-live{
     background-color: transparent !important;
-    color: #7e1bcc !important;
+    color: #651FFF !important;
     border-radius: 0;
     font-weight: 800;
     border-top: none !important;
     border-left: none !important;
-    border-bottom: 2px solid #7e1bcc !important;
+    border-bottom: 2px solid #651FFF !important;
     border-right: none !important;
 }
 .border-solanium-bright-blue {
     --tw-border-opacity: 1;
-    border-color: #7f1bccb7  !important
+    border-color:  #661fff96  !important
 }
 
 .bg-theme button{

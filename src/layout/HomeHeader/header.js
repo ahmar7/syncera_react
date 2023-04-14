@@ -55,11 +55,14 @@ const Header = () => {
                 : "justify-content-end navbar-collapse collapse show-nav"
             }
           >
-            <a href="#" className="nav-link nav-txt">
-              FAQs
+            <a href="https://linktr.ee/syncera" target="_blank" className="nav-link nav-txt">
+              Linktree
             </a>
+            <Link to="/faqs" className="nav-link nav-txt">
+              FAQs
+            </Link>
             <Link to="/projects" className="nav-link btn-one">
-              <span className="btn-nav-txt">Projects</span>
+              <span className="btn-nav-txt"><i class="fas fa-fire"></i> Launch App</span>
             </Link>
             {/*
             <div

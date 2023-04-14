@@ -1,10 +1,15 @@
+.faq-bg {
+  background: #651FFF !important;
+}
+
 .emphasize-link {
   text-decoration: underline !important;
-  color: #7e1bcc;
+  color: #651FFF;
 }
 
 .emphasize-link:hover {
-  color: #7e1bcc; 
+  color: #651FFF !important; 
+  opacity: 0.8;
 }
 
 .faqs-title {

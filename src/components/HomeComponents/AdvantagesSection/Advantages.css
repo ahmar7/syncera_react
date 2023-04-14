@@ -1,6 +1,14 @@
+.read-more, .read-more:hover {
+  color: #651FFF;
+}
+
 .advantages-section {
   padding-top: 90px;
   padding-bottom: 110px;
+  background-image: url(../../../assets/img/tiers-bg.eaa3fdc5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
 .advantages-section__buttons {
   display: flex;

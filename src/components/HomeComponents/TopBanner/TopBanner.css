@@ -1,9 +1,21 @@
+.partnerships-item {
+  width: 150px;
+}
+
+.icon-distance {
+  padding-right: 7.5px;
+}
+
+.icon-link:hover {
+  opacity: 0.8;
+}
+
 .powered-by-size {
 font-size: 16px !important;
 }
 
 .secondary-glow {
-  color: #7e1bcc;
+  color: #651FFF;
 }
 
 .primary-glow {
@@ -21,9 +33,10 @@ font-size: 16px !important;
   z-index: -1;
 }
 .abs-content{
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
+  /* padding: 100px 0; */
   right: 0;
 }
 .video-bg{

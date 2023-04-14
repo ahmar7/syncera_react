@@ -54,12 +54,16 @@ const Header = () => {
                 : "justify-content-end navbar-collapse collapse show-nav"
             }
           >
-            <a href="#" className="nav-link nav-txt">
-              FAQs
-            </a>
+            {/*
             <Link to="/projects" className="nav-link btn-one">
-              <span className="btn-nav-txt">Projects</span>
+              <span className="btn-nav-txt">
+                <i className="fas fa-fire"></i> Projects
+              </span>
             </Link>
+            */}
+            <button className="nav-link btn-wallet">
+              <i className="fas fa-wallet"></i> Connect
+            </button>
             {/*
             <div
               role="group"

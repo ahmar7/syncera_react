@@ -1,3 +1,17 @@
+.bg-pool-notification {
+    background: white !important;
+    color: black;
+    border: 2px solid rgb(17 225 207) !important;
+}
+
+.unlock-text {
+    font-size: 20px !important;
+}
+
+.pool-bg-color {
+    background: #311B92 !important;
+}
+
 .smflex{
     display: flex;
 }.token-bg{
