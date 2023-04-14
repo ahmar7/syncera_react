@@ -1,3 +1,7 @@
+.btn-activated {
+    background-color: #651FFF !important;
+}
+
 .tab-deactivated {
     opacity: 0.5;
     pointer-events: none !important;
@@ -6,6 +10,7 @@
 [aria-selected=true][data-v-78786792] {
     box-shadow: none;
 }
+
 .bg-theme{
     background: #311B92 !important;
 }
@@ -30,7 +35,7 @@
     border-color:#661fff96 !important
   }
     .btn-live{
-    background-color: transparent !important;
+    background: #651FFF !important;
     color: #651FFF !important;
     border-radius: 0;
     font-weight: 800;

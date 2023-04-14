@@ -37,11 +37,11 @@ const PriceBox = () => {
                 Vesting
               </span>
               <span>
-                <b className="text-3xl font-inter-bold mr-2 unlock-text">50% TGE and 50% Monthly</b>
+                <b className="text-3xl font-inter-bold mr-2 unlock-text">25% TGE and 18.75% Monthly</b>
               </span>
             </div>
             <div className="w-full text-center bg-opacity-40 border-[1px] py-3 px-1 rounded-md max-w-[350px] bg-cyan-700 border-cyan-700 bg-pool-notification">
-              Claim your <i>OG role</i> on <a href="https://zealy.io/c/syncera/questboard" target="_blank" className="emphasize-link">Zealy</a> by <i>completing quests</i> and provide your wallet address to be included in the whitelist.
+              <b>The deadline for having <a href="https://zealy.io/c/syncera/questboard/57740b31-e4d3-45f1-8798-b893d472c578c" target="_blank" className="pool-whitelist-link">claimed</a> your <i>OG role</i> and <a href="https://zealy.io/c/syncera/questboard/5e8e9de1-8a27-4ef5-9f5b-ebae68d7cc13" target="_blank" className="pool-whitelist-link">enrolling</a> in the <i>whitelist</i> will be revealed beforehand.</b>
             </div>
           </div>
         </div>

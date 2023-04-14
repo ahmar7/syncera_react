@@ -1,3 +1,28 @@
+.project-content {
+    font-size: 1.1em !important;
+}
+
+.project-info span {
+    font-size: 1.3em !important;
+}
+
+.enlarged-link {
+    font-size: 1.3em !important;
+}
+
+.whitelist-instructions-heading {
+    font-size: 1.5em !important;
+}
+
+.whitelist-instructions {
+    font-size: 1.3em !important;
+    line-height: 22.5px !important;
+}
+
+.tracking-wide {
+    font-size: 20px !important;
+}
+
 .font-weight-bold {
     font-weight: bold;
 }
@@ -10,7 +35,7 @@
     border-width: 1px;
     color: white;
     display: inline-flex;
-    font-size: 14px;
+    font-size: 18px;
     height: 2.5rem;
     justify-content: center;
     position: relative;

@@ -20,7 +20,7 @@ const DetailSwitch = (props) => {
         <span
           className={
             props.activeInfo
-              ? "inline-block btn-live  sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
+              ? "inline-block btn-activated sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
               : "inline-block sm:w-full h-full py-2.5 sm:rounded-full hover:bg-white/[0.12]"
           }
         >
@@ -29,7 +29,7 @@ const DetailSwitch = (props) => {
       </button>
       <button
         onClick={props.whiteListTrue}
-        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none tab-deactivated"
+        className="w-full text-xs leading-5 text-blue-600 uppercase whitespace-nowrap first:text-left last:text-right disabled:text-opacity-20 sm:text-sm sm:font-poppins-bold sm:!text-center outline-none"
         id="headlessui-tabs-tab-2"
         role="tab"
         aria-selected="false"
@@ -40,7 +40,7 @@ const DetailSwitch = (props) => {
         <span
           className={
             props.activeWhitlist
-              ? "inline-block btn-live  sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
+              ? "inline-block btn-activated sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
               : "inline-block sm:w-full h-full py-2.5 sm:rounded-full hover:bg-white/[0.12]"
           }
         >
@@ -60,7 +60,7 @@ const DetailSwitch = (props) => {
         <span
           className={
             props.activeSale
-              ? "inline-block btn-live  sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
+              ? "inline-block btn-activated sm:w-full h-full py-2.5 sm:rounded-full border-b-2 border-solid pb-0 border-solanium-bright-blue font-poppins-bold sm:bg-white sm:border-none"
               : "inline-block sm:w-full h-full py-2.5 sm:rounded-full hover:bg-white/[0.12]"
           }
         >

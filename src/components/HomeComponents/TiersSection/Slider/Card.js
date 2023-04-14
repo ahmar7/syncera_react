@@ -3,7 +3,8 @@ import { Carousel } from "3d-react-carousal";
 import Card1 from "../../../../assets/img/card.svg"; 
 import "./Card.css";
 const Card = () => {
-     
+    
+    const [slideChange, setslideChange] = useState(1);
   let slides = [
     <div data-v-18811a9f className="carousel-3d-slide current" data-v-07917306>
       <div data-v-18811a9f className="gods">
