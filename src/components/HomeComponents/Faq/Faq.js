@@ -281,7 +281,7 @@ const Faq = () => {
                       The Syncera Champion Program serves as an{" "}
                       <a
                         href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/champion-program-zealy"
-                        class="emphasize-link"
+                        className="emphasize-link"
                         target="_blank"
                       >
                         ambassador program
@@ -290,7 +290,7 @@ const Faq = () => {
                       <a
                         href="https://zealy.io/c/syncera/questboard"
                         target="_blank"
-                        class="emphasize-link"
+                        className="emphasize-link"
                       >
                         Zealy
                       </a>{" "}

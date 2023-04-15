@@ -1,8 +1,8 @@
-import React from 'react';
-import './Roadmap.css'
+import React from "react";
+import "./Roadmap.css";
 const Roadmap = () => {
-    return (
-        <> 
+  return (
+    <>
       <div className="w-full bg-[#F7F7F7] rounded-solaniumDefault mb-4 p-5 mr-5 pool-bg-color">
         <nav aria-label="Progress">
           <ol role="list" className="overflow-hidden no-margin-ex">
@@ -46,7 +46,9 @@ const Roadmap = () => {
               />
               <span className="relative flex items-start sm-center group">
                 <span className="h-9 flex items-center">
-                  <span class="relative z-10 w-5 h-5 flex items-center justify-center bg-white border-2 border-purple-700 rounded-full"><span class="h-2 w-2 bg-purple-700 rounded-full"></span></span>
+                  <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-white border-2 border-purple-700 rounded-full">
+                    <span className="h-2 w-2 bg-purple-700 rounded-full"></span>
+                  </span>
                 </span>
                 <span className="ml-5 min-w-0 flex flex-col">
                   <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
@@ -63,7 +65,7 @@ const Roadmap = () => {
                 className="-ml-px absolute mt-0.5 top-4 left-[10px] w-px h-full bg-syncera"
                 aria-hidden="true"
               />
-             <span className="relative flex items-start group">
+              <span className="relative flex items-start group">
                 <span className="h-9 flex items-center" aria-hidden="true">
                   <span className="relative z-10 w-5 h-5 flex items-center justify-center bg-gray-200 border-[1px] border-purple-700 rounded-full">
                     <span className="h-3 w-3 bg-transparent rounded-full" />
@@ -73,9 +75,7 @@ const Roadmap = () => {
                   <span className="text-md font-poppins-bold tracking-wide font-weight-bold">
                     Sale
                   </span>
-                  <span className="text-xs">
-                    You can fill your allocation.
-                  </span>
+                  <span className="text-xs">You can fill your allocation.</span>
                 </span>
               </span>
             </li>
@@ -115,12 +115,21 @@ const Roadmap = () => {
               </div>
             </div>
             <div>
-              This launch is protected by Syncera Shield. <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/syncera-shield" className="underline font-inter-bold hover:text-blue-400 pool-whitelist-link" target="_blank">Click here</a> to learn more.
+              This launch is protected by Syncera Shield.{" "}
+              <a
+                href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/syncera-shield"
+                className="underline font-inter-bold hover:text-blue-400 pool-whitelist-link"
+                target="_blank"
+              >
+                Click here
+              </a>{" "}
+              to learn more.
             </div>
           </div>
         </div>
-      </div></>
-    );
-}
+      </div>
+    </>
+  );
+};
 
 export default Roadmap;

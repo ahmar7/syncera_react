@@ -19,15 +19,14 @@ const Header = () => {
       setNav(true);
     }
   };
-  
-   window.addEventListener("scroll", function () { 
 
-     if (window.scrollY > 150) {
-       setSticky(true)
-     } else if (window.scrollY === 0) {
-       setSticky(false);
-     }
-   });
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 150) {
+      setSticky(true);
+    } else if (window.scrollY === 0) {
+      setSticky(false);
+    }
+  });
   return (
     <div>
       <div onClick={toggleDrop} className={drop ? "overlay-active" : ""}></div>
@@ -55,14 +54,20 @@ const Header = () => {
                 : "justify-content-end navbar-collapse collapse show-nav"
             }
           >
-            <a href="https://linktr.ee/syncera" target="_blank" className="nav-link nav-txt">
+            <a
+              href="https://linktr.ee/syncera"
+              target="_blank"
+              className="nav-link nav-txt"
+            >
               Linktree
             </a>
             <Link to="/faqs" className="nav-link nav-txt">
               FAQs
             </Link>
             <Link to="/launchpad" className="nav-link btn-one">
-              <span className="btn-nav-txt"><i class="fas fa-fire"></i> Launch App</span>
+              <span className="btn-nav-txt">
+                <i className="fas fa-fire"></i> Launch App
+              </span>
             </Link>
             {/*
             <div

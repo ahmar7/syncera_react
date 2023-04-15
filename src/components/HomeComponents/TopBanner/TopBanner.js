@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./TopBanner.css";
-import BannerVideo from '../../../assets/img/banner-video.mp4'
+import BannerVideo from "../../../assets/img/banner-video.mp4";
 import TrushIcon from "../../../assets/img/trush-icon.png";
 import ZealyIcon from "../../../assets/img/Zealy.png";
 const TopBanner = () => {
@@ -14,7 +14,14 @@ const TopBanner = () => {
   };
   return (
     <section className="top-banner">
-      <video className="video-bg" src={BannerVideo} autoPlay muted loop playsInline></video>
+      <video
+        className="video-bg"
+        src={BannerVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+      ></video>
       {/* <div className="background">
         <div className="top-banner__shadow-top" />
         <div className="top-banner__space" />
@@ -62,16 +69,20 @@ const TopBanner = () => {
                 target="_blank"
                 className="btn-two"
               >
-                <i class="fas fa-file-image icon-distance"></i>PITCH DECK
+                <i className="fas fa-file-image icon-distance"></i>PITCH DECK
               </a>
             </div>
             <br />
             <div>
               <span className="below-banner__powered-by__title powered-by-size">
-                <a href="https://twitter.com/Syncera_io" target="_blank"><i class="fab fa-twitter fa-2x icon-distance secondary-glow icon-link"></i></a>
-                <a href="https://discord.com/invite/e2XcjF5zX8" target="_blank"><i class="fab fa-discord fa-2x icon-distance secondary-glow icon-link"></i></a>
+                <a href="https://twitter.com/Syncera_io" target="_blank">
+                  <i className="fab fa-twitter fa-2x icon-distance secondary-glow icon-link"></i>
+                </a>
+                <a href="https://discord.com/invite/e2XcjF5zX8" target="_blank">
+                  <i className="fab fa-discord fa-2x icon-distance secondary-glow icon-link"></i>
+                </a>
               </span>
-              
+
               <div className="icons mt-5 below-banner__powered-by__icons justify-center">
                 <div className="align-items-stretch justify-content-center row">
                   <div className="partnerships-col col-lg-3 col-md-4 col-sm-6">

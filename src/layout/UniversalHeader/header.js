@@ -24,7 +24,7 @@ const Header = () => {
           <Link to="/launchpad" className="individual-link  side-active">
             <div className="link-ico">
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 width="30"
                 height="30"
                 fill="none"
@@ -51,7 +51,7 @@ const Header = () => {
         <Link to="" className="individual-link">
           <div className="link-ico">
             <svg
-              class=""
+              className=""
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -59,9 +59,9 @@ const Header = () => {
               height="24"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M12.963 2.286a.75.75 0 00-1.071-.136 9.742 9.742 0 00-3.539 6.177A7.547 7.547 0 016.648 6.61a.75.75 0 00-1.152-.082A9 9 0 1015.68 4.534a7.46 7.46 0 01-2.717-2.248zM15.75 14.25a3.75 3.75 0 11-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 011.925-3.545 3.75 3.75 0 013.255 3.717z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </div>
@@ -174,41 +174,41 @@ const Header = () => {
         <Link to="" className="individual-link">
           <div className="link-ico">
             <svg
-              class="w-6"
+              className="w-6"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
               <g fill="currentColor">
-                <rect class="st0" width="128" height="128"></rect>
-                <rect x="192" class="st0" width="128" height="128"></rect>
-                <rect x="384" class="st0" width="128" height="128"></rect>
-                <rect y="192" class="st0" width="128" height="128"></rect>
+                <rect className="st0" width="128" height="128"></rect>
+                <rect x="192" className="st0" width="128" height="128"></rect>
+                <rect x="384" className="st0" width="128" height="128"></rect>
+                <rect y="192" className="st0" width="128" height="128"></rect>
                 <rect
                   x="192"
                   y="192"
-                  class="st0"
+                  className="st0"
                   width="128"
                   height="128"
                 ></rect>
                 <rect
                   x="384"
                   y="192"
-                  class="st0"
+                  className="st0"
                   width="128"
                   height="128"
                 ></rect>
-                <rect y="384" class="st0" width="128" height="128"></rect>
+                <rect y="384" className="st0" width="128" height="128"></rect>
                 <rect
                   x="192"
                   y="384"
-                  class="st0"
+                  className="st0"
                   width="128"
                   height="128"
                 ></rect>
                 <rect
                   x="384"
                   y="384"
-                  class="st0"
+                  className="st0"
                   width="128"
                   height="128"
                 ></rect>
@@ -220,10 +220,10 @@ const Header = () => {
       <div className="mobile-belowBar">
         <div className="flex-mbl">
           <Link to="" className="mbl-individual mbl-active">
-            <span class="active-underline"></span>
+            <span className="active-underline"></span>
             <div className="mbl-icon">
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 width="30"
                 height="30"
                 fill="none"
@@ -246,7 +246,7 @@ const Header = () => {
             </div>
           </Link>
           <Link to="" className="mbl-individual ">
-            <span class="active-underline"></span>
+            <span className="active-underline"></span>
             <div className="mbl-icon">
               <svg
                 width="24"
@@ -262,10 +262,10 @@ const Header = () => {
             </div>
           </Link>
           <Link to="" className="mbl-individual ">
-            <span class="active-underline"></span>
+            <span className="active-underline"></span>
             <div className="mbl-icon">
               <svg
-                class=""
+                className=""
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -273,15 +273,15 @@ const Header = () => {
                 height="24"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12.963 2.286a.75.75 0 00-1.071-.136 9.742 9.742 0 00-3.539 6.177A7.547 7.547 0 016.648 6.61a.75.75 0 00-1.152-.082A9 9 0 1015.68 4.534a7.46 7.46 0 01-2.717-2.248zM15.75 14.25a3.75 3.75 0 11-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 011.925-3.545 3.75 3.75 0 013.255 3.717z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </div>
           </Link>
           <Link to="" className="mbl-individual ">
-            <span class="active-underline"></span>
+            <span className="active-underline"></span>
             <div className="mbl-icon">
               <svg
                 fill="currentColor"
@@ -297,7 +297,7 @@ const Header = () => {
             </div>
           </Link>
           <div onClick={toggleMbl} className="mbl-individual ">
-            <span class="active-underline"></span>
+            <span className="active-underline"></span>
             <div className="mbl-icon">
               <img
                 src={
