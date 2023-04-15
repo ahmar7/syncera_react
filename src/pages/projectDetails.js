@@ -12,7 +12,7 @@ const projectDetail = () => {
     <>
       {" "}
       <Header />
-      <div className="mb-16 md:mb-36 top-margin">
+      <div className="mb-16 md:mb-36 top-margin  max-width">
         <PageNavigation projectTitle={"Syncera Private"} />
         <div className="animate-showUp">
           <div className="flex flex-col gap-14">

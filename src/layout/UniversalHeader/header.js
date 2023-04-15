@@ -2,17 +2,15 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 const Header = () => {
-  
+  const [mblFull, setmblFull] = useState(false);
 
-   const [mblFull, setmblFull] = useState(false);
-   
-   let toggleMbl=()=>{
-    if(mblFull===false){
-      setmblFull(true)
-    }else{
-      setmblFull(false)
+  let toggleMbl = () => {
+    if (mblFull === false) {
+      setmblFull(true);
+    } else {
+      setmblFull(false);
     }
-   }
+  };
   return (
     <div>
       <div className={mblFull ? "side-bar mbl-open pt-10" : "side-bar pt-10"}>
@@ -23,7 +21,7 @@ const Header = () => {
           />
         </Link>
         <div className="side-links">
-          <Link to="" className="individual-link  side-active">
+          <Link to="/launchpad" className="individual-link  side-active">
             <div className="link-ico">
               <svg
                 class="w-6 h-6"
@@ -304,8 +302,8 @@ const Header = () => {
               <img
                 src={
                   mblFull
-                    ? "https://gamefi.org/_next/static/media/x.f956a27b.svg":"https://gamefi.org/_next/static/media/menuToggler.7ea29bb4.svg"
-                    
+                    ? "https://gamefi.org/_next/static/media/x.f956a27b.svg"
+                    : "https://gamefi.org/_next/static/media/menuToggler.7ea29bb4.svg"
                 }
                 alt=""
               />

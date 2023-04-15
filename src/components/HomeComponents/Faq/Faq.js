@@ -54,7 +54,9 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq1}
-                    className={faq1 ? "active btn btn-main" : " btn btn-main faq-bg"}
+                    className={
+                      faq1 ? "active btn btn-main" : " btn btn-main faq-bg"
+                    }
                   >
                     What benefits do SERA token holders get?
                     <span>
@@ -79,12 +81,32 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      Syncera ($SERA) is the utility and governance token for Syncera. We are taking significant measures to increase its importance and function in our ecosystem by incorporating new products and exclusive features.
+                      Syncera ($SERA) is the utility and governance token for
+                      Syncera. We are taking significant measures to increase
+                      its importance and function in our ecosystem by
+                      incorporating new products and exclusive features.
                     </p>
                     <p>
-                      The main benefit of holding the SERA token is that investors can gain early access to other developing projects within the growing ecosystem of zkSync. To guarantee your participation in an IDO, you can go through our <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/tiers" target="_blank" className="emphasize-link">tier system</a> to know the exact number of tokens required. Usually, these emerging cryptocurrency projects offer SERA investors a token valuation significantly lower than the listing price, and considering the excitement and potential surrounding zkSync, it may be worthwhile to invest in these new ventures.
+                      The main benefit of holding the SERA token is that
+                      investors can gain early access to other developing
+                      projects within the growing ecosystem of zkSync. To
+                      guarantee your participation in an IDO, you can go through
+                      our{" "}
+                      <a
+                        href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/tiers"
+                        target="_blank"
+                        className="emphasize-link"
+                      >
+                        tier system
+                      </a>{" "}
+                      to know the exact number of tokens required. Usually,
+                      these emerging cryptocurrency projects offer SERA
+                      investors a token valuation significantly lower than the
+                      listing price, and considering the excitement and
+                      potential surrounding zkSync, it may be worthwhile to
+                      invest in these new ventures.
                     </p>
-                    
+
                     <p>
                       <b>Others ways holders of our token may benefit:</b>
 
@@ -97,7 +119,7 @@ const Faq = () => {
                         <li>Airdrops</li>
                         <li>Private Deals</li>
                       </ul>
-                    </p>  
+                    </p>
                   </div>
                 </div>
               </div>
@@ -108,7 +130,9 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq2}
-                    className={faq2 ? "active btn btn-main" : " btn btn-main faq-bg"}
+                    className={
+                      faq2 ? "active btn btn-main" : " btn btn-main faq-bg"
+                    }
                   >
                     When is the public sale?
                     <span>
@@ -133,7 +157,20 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      Once our private sale campaign is over, we will also conduct the public sale on our own platform. In due time, we will provide you with all the necessary information about the IDO. It is recommended that you familiarise yourself with our <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/be-an-ambassador-crew3" className="emphasize-link" target="_blank">ambassador program</a> to increase your chances of being eligible for an allocation at the earliest stage.
+                      Once our private sale campaign is over, we will also
+                      conduct the public sale on our own platform. In due time,
+                      we will provide you with all the necessary information
+                      about the IDO. It is recommended that you familiarise
+                      yourself with our{" "}
+                      <a
+                        href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/be-an-ambassador-crew3"
+                        className="emphasize-link"
+                        target="_blank"
+                      >
+                        ambassador program
+                      </a>{" "}
+                      to increase your chances of being eligible for an
+                      allocation at the earliest stage.
                     </p>
                   </div>
                 </div>
@@ -145,7 +182,9 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq3}
-                    className={faq3 ? "active btn btn-main" : " btn btn-main faq-bg"}
+                    className={
+                      faq3 ? "active btn btn-main" : " btn btn-main faq-bg"
+                    }
                   >
                     How do I participate in the private sale?
                     <span>
@@ -170,11 +209,38 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      Kindly monitor our social media channels where we will progressively disclose additional details regarding our private sale. Right now, you can already acquire knowledge about the sale's structure <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/private-sale" target="_blank" class="emphasize-link">here</a>. 
+                      <b>
+                        To secure your spot on the whitelist, you must{" "}
+                        <a
+                          href="https://zealy.io/c/syncera/questboard/57740b31-e4d3-45f1-8798-b893d472c578c"
+                          target="_blank"
+                          className="emphasize-link"
+                        >
+                          attain
+                        </a>{" "}
+                        level 2 (OG role) by completing quests on Zealy and{" "}
+                        <a
+                          href="https://zealy.io/c/syncera/questboard/5e8e9de1-8a27-4ef5-9f5b-ebae68d7cc13"
+                          target="_blank"
+                          className="emphasize-link"
+                        >
+                          register
+                        </a>{" "}
+                        your wallet address there.
+                      </b>{" "}
+                      Once you've successfully registered for the whitelist on
+                      Zealy, you can increase your allocation by continuing to
+                      level up and claim higher Discord roles.
                     </p>
                     <p>
-                      <b>Only those who are members of our Discord group with an OG role or higher will be eligible to participate in the exclusive phase.</b> The deadline to claim your OG role will be announced in advance.
-                    </p>  
+                      <b>
+                        Only those who are members of our Discord group with an
+                        OG role or higher will be eligible to participate in the
+                        exclusive phase.
+                      </b>{" "}
+                      The deadline to claim your OG role will be announced in
+                      advance.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -185,7 +251,9 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq4}
-                    className={faq4 ? "active btn btn-main" : " btn btn-main faq-bg"}
+                    className={
+                      faq4 ? "active btn btn-main" : " btn btn-main faq-bg"
+                    }
                   >
                     What is the Syncera Ambassador Program?
                     <span>
@@ -210,11 +278,38 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      The Syncera Champion Program serves as an <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/champion-program-zealy" class="emphasize-link" target="_blank">ambassador program</a> on <a href="https://zealy.io/c/syncera/questboard" target="_blank" class="emphasize-link">Zealy</a> that allows members of the community to track their progress and receive special roles on Discord for actively taking part. The most distinguished members who have achieved a revered status will be given exclusive advantages within the Syncera network, including partner seed rounds, private rounds, airdrops, and other attractive benefits.
+                      The Syncera Champion Program serves as an{" "}
+                      <a
+                        href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/champion-program-zealy"
+                        class="emphasize-link"
+                        target="_blank"
+                      >
+                        ambassador program
+                      </a>{" "}
+                      on{" "}
+                      <a
+                        href="https://zealy.io/c/syncera/questboard"
+                        target="_blank"
+                        class="emphasize-link"
+                      >
+                        Zealy
+                      </a>{" "}
+                      that allows members of the community to track their
+                      progress and receive special roles on Discord for actively
+                      taking part. The most distinguished members who have
+                      achieved a revered status will be given exclusive
+                      advantages within the Syncera network, including partner
+                      seed rounds, private rounds, airdrops, and other
+                      attractive benefits.
                     </p>
                     <p>
-                      <b>The number of SERA tokens you're allocated in our private sale depends on your position in our program, with higher-ranking participants getting a larger allocation.</b>
-                    </p>  
+                      <b>
+                        The number of SERA tokens you're allocated in our
+                        private sale depends on your position in our program,
+                        with higher-ranking participants getting a larger
+                        allocation.
+                      </b>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -225,7 +320,9 @@ const Faq = () => {
                   <button
                     type="button"
                     onClick={toggleFaq5}
-                    className={faq5 ? "active btn btn-main" : " btn btn-main faq-bg"}
+                    className={
+                      faq5 ? "active btn btn-main" : " btn btn-main faq-bg"
+                    }
                   >
                     I have a (formal) question for the team?!
                     <span>
@@ -250,13 +347,41 @@ const Faq = () => {
                 >
                   <div className="card-body">
                     <p>
-                      Please send an email to <a href="mailto:support@syncera.io" className="emphasize-link">support@syncera.io</a> for your general questions. As for partnership, marketing, or other business-related inquiries, please correspond with <a href="mailto:business@syncera.io" className="emphasize-link">business@syncera.io</a> instead. Finally, for private sale matters, you can reach us through <a href="mailto:private@syncera.io" className="emphasize-link">private@syncera.io</a>.
+                      Please send an email to{" "}
+                      <a
+                        href="mailto:support@syncera.io"
+                        className="emphasize-link"
+                      >
+                        support@syncera.io
+                      </a>{" "}
+                      for your general questions. As for partnership, marketing,
+                      or other business-related inquiries, please correspond
+                      with{" "}
+                      <a
+                        href="mailto:business@syncera.io"
+                        className="emphasize-link"
+                      >
+                        business@syncera.io
+                      </a>{" "}
+                      instead. Finally, for private sale matters, you can reach
+                      us through{" "}
+                      <a
+                        href="mailto:private@syncera.io"
+                        className="emphasize-link"
+                      >
+                        private@syncera.io
+                      </a>
+                      .
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <a className="round-button light large  btn btn-main nop" href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/faqs" target="_href">
+            <a
+              className="round-button light large  btn btn-main nop"
+              href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/faqs"
+              target="_href"
+            >
               View all Questions
             </a>
           </div>

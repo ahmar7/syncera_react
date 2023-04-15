@@ -3,3 +3,9 @@
         margin-left: 0 !important;
     }
 }
+@media (max-width:1690px) {
+    .solaso{
+        width: 100% !important;
+    }
+    
+}

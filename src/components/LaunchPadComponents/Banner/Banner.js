@@ -1,239 +1,73 @@
 import React from "react";
 import "./Banner.css";
+import HomeWidget from '../../../assets/img/home-widget-1.webp'
+import HomeWidget2 from '../../../assets/img/home-widget-2.webp'
+import mblGraph from "../../../assets/img/instruction.webp";
 const Banner = () => {
   return (
-    <div className="px-4 lg:px-16 md:container mx-auto lg:block">
+    <div className="px-4 top-150 lg:px-16 md:container mx-auto lg:block">
       <div className="w-full text-center text-[60px] xl:text-[84px] leading-[80%] font-bold uppercase select-none">
         Dedicated Gaming <br />
         Launchpad &amp; IGO
       </div>
-      <div className="mt-14 w-full flex gap-14 justify-center items-center">
+      <div className="mt-14 seprs  w-full flex gap-14 justify-center items-center">
         <div className="flex flex-col gap-3 items-center justify-center">
-          <div
-            className="text-[74px] leading-[80%] font-bold"
-            style={{
-              background:
-                "linear-gradient(97.24deg, #00FFC2 44.36%, #46DE43 95.01%), #FFFFFF",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}
-          >
+          <div className="text-[74px] gradient1 leading-[80%] font-bold">
             <span>70+</span>
           </div>
           <div className="uppercase font-medium">Total Projects Launched</div>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center">
-          <div
-            className="text-[74px] leading-[80%] font-bold"
-            style={{
-              background:
-                "linear-gradient(97.24deg, #FF7A00 44.36%, #DE4343 95.01%), #FFFFFF",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}
-          >
+          <div className="text-[74px] gradient2 leading-[80%] font-bold">
             61X
           </div>
           <div className="uppercase font-medium">Average ATH ROI</div>
         </div>
       </div>
       <div className>
-        <div className="lg:hidden w-full flex justify-center mt-20">
-          <span
-            style={{
-              boxSizing: "border-box",
-              display: "inline-block",
-              overflow: "hidden",
-              width: "initial",
-              height: "initial",
-              background: "none",
-              opacity: 1,
-              border: 0,
-              margin: 0,
-              padding: 0,
-              position: "relative",
-              maxWidth: "100%",
-            }}
-          >
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "block",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: 1,
-                border: 0,
-                margin: 0,
-                padding: 0,
-                maxWidth: "100%",
-              }}
-            >
+        <div className="lg:hidden seprs w-full flex justify-center mt-20">
+          <span className="start-bulk maxtso">
+            {/* <span className="start-blk2 ">
               <img
-                style={{
-                  display: "block",
-                  maxWidth: "100%",
-                  width: "initial",
-                  height: "initial",
-                  background: "none",
-                  opacity: 1,
-                  border: 0,
-                  margin: 0,
-                  padding: 0,
-                }}
+                className="data1"
                 alt=""
                 aria-hidden="true"
                 src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271125%27%20height=%271209%27/%3e"
               />
-            </span>
+            </span> */}
             <img
-              alt=""
-              src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstruction.38496d3a.png&w=3840&q=75"
+              alt="" 
+              src={mblGraph}
               decoding="async"
               data-nimg="intrinsic"
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                bottom: 0,
-                right: 0,
-                boxSizing: "border-box",
-                padding: 0,
-                border: "none",
-                margin: "auto",
-                display: "block",
-                width: 0,
-                height: 0,
-                minWidth: "100%",
-                maxWidth: "100%",
-                minHeight: "100%",
-                maxHeight: "100%",
-              }}
-              srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstruction.38496d3a.png&w=1200&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstruction.38496d3a.png&w=3840&q=75 2x"
             />
           </span>
         </div>
-        <div className="hidden lg:block md:px-4 lg:px-16 mx-auto py-28 container relative select-none">
-          <div className="absolute bottom-0 left-4 lg:left-10">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "inline-block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: 1,
-                border: 0,
-                margin: 0,
-                padding: 0,
-                position: "relative",
-                maxWidth: "100%",
-              }}
-            >
-              <span
-                style={{
-                  boxSizing: "border-box",
-                  display: "block",
-                  width: "initial",
-                  height: "initial",
-                  background: "none",
-                  opacity: 1,
-                  border: 0,
-                  margin: 0,
-                  padding: 0,
-                  maxWidth: "100%",
-                }}
-              >
+        <div className=" lg:block md:px-4 lg:px-16 mx-auto py-28 new-container relative for-large select-none">
+          <div className="blk-left absolute bottom-0 left-4 lg:left-10">
+            <span className="start-blk">
+              <span className="start-blk2">
                 <img
-                  style={{
-                    display: "block",
-                    maxWidth: "100%",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                  }}
+                  className="data1"
                   alt=""
                   aria-hidden="true"
                   src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27184%27%20height=%27275%27/%3e"
                 />
               </span>
               <img
+                className="mbl-graph"
                 alt=""
-                src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-1.ce116612.png&w=384&q=75"
+                src={HomeWidget}
                 decoding="async"
                 data-nimg="intrinsic"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  bottom: 0,
-                  right: 0,
-                  boxSizing: "border-box",
-                  padding: 0,
-                  border: "none",
-                  margin: "auto",
-                  display: "block",
-                  width: 0,
-                  height: 0,
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
-                }}
-                srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-1.ce116612.png&w=256&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-1.ce116612.png&w=384&q=75 2x"
               />
             </span>
           </div>
           <div className="absolute bottom-0 right-4 lg:right-10">
-            <span
-              style={{
-                boxSizing: "border-box",
-                display: "inline-block",
-                overflow: "hidden",
-                width: "initial",
-                height: "initial",
-                background: "none",
-                opacity: 1,
-                border: 0,
-                margin: 0,
-                padding: 0,
-                position: "relative",
-                maxWidth: "100%",
-              }}
-            >
-              <span
-                style={{
-                  boxSizing: "border-box",
-                  display: "block",
-                  width: "initial",
-                  height: "initial",
-                  background: "none",
-                  opacity: 1,
-                  border: 0,
-                  margin: 0,
-                  padding: 0,
-                  maxWidth: "100%",
-                }}
-              >
+            <span className="start-blk">
+              <span className="start-blk2">
                 <img
-                  style={{
-                    display: "block",
-                    maxWidth: "100%",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: 1,
-                    border: 0,
-                    margin: 0,
-                    padding: 0,
-                  }}
+                  className="data1"
                   alt=""
                   aria-hidden="true"
                   src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27205%27%20height=%27275%27/%3e"
@@ -241,28 +75,10 @@ const Banner = () => {
               </span>
               <img
                 alt=""
-                src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-2.6dfc9cf8.png&w=640&q=75"
+                className="mbl-graph"
+                src={HomeWidget2}
                 decoding="async"
                 data-nimg="intrinsic"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  bottom: 0,
-                  right: 0,
-                  boxSizing: "border-box",
-                  padding: 0,
-                  border: "none",
-                  margin: "auto",
-                  display: "block",
-                  width: 0,
-                  height: 0,
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  minHeight: "100%",
-                  maxHeight: "100%",
-                }}
-                srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-2.6dfc9cf8.png&w=256&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-widget-2.6dfc9cf8.png&w=640&q=75 2x"
               />
             </span>
           </div>
@@ -274,7 +90,7 @@ const Banner = () => {
             style={{ maxWidth: "800px" }}
           >
             <div
-              className="absolute bg-gamefiGreen-700 rounded w-full top-4"
+              className="absolute bg-gamefiGreen-700 rounded2 w-full top-4"
               style={{ height: "2px", top: "calc(50% - 2px)" }}
             />
             <svg
@@ -290,35 +106,35 @@ const Banner = () => {
                 cx="31.5"
                 cy="31.5"
                 r={29}
-                fill="#6CDB00"
-                stroke="#15171E"
+                fill="#651FFF"
+                stroke="#0b0b0f"
                 strokeWidth={5}
               />
-              <circle cx="31.5" cy="31.5" r="24.5" fill="#15171E" />
+              <circle cx="31.5" cy="31.5" r="24.5" fill="#0b0b0f" />
               <path
                 d="M31.5 28.9688C36.6259 28.9688 40.7812 27.08 40.7812 24.75C40.7812 22.42 36.6259 20.5312 31.5 20.5312C26.3741 20.5312 22.2188 22.42 22.2188 24.75C22.2188 27.08 26.3741 28.9688 31.5 28.9688Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M22.2188 28.9688V29.8125C22.2188 32.1429 26.3734 34.0312 31.5 34.0312C36.6266 34.0312 40.7812 32.1429 40.7812 29.8125V28.9688"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M22.2188 34.0312V34.875C22.2188 37.2054 26.3734 39.0938 31.5 39.0938C36.6266 39.0938 40.7812 37.2054 40.7812 34.875V34.0312"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M22.2188 39.0938V39.9375C22.2188 42.2679 26.3734 44.1562 31.5 44.1562C36.6266 44.1562 40.7812 42.2679 40.7812 39.9375V39.0938"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -337,49 +153,49 @@ const Banner = () => {
                 cx="31.5"
                 cy="31.5"
                 r={29}
-                fill="#6CDB00"
-                stroke="#15171E"
+                fill="#651FFF"
+                stroke="#0b0b0f"
                 strokeWidth={5}
               />
-              <circle cx="31.5" cy="31.5" r="24.5" fill="#15171E" />
+              <circle cx="31.5" cy="31.5" r="24.5" fill="#0b0b0f" />
               <path
                 d="M38.7904 38.7917H24.207V37.424C24.207 36.1605 24.9622 35.0209 26.1299 34.5365C27.3122 34.0469 29.0716 33.5834 31.4987 33.5834C33.9258 33.5834 35.6852 34.0469 36.8674 34.5375C38.0352 35.0209 38.7904 36.1605 38.7904 37.424V38.7917Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M31.4987 30.4583C33.7999 30.4583 35.6654 28.5929 35.6654 26.2917C35.6654 23.9905 33.7999 22.125 31.4987 22.125C29.1975 22.125 27.332 23.9905 27.332 26.2917C27.332 28.5929 29.1975 30.4583 31.4987 30.4583Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M20.041 24.2084V20.0417H24.2077"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M42.9577 24.2084V20.0417H38.791"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M20.041 38.7917V42.9584H24.2077"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M42.9577 38.7917V42.9584H38.791"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
@@ -398,28 +214,28 @@ const Banner = () => {
                 cx="31.5"
                 cy="31.5"
                 r={29}
-                fill="#6CDB00"
-                stroke="#15171E"
+                fill="#651FFF"
+                stroke="#0b0b0f"
                 strokeWidth={5}
               />
-              <circle cx="31.5" cy="31.5" r="24.5" fill="#15171E" />
+              <circle cx="31.5" cy="31.5" r="24.5" fill="#0b0b0f" />
               <path
                 d="M36.709 21.0834H41.9173V42.9584H21.084V21.0834H26.2923"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M28.375 34.625L30.4583 36.7084L34.625 32.5417"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M26.293 20.0417V26.2917H29.418C29.418 25.1406 30.3503 24.2084 31.5013 24.2084C32.6523 24.2084 33.5846 25.1406 33.5846 26.2917H36.7096V20.0417H26.293Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
@@ -438,41 +254,41 @@ const Banner = () => {
                 cx="31.5"
                 cy="31.5"
                 r={29}
-                fill="#6CDB00"
-                stroke="#15171E"
+                fill="#651FFF"
+                stroke="#0b0b0f"
                 strokeWidth={5}
               />
-              <circle cx="31.5" cy="31.5" r="24.5" fill="#15171E" />
+              <circle cx="31.5" cy="31.5" r="24.5" fill="#0b0b0f" />
               <path
                 d="M37.7507 42.9584H22.2168C21.6153 42.9584 21.1499 42.4312 21.2245 41.8343L23.0578 27.1677C23.1204 26.6672 23.5458 26.2917 24.0501 26.2917H38.956C39.4582 26.2917 39.8826 26.6643 39.9476 27.1623L40.7715 33.4792"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
               />
               <path
                 d="M27.334 29.4167V24.2084C27.334 21.9167 29.209 20.0417 31.5007 20.0417C33.7923 20.0417 35.6673 21.9167 35.6673 24.2084V29.4167"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M37.7513 42.9584C40.6278 42.9584 42.9596 40.6265 42.9596 37.75C42.9596 34.8735 40.6278 32.5417 37.7513 32.5417C34.8748 32.5417 32.543 34.8735 32.543 37.75C32.543 40.6265 34.8748 42.9584 37.7513 42.9584Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M37.75 35.6667V39.8334"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M35.668 37.75H39.8346"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
@@ -491,34 +307,34 @@ const Banner = () => {
                 cx="31.5"
                 cy="31.5"
                 r={29}
-                fill="#6CDB00"
-                stroke="#15171E"
+                fill="#651FFF"
+                stroke="#0b0b0f"
                 strokeWidth={5}
               />
-              <circle cx="31.5" cy="31.5" r="24.5" fill="#15171E" />
+              <circle cx="31.5" cy="31.5" r="24.5" fill="#0b0b0f" />
               <path
                 d="M25.2507 21.0833H37.7507L41.9173 25.25V39.8333C41.9173 40.3858 41.6978 40.9158 41.3071 41.3065C40.9164 41.6972 40.3865 41.9166 39.834 41.9166H23.1673C22.6148 41.9166 22.0849 41.6972 21.6942 41.3065C21.3035 40.9158 21.084 40.3858 21.084 39.8333V25.25L25.2507 21.0833Z"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M31.5 37.75V28.375"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
               />
               <path
                 d="M27.334 33.5833L31.5007 37.75L35.6673 33.5833"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
                 strokeLinecap="square"
               />
               <path
                 d="M21.084 25.25H41.9173"
-                stroke="#6CDB00"
+                stroke="#651FFF"
                 strokeWidth="1.5"
                 strokeMiterlimit={10}
               />

@@ -1,17 +1,23 @@
-import React from 'react';
-import './Upcoming.css'
-import ethIcon from "../../../assets/img/eth-icon.png";
-import { Link } from 'react-router-dom';
-
-const UpComingProjects = () => {
-    return (
-      <section className="projects-live">
-        <div className="containerer">
-          <h2 className="title mb-5">Upcoming Projects</h2>
+import React from "react";
+import "./CompletedProjects.css";
+import ethIcon from "../../../../assets/img/eth-icon.png";
+import { Link } from "react-router-dom";
+const CompletedProjects = () => {
+  return (
+    <>
+      <div className="projects-section mt-14 containerer">
+        <p className="text-center">
+          <span className="uppercase font-semibold text-xl">
+            Completed projects
+          </span>
+          <br />
+          <span className="text-white/60">(Lorem Ipsum)</span>
+        </p>
+        <div className="mt-4">
           <div className="g-4 row">
-            <div className="col-md-8">
+            <div className="col-md-6">
               <div className="w-full max-w-[580px] shadow-md rounded-solaniumDefault hover hover:shadow-xl transition-all duration-500 bg-white project-bg-color">
-                <Link to="/private-sale" className="w-full no-decor card-bg h-full">
+                <span className="w-full no-decor card-bg h-full">
                   <div className="flex absolute flex-row-reverse w-full max-w-[580px]">
                     <div className="rounded-lg bg-[#2047F4] h-10 w-10 flex z-30  lop-mar border-2 border-[#ffffff]">
                       <img
@@ -24,7 +30,7 @@ const UpComingProjects = () => {
                   <div className="content pet-5 pex-5 sm:pt-30px sm:px-30px">
                     <div className="flex flex-col meb-4 justify-between sm:flex-row sm:mb-8">
                       <span className="projects-pool-header block font-poppins-bold text-xl sm:text-[40px]">
-                        Syncera Private
+                        Syncera Seed
                       </span>
                       <span className="projects-pool-tags block text-[#6376AE] text-sm">
                         DeFi, Launchpad
@@ -34,10 +40,13 @@ const UpComingProjects = () => {
                       Unlock zkSync's full potential with Syncera
                     </span>
                     <span className="projects-pool-content pb-pool leading-[26px] text-sm hide-para sm:line-clamp-3">
-                      Syncera aims to innovate and bring adoption to the zkSync ecosystem by providing an all-in-one DeFi platform that will accommodate projects and new investors entering the space for the first time. 
+                      Syncera aims to innovate and bring adoption to the zkSync
+                      ecosystem by providing an all-in-one DeFi platform that
+                      will accommodate projects and new investors entering the
+                      space for the first time.
                     </span>
                   </div>
-                </Link>
+                </span>
                 <div className="peb-5 bot-pad pex-5 flex flex-col gaep-5 sm:flex-row-reverse sm:items-center sm:justify-between sm:pb-30px sm:px-30px">
                   <div>
                     <div>
@@ -79,25 +88,24 @@ const UpComingProjects = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <img
-                      src={ethIcon}
-                      className="h-6 w-6"
-                      alt=""
-                    />
+                    <img src={ethIcon} className="h-6 w-6" alt="" />
                     <span className="projects-pool-amount font-inter-bold block text-3xl">
-                      400
+                      175
                     </span>
                   </div>
                 </div>
                 <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-center h-9 gap-1 text-xs text-black bg-notification">
-                  <b className="font-poppins-bold projects-pool-status">Project is preparing whitelist.</b>
+                  <b className="font-poppins-bold projects-pool-status">
+                    IDO has sold out.
+                  </b>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    );
-}
+      </div>
+    </>
+  );
+};
 
-export default UpComingProjects;
+export default CompletedProjects;

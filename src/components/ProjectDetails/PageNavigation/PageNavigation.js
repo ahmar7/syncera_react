@@ -3,7 +3,7 @@ import './PageNavigation.css'
 import { Link } from 'react-router-dom';
 const PageNavigation = (props) => {
     return (
-      <span className="pl-5 block paragraphs whitespace-nowrap ms-3 my-30px container-fluid">
+      <span className="pl-5 block paragraphs whitespace-nowrap ms-3 solaso my-30px max-w-[1200px] max-width">
         <Link to="/" className>
           <span className="hover:underline">Home</span> &gt;
         </Link>{" "}
