@@ -23,13 +23,16 @@
 }
 .platform-advantages .advantages-item__title {
   font-size: 32px;
+  color: #651FFF;
   margin-bottom: 16px;
   line-height: 1.12;
   font-weight: 700;
 }
 .platform-advantages .advantages-item__text {
+  font-weight: bold;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  font-size: 1.1em;
 }
 .containerer {
   max-width: var(--container-sticky-max-width) !important;
@@ -61,11 +64,14 @@
 .DoubleText-Item--Top img {
   height: 100%;
   vertical-align: middle;
+  transform: translateY(4px);
 }
 .DoubleText-Item--Top--TitleUpper {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 2.8rem;
-  background-image: linear-gradient(253.34deg, #ff6746 11.3%, #ff0546 106.44%);
+  text-transform: uppercase;
+  font-size: 32px;
+  background-image: linear-gradient(108.68deg, #c4a2ff 4.9%, #ff9393 74.14%);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -74,7 +80,7 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   /* max-width: 265px; */
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 0.65rem;
   padding-top: 0.5rem;
 }
 .DoubleText-Item--Top {
@@ -85,14 +91,17 @@
 }
 .DoubleText-Item--Top--Title {
   font-weight: 700;
-  font-size: 5.2rem;
-  line-height: 5rem;
+  font-size: 3.5rem;
+  color: #651FFF;
+  line-height: 110%;
+  text-transform: uppercase;
   margin: 0;
 }
 .DoubleText-Item--Top--Para {
-  font-size: 1.6rem;
-  line-height: 22px;
-  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-size: 1.1em;
   margin: 2rem 0;
   max-width: 100%;
   text-align: left;
@@ -103,6 +112,7 @@
   line-height: 22px;
   font-weight: 700;
   color: white;
+  font-style: italic;
   margin: 2rem 0;
   max-width: 100%;
   text-align: left;
@@ -111,11 +121,16 @@
   font-size: 1.6rem;
   line-height: 22px;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: #651FFF;
   margin: 2rem 0;
   max-width: 100%;
   text-align: left;
 }
+
+.PageProtocol-Item p, h2 {
+    color: white !important;
+}    
+
 .PageProtocol {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -124,7 +139,8 @@
     padding: 1rem 2rem; 
     width: 100%;
 }.PageProtocol-Item {
-    background: #ffffff;
+    border: 2px solid #ff9393 !important;
+    background: #651FFF !important;
     box-shadow: 0rem 0rem 1.25rem rgba(255,0,0,0.1);
     border-radius: 1.25rem;
     padding: 2rem 2rem;
@@ -139,7 +155,7 @@
     color: black;
     line-height: 2rem;
     /* max-width: 265px; */
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 1rem;
 }.PageProtocol-Item--Top--Para {
     font-size: 1.1rem;
     line-height: 24px;
@@ -154,7 +170,7 @@
     bottom: -18px;
     left: 0;
     height: 7px;
-    width: 36%;
+    width: 50%;
     border: solid 3px #651FFF;
     border-color: #651FFF transparent transparent transparent;
     border-radius: 50%;

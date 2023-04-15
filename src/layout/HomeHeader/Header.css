@@ -41,6 +41,7 @@
 .hide-desk {
   display: none;
 }
+
 @media (max-width: 1124px) {
   .header-logo {
     width: 200px;

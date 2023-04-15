@@ -1,3 +1,7 @@
+.btn-no-click {
+  cursor: auto !important;
+}
+
 .bZBINf {
   max-width: 1316px;
   width: 100%;
@@ -131,9 +135,14 @@
   gap: 24px;
   width: 100%;
 }
+
+.leEJeg:hover {
+  opacity: 0.9;
+}
+
 .leEJeg {
   padding: unset;
-  background-color: rgb(27, 35, 50);
+  background-color: #651FFF;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px, rgba(0, 0, 0, 0.02) 0px 2px 2px,
     rgba(0, 0, 0, 0.02) 0px 4px 4px, rgba(0, 0, 0, 0.02) 0px 6px 8px,
@@ -145,6 +154,7 @@
   text-align: left;
   position: relative;
 }
+
 .frFRbQ {
   z-index: 1;
   height: 100%;
@@ -261,8 +271,12 @@
   align-items: center;
 }
 
+.guNyXw:hover {
+  opacity: 0.9;
+}
+
 .guNyXw {
-  background-color: rgb(27, 35, 50);
+  background-color: #651FFF;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px, rgba(0, 0, 0, 0.02) 0px 2px 2px,
     rgba(0, 0, 0, 0.02) 0px 4px 4px, rgba(0, 0, 0, 0.02) 0px 6px 8px,
@@ -293,9 +307,8 @@
 }
  
 .lglmHD {
-  border: none !important;
-    background-color: rgba(88, 104, 233, 0.15);
-    border-color: rgba(88, 104, 233, 0.15);
+    border: 2px solid #311B92 !important;
+    background: #651FFF !important;
 } 
 .ykcDz {
     flex-direction: column;
@@ -337,8 +350,9 @@
     line-height: 165%;
     text-shadow: none;
     white-space: normal;
-    font-size: 15px;
-    color: rgb(121, 134, 237);
+    font-weight: bold;
+    font-size: 20px !important;
+    color: white;
     text-align: center;
     text-transform: none;
 }
@@ -352,7 +366,7 @@
     position: relative;
 }.gVoQB input {
     border: 1px solid rgba(88, 104, 233, 0.16);
-    background-color: #2a3464;
+    /*background-color: #2a3464;*/
   } 
   .gVoQB input:focus{
     border: 2px solid #2a3464 !important;
@@ -435,6 +449,7 @@
 }
 
 .gvIMFB > div {
+    background: #651FFF;
     font-size: 14px;
     height: 42px;
     padding: 16px;
@@ -535,7 +550,7 @@
   }
 
   .cfrnQw {
-    font-size: 24px;
+    font-size: 40px;
   }
   .bZBINf {
     padding-left: 36px;

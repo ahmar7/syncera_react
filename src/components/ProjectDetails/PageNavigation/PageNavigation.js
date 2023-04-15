@@ -7,7 +7,7 @@ const PageNavigation = (props) => {
         <Link to="/" className>
           <span className="hover:underline">Home</span> &gt;
         </Link>{" "}
-        <Link to="/projects" className>
+        <Link to="/launchpad" className>
           <span className="hover:underline">Projects</span> &gt;
         </Link>{" "}
         <b className="mb-5 w-fit nuxt-link-active">{props.projectTitle}</b>

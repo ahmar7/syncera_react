@@ -10,7 +10,7 @@ const UpComingProjects = () => {
           <h2 className="title mb-5">Upcoming Projects</h2>
           <div className="g-4 row">
             <div className="col-md-8">
-              <div className="w-full max-w-[580px] shadow-md rounded-solaniumDefault hover hover:shadow-xl transition-all duration-500 bg-white pool-bg-color">
+              <div className="w-full max-w-[580px] shadow-md rounded-solaniumDefault hover hover:shadow-xl transition-all duration-500 bg-white project-bg-color">
                 <Link to="/private-sale" className="w-full no-decor card-bg h-full">
                   <div className="flex absolute flex-row-reverse w-full max-w-[580px]">
                     <div className="rounded-lg bg-[#2047F4] h-10 w-10 flex z-30  lop-mar border-2 border-[#ffffff]">
@@ -89,7 +89,7 @@ const UpComingProjects = () => {
                     </span>
                   </div>
                 </div>
-                <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-center h-9 gap-1 text-xs text-black bg-new">
+                <div className="w-full rounded-bl-solaniumDefault rounded-br-solaniumDefault inline-flex items-center justify-center h-9 gap-1 text-xs text-black bg-notification">
                   <b className="font-poppins-bold projects-pool-status">Project is preparing whitelist.</b>
                 </div>
               </div>

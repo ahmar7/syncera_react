@@ -25,21 +25,16 @@ const Advantages = () => {
           <div className="col-lg-5">
             <div className="platform-advantages">
               <div className="advantages-item">
-                <h3 className="advantages-item__title">About Syncera</h3>
+                <h3 className="advantages-item__title">Advancing the Industry with zkSync</h3>
                 <p className="advantages-item__text">
-                  Syncera is the go-to platform for the zkSync blockchain.
-                  Participate in public raises of top tier projects, stake your
-                  tokens, trade on our DEX, participate in our governance and
-                  join our active and growing community. Our goal is to make
-                  zkSync available to everyone, with an emphasis on creating an
-                  intuitive user interface and user experience.
+                  The technological capabilities of the zkSync Era blockchain will serve our investors exceptionally well. With its highly scalable and secure infrastructure, it will enable faster transactions and reduce gas fees, making it more cost-effective for our investors to participate in IDOs. Additionally, its advanced privacy features and compatibility with Ethereum-based tokens will provide our investors with a greater level of security and flexibility in their investments. Welcome to the end-game for scaling Ethereum!
                 </p>
                 <a
-                  href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-overview/defi-solutions"
+                  href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-overview/about-zksync-era"
                   target="_blank"
                   className="advantages-item__text read-more"
                 >
-                  Read more about our ecosystem
+                  Read more about our blockchain  
                 </a>
               </div>
             </div>
@@ -57,16 +52,17 @@ const Advantages = () => {
               </div>
               <div className="DoubleText-Item--Top">
                 <h4 className="DoubleText-Item--Top--Title">
-                  Participate with Confidence
+                  Invest with Peace of Mind
                 </h4>
               </div>
               <p className="DoubleText-Item--Top--Para">
-                The Avalanche blockchain represents a true step forward for the
-                industry, offering highly decentralized applications, new
-                financial primitives, and new interoperable blockchains.
+                  Syncera's IDO launchpad is a fundraising platform that operates on the zkSync Era blockchain, providing SERA holders with an equitable opportunity to engage in the most sought-after presales in a rapidly expanding ecosystem. You can stake your tokens, trade on our DEX, participate in our governance, and become part of our dynamic and thriving community. Our objective is to make zkSync accessible to everyone, with a particular emphasis on creating a user-friendly interface and experience.
               </p>
+              <p className="DoubleText-Item--Top--Para">    
+                  <i>We will provide all the necessary tools to make investing in the zkSync ecosystem more accessible, user-friendly, and inclusive while keeping security intact.</i>
+              </p>    
               <p className="DoubleText-Item--Top--ParaInvestors">
-                Designed by investors, for investors.
+                Invest like a pro, designed for investors.
               </p>
             </div>
             <div className="DoubleText-Item col-lg-5">
@@ -76,19 +72,14 @@ const Advantages = () => {
               </div>
               <div className="DoubleText-Item--Top">
                 <h4 className="DoubleText-Item--Top--Title">
-                  Raise Right, Start Right
+                  Setting the Stage for Success
                 </h4>
               </div>
               <p className="DoubleText-Item--Top--Para">
-                When it comes to raising funds, a team’s specific needs should
-                be front and center--not an afterthought. There’s no step more
-                important in a project’s journey. It’s oftentimes the first
-                interaction with their future community and can set the tone,
-                for better or worse, of what’s to come.
+                As a launchpad platform for zkSync Era, the team's unique requirements should be prioritized during the fundraising process, rather than being an afterthought. This is a crucial aspect of a project's journey as it sets the tone for their relationship with the community.
               </p>
               <p className="DoubleText-Item--Top--ParaBold">
-                The Avalaunch platform is dedicated to making sure teams receive
-                what they need while establishing strong, positive momentum.
+                Syncera is committed to ensuring that teams receive the necessary support, creating a positive and fair environment that fosters strong momentum for the project.
               </p>
             </div>
           </div>
@@ -129,12 +120,11 @@ const Advantages = () => {
                   </defs>
                 </svg>
                 <h2 className="PageProtocol-Item--Top--Title">
-                  Fair and Equitable <br /> Fundraising
+                  Community-Driven
                 </h2>
               </div>
               <p className="PageProtocol-Item--Top--Para">
-                Our unique staking and distribution methodology ensures broad
-                participation.
+                Our goal is to build a strong community where all participants have a voice and can benefit from the growth of the zkSync ecosystem. 
               </p>
             </div>
             <div className="PageProtocol-Item">
@@ -168,12 +158,11 @@ const Advantages = () => {
                   </defs>
                 </svg>
                 <h2 className="PageProtocol-Item--Top--Title">
-                  Permissionless <br /> Listings
+                  Equal Opportunities
                 </h2>
               </div>
               <p className="PageProtocol-Item--Top--Para">
-                Our emphasis on people and teams creates strong starts for new
-                projects.
+                Our staking mechanism is designed to ensure fairness for everyone, whereby a smaller holder with a more extended lock-up period can receive the same rewards as a larger holder with a shorter lock-up period.
               </p>
             </div>
             <div className="PageProtocol-Item">
@@ -207,12 +196,11 @@ const Advantages = () => {
                   </defs>
                 </svg>
                 <h2 className="PageProtocol-Item--Top--Title">
-                  Vesting and <br /> Distribution
+                  Investor Protection
                 </h2>
               </div>
               <p className="PageProtocol-Item--Top--Para">
-                The first launchpad to allow holders to grow with the network,
-                regardless of participation.
+                The community is given the freedom to vote on the projects that should be launched on Syncera, and the funds are allocated according to the performance of the project token.
               </p>
             </div>
           </div>

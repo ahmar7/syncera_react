@@ -10,30 +10,15 @@ const Description = () => {
         <div className=" liREcv  iYGvXj  dkXQFz">
           <div className=" gCcOPY  hJcZlk  cYolYl">
             <div className=" fYUrZj  lhAFlZ  gVhNTd">
-              <h2 className=" cfrnQw  bHSmrD">Learn about Polkastarter</h2>
+              <h2 className=" cfrnQw  bHSmrD">Get to Know Syncera</h2>
             </div>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              className=" jrSOwh  ilpxpx"
-              href="#"
-            >
-              <div className=" fYUrZj  jzbFXV  bOBYPs baseline-align">
-                <p fontWeight="medium" className=" eDuPKI  bTkfpF">
-                  Explore our Blog
-                </p>
-                <div width="10px" className="jpChDs jOEXnC">
-                  <div width="6px" height="6px" className="lmROce  jwYeKU" />
-                  <div className=" fivcqv  fUa-dVJ" />
-                </div>
-              </div>
-            </a>
           </div>
         </div>
         <div display="grid" className=" gwGqFO  djjlrX">
-          <button type="button" className=" no-border leEJeg">
+          <button type="button" className=" no-border leEJeg btn-no-click">
             <div className=" frFRbQ">
               <h2 className=" dGTfCo  jfRZuw">
+                {/*
                 <div className=" jYEhWf  iYGvXj  bPzHKd">
                   <svg
                     viewBox="0 0 16 16"
@@ -47,16 +32,14 @@ const Description = () => {
                     />
                   </svg>
                 </div>
-                How to Participate in a Polkastarter IDO?
+                */}
+                DeFi Solutions for zkSync
               </h2>
               <p className=" ergcSf hOLKbL">
                 <span>
                   <span>
                     <span>
-                      A good place to start is: what is Polkastarter? (We’ll
-                      give you the brief version). Polkastarter is a platform
-                      that connects young projects with early community members
-                      through initial…{" "}
+                      Syncera's objective goes beyond serving solely as a launchpad platform for zkSync. It is creating a comprehensive DeFi ecosystem that includes a range of solutions to assist projects and investors in securely launching and managing their decentralized finances, all within a single entity…{" "}
                     </span>
                   </span>
                 </span>
@@ -75,11 +58,11 @@ const Description = () => {
             <a
               target="_blank"
               rel="noopener noreferrer nofollow"
-              href="#"
+              href=""
               className=" guNyXw"
             >
               <h2 className=" kSxSwY  kFGeBv">
-                How to buy the Polkastarter $POLS token?
+                Introducing Syncera.io | The One-Stop Platform for a Growing Ecosystem
               </h2>
               <span className="rotate-bg">
                 <img
@@ -101,20 +84,7 @@ const Description = () => {
               className=" guNyXw no-border"
             >
               <h2 className=" kSxSwY   kFGeBv">
-                <div className=" jYEhWf  iYGvXj  bPzHKd">
-                  <svg
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className=" ffRWyw"
-                  >
-                    <path
-                      d="M8 .333A7.667 7.667 0 1015.667 8 7.675 7.675 0 008 .333zm3.502 7.954l-5.666 3.334a.335.335 0 01-.503-.288V4.667a.333.333 0 01.503-.288l5.666 3.334a.333.333 0 010 .574z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-                What is an IDO (Initial Decentralized Offering)?
+                What are the key features and functions of the Syncera IDO launchpad?
               </h2>
               <span className="rotate-bg">
                 <img
@@ -131,9 +101,9 @@ const Description = () => {
       <div className="cvDLAX">
         <div className="dPaxIe ykcDz lglmHD">
           <div className="cgQZeg faFXTz dOwoXE">
-            <p className="kmtZwL cwNaQj">Never want to miss a sale?</p>
+            <p className="kmtZwL cwNaQj">Never want to miss an IDO?</p>
             <h2 className="cTTTua cDqZXm">
-              Sign up for our newsletter and get the latest news and updates.
+              Sign up for our newsletter to receive the <i>latest</i> news and updates!
             </h2>
           </div>
           <form className="gVoQB fTdEJq ">
@@ -153,7 +123,7 @@ const Description = () => {
                 disabled
                 value="Subscribe"
                 type="submit"
-                className="gvIMFB fobaUy  bPwuUC"
+                className="gvIMFB fobaUy bPwuUC"
               >
                 <div>Subscribe</div>
               </button>

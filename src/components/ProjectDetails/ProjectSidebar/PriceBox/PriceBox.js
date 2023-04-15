@@ -2,7 +2,7 @@ import React from 'react';
 
 const PriceBox = () => {
     return (
-      <div className="bg-[#000B45] w-full top-30px px-5 py-6 text-white rounded-solaniumDefault flex flex-col lg:sticky lg:p-30px pool-bg-color">
+      <div className="bg-[#000B45] w-full top-30px px-5 py-6 text-white rounded-solaniumDefault flex flex-col lg:sticky lg:p-30px pool-bg-color bg-price-box">
         <div>
           <div className="flex flex-col gap-5">
             <div className="flex flex-col">

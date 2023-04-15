@@ -22,6 +22,7 @@ const Home = () => {
         <Features />
         <Carousel />
         <Advantages />
+        <GetReady />
         <Tiers />
         <Description />
         {/*<TimeWrap />*/}

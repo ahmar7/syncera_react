@@ -61,7 +61,7 @@ const Header = () => {
             <Link to="/faqs" className="nav-link nav-txt">
               FAQs
             </Link>
-            <Link to="/projects" className="nav-link btn-one">
+            <Link to="/launchpad" className="nav-link btn-one">
               <span className="btn-nav-txt"><i class="fas fa-fire"></i> Launch App</span>
             </Link>
             {/*

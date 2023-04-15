@@ -115,7 +115,7 @@ const Roadmap = () => {
               </div>
             </div>
             <div>
-              This launch is protected by Syncera Shield. <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/syncera-shield" className="underline font-inter-bold hover:text-blue-400 emphasize-link" target="_blank">Click here</a> to learn more.
+              This launch is protected by Syncera Shield. <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/syncera-shield" className="underline font-inter-bold hover:text-blue-400 pool-whitelist-link" target="_blank">Click here</a> to learn more.
             </div>
           </div>
         </div>

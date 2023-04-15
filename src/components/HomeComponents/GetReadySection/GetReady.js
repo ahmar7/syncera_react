@@ -8,7 +8,7 @@ const GetReady = () => {
           <div className="col">
             <div className="tile--with-shadow text-center get-ready-badge">
               <div className="tile__main">
-                Ready to launch your project?!
+                Ready to launch your project?
               </div>
               <a
                 className="round-button light large wide btn btn-main nop"

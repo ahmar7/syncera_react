@@ -10,17 +10,17 @@
 
 .bg-purple-700 {
     --tw-bg-opacity: 1;
-    color: #651FFF !important;
+    background: #311B92 !important;
 }
 
 .bg-syncera {
     --tw-bg-opacity: 1;
-    background-color: rgb(126 34 206);
+    background-color: #311B92;
 }
 
 .border-purple-700 {
     --tw-border-opacity: 1;
-    border: 1.75px solid #651FFF !important;
+    border: 1.75px solid #311B92 !important;
 }
 
 @media (max-width:1024px) {
