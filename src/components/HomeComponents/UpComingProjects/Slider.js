@@ -98,7 +98,7 @@ const Carousel = () => {
                       <header className="project-slide__head">
                         <div className="project-slide__tags">
                           <span className="project-tag coming-soon project-tag--status">
-                            <span>Coming Soon</span>
+                            <span>Whitelist</span>
                           </span>
                           <span className="project-tag project-tag--network">
                             <img
@@ -160,7 +160,7 @@ const Carousel = () => {
                       </header>
                       <div
                         className="project-slide__image"
-                        style={{ backgroundColor: "rgb(0, 4, 19)" }}
+                        style={{ backgroundColor: "#311B92" }}
                       >
                         <img
                           src={zkSyncIcon}

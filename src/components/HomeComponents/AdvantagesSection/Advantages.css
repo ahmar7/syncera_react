@@ -68,9 +68,8 @@
 }
 .DoubleText-Item--Top--TitleUpper {
   font-weight: bold;
-  font-size: 2.8rem;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 27px;
   background-image: linear-gradient(108.68deg, #c4a2ff 4.9%, #ff9393 74.14%);
   background-size: 100%;
   background-repeat: repeat;
@@ -91,7 +90,7 @@
 }
 .DoubleText-Item--Top--Title {
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 40px;
   color: #651FFF;
   line-height: 110%;
   text-transform: uppercase;

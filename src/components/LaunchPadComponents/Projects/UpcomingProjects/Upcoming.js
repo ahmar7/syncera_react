@@ -10,7 +10,7 @@ const UpComingProjects = () => {
           <p className="text-center">
             <span className="uppercase font-semibold text-xl">Upcoming projects</span>
             <br />
-            <span className="text-white/60">(Lorem Ipsum)</span>
+            <span className="text-white/60">(Whitelist Required)</span>
           </p>
           <div className="mt-4">
             <div className="g-4 row">

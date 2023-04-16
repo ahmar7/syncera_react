@@ -11,7 +11,7 @@ const CompletedProjects = () => {
             Completed projects
           </span>
           <br />
-          <span className="text-white/60">(Lorem Ipsum)</span>
+          <span className="text-white/60">(Finished Pools)</span>
         </p>
         <div className="mt-4">
           <div className="g-4 row">

@@ -1336,7 +1336,7 @@ span.dynamic-image svg {
 }
 .token-address {
   padding: 11px 12px;
-  background: hsla(0, 0%, 100%, 0.1);
+  background: #651FFF;
   -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
   border-radius: 50px;
@@ -1649,7 +1649,7 @@ header .nav-link {
   border-radius: 10px;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  background-color: hsla(0, 0%, 100%, 0.2);
+  background-color: #651FFF;
   font-size: 16px;
   font-weight: 500;
   line-height: 126%;
@@ -2075,7 +2075,7 @@ a.project-slide:hover {
   color: inherit;
 }
 a.project-slide:hover .project-slide__name {
-  color: var(--color-text-violet);
+  color: #651FFF;
 }
 .project-slide__head {
   margin-bottom: 16px;
@@ -5342,9 +5342,17 @@ a:hover {
   cursor: copy;
   transition: 0.15s linear;
 }
+
 .copiable:hover {
-  background-color: hsla(0, 0%, 100%, 0.3);
+  background-color: #311B92;
 }
+
+@media screen and (max-width: 768px) {
+  .copiable {
+    transform: translateY(5.5px);
+  }
+}
+
 .add-network-button {
   white-space: nowrap;
 }

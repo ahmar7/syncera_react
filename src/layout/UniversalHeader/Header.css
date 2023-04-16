@@ -1,3 +1,11 @@
+.icon-height {
+  transform: translateY(3px);
+}
+
+.icon-size {
+  font-size: 24px;
+}
+
 /* .header {
   position: fixed;
   top: 0;
@@ -34,8 +42,9 @@
   left: 0;
   min-height: 100vh;
   top: 0;
-  background-color: rgb(30, 33, 39) !important;
-  border-radius: 10px;
+  background-color: #651FFF !important;
+  border-right: 2px solid #311B92;
+  /*border-radius: 10px;*/
   padding-inline: 0.85rem;
 }
 .mobile-belowBar {
@@ -45,7 +54,7 @@
   bottom: 0;
   z-index: 9999;
   width: 100%;
-  background-color: rgb(30, 33, 39) !important;
+  background-color: #651FFF !important;
 }
 .side-links {
   margin-top: 34px;
@@ -59,7 +68,8 @@
 .individual-link {
   border-radius: 1rem;
   margin-bottom: 0.5rem;
-  opacity: 0.4;
+  opacity: 0.6;
+  font-weight: bold;
   width: 3.5rem;
   height: 3.5rem;
   display: flex;
@@ -68,15 +78,21 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.individual-link:hover {
+  opacity: 0.8;
+}
+
 .side-active {
   opacity: 1 !important;
-  background-color: hsla(0, 0%, 100%, 0.1) !important;
+  background-color: #311B92 !important;
 }
 .link-title {
   font-size: 0.75rem !important;
   margin-top: 0.25rem;
   margin-bottom: 0 !important;
 }
+
 .logo-side {
   display: flex;
   justify-content: center;
@@ -122,7 +138,7 @@
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   width: 20%;
-  opacity: 0.4;
+  opacity: 0.6;
   position: relative;
   display: flex;
   align-items: center;
@@ -130,7 +146,7 @@
 }
 .mbl-individual.mbl-active {
   opacity: 1 !important;
-  background-color: rgb(19, 20, 31) !important;
+  background-color: #651FFF !important;
 }
 .active-underline {
   position: absolute;
@@ -142,8 +158,8 @@
   margin: 0 auto;
   left: 0;
     right: 0;
-  background: #72f34b;
-  box-shadow: 0px -5px 16px #72f34b;
+  background: #311B92;
+  box-shadow: 0px -5px 16px #311B92;
 }
 .mbl-individual.mbl-active .active-underline{
 display: block !important;
@@ -191,9 +207,10 @@ display: block !important;
     display: block;
   }
   .side-bar {
-    display: none ;
-     background-color: rgb(19, 20, 31) !important;
-padding-inline: 0 !important;
+    display: none;
+    background-color: #651FFF !important;
+    border-right: 2px solid #311B92;
+    padding-inline: 0 !important;
     text-align: left;
     width: 100%;
   }

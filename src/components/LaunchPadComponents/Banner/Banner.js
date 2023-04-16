@@ -7,19 +7,19 @@ const Banner = () => {
   return (
     <div className="px-4 top-150 lg:px-16 md:container mx-auto lg:block">
       <div className="w-full text-center text-[60px] xl:text-[84px] leading-[80%] font-bold uppercase select-none">
-        Dedicated Gaming <br />
-        Launchpad &amp; IGO
+        Designed for <br />
+        <span className="secondary-glow">zkSync Era</span>
       </div>
       <div className="mt-14 seprs  w-full flex gap-14 justify-center items-center">
         <div className="flex flex-col gap-3 items-center justify-center">
-          <div className="text-[74px] gradient1 leading-[80%] font-bold">
-            <span>70+</span>
+          <div className="text-[74px] secondary-glow leading-[80%] font-bold">
+            <span>N/A</span>
           </div>
-          <div className="uppercase font-medium">Total Projects Launched</div>
+          <div className="uppercase font-medium">Projects Launched</div>
         </div>
         <div className="flex flex-col gap-3 items-center justify-center">
-          <div className="text-[74px] gradient2 leading-[80%] font-bold">
-            61X
+          <div className="text-[74px] secondary-glow leading-[80%] font-bold">
+            N/A
           </div>
           <div className="uppercase font-medium">Average ATH ROI</div>
         </div>
@@ -83,7 +83,7 @@ const Banner = () => {
             </span>
           </div>
           <div className="uppercase font-bold text-center text-3xl">
-            Easy to join INO &amp; IGO with 5 steps
+            No fuss, no hassle. Join our next IDO in just 5 steps!
           </div>
           <div
             className="mt-14 mx-auto relative flex justify-between"
@@ -346,31 +346,31 @@ const Banner = () => {
           >
             <div
               className="flex justify-center whitespace-nowrap uppercase text-sm font-semibold"
-              style={{ width: "63px" }}
+              style={{ width: "63px", "font-weight": "bold" }}
             >
               Stake
             </div>
             <div
               className="flex justify-center whitespace-nowrap uppercase text-sm font-semibold"
-              style={{ width: "63px" }}
+              style={{ width: "63px", "font-weight": "bold" }}
             >
               KYC
             </div>
             <div
               className="flex justify-center whitespace-nowrap uppercase text-sm font-semibold"
-              style={{ width: "63px" }}
+              style={{ width: "63px", "font-weight": "bold" }}
             >
               Apply Whitelist
             </div>
             <div
               className="flex justify-center whitespace-nowrap uppercase text-sm font-semibold"
-              style={{ width: "63px" }}
+              style={{ width: "63px", "font-weight": "bold" }}
             >
               Buy
             </div>
             <div
               className="flex justify-center whitespace-nowrap uppercase text-sm font-semibold"
-              style={{ width: "63px" }}
+              style={{ width: "63px", "font-weight": "bold" }}
             >
               Claim
             </div>
