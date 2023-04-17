@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [mblFull, setmblFull] = useState(false);
 
@@ -14,14 +14,14 @@ const Header = () => {
   return (
     <div>
       <div className={mblFull ? "side-bar mbl-open pt-10" : "side-bar pt-10"}>
-        <Link to="/" className="logo-side">
+        <NavLink to="/" className="logo-side">
           <img
             src="https://gamefi.org/_next/static/media/gamefi.5bb5d999.svg"
             alt=""
           />
-        </Link>
+        </NavLink>
         <div className="side-links">
-          <Link to="/launchpad" className="individual-link  side-active">
+          <NavLink to="/launchpad" className="individual-link  ">
             <div className="link-ico">
               <svg
                 class="w-6 h-6"
@@ -46,9 +46,9 @@ const Header = () => {
               </svg>
             </div>
             <p className="link-title">Launchpad</p>
-          </Link>
+          </NavLink>
         </div>
-        <Link to="" className="individual-link">
+        <NavLink to="/staking" className="individual-link">
           <div className="link-ico">
             <svg
               width="24"
@@ -103,26 +103,71 @@ const Header = () => {
             </svg>
           </div>
           <p className="link-title">Staking</p>
-        </Link>
-        <Link to="" className="individual-link">
+        </NavLink>
+        <NavLink to="/" className="individual-link">
           <div className="link-ico">
             <i class="fa-solid fa-rotate icon-size"></i>
           </div>
           <p className="link-title">Swap</p>
-        </Link>
-        <Link to="" className="individual-link">
+        </NavLink>
+        <NavLink to="/" className="individual-link">
           <div className="link-ico">
-            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 16h-3.3a8.82 8.82 0 0 1 .266 2.011 1 1 0 0 1-1 .989H7v-2h8a4 4 0 0 0-4-4H7c-1.2-1.711-3.695-2-4.9-2H0v8.5l8.192 3.763c1.008.503 2.171.6 3.248.268L24 19.667S23.208 16 20 16Z" fill="currentColor"></path><path d="M15 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm1 9h-2V3h2v6Z" fill="currentColor"></path></svg>
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 16h-3.3a8.82 8.82 0 0 1 .266 2.011 1 1 0 0 1-1 .989H7v-2h8a4 4 0 0 0-4-4H7c-1.2-1.711-3.695-2-4.9-2H0v8.5l8.192 3.763c1.008.503 2.171.6 3.248.268L24 19.667S23.208 16 20 16Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M15 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm1 9h-2V3h2v6Z"
+                fill="currentColor"
+              ></path>
+            </svg>
           </div>
           <p className="link-title">Earn</p>
-        </Link>
-        <Link to="" className="individual-link">
+        </NavLink>
+        <NavLink to="/" className="individual-link">
           <div className="link-ico">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 6C10.343 6 9 4.657 9 3C9 1.343 10.343 0 12 0C13.657 0 15 1.343 15 3C15 4.657 13.657 6 12 6Z" fill="currentColor"></path><path d="M4 19V11C4 9.87 4.391 8.838 5.026 8H2C0.895 8 0 8.895 0 10V16H2V21C2 21.552 2.448 22 3 22H5C5.552 22 6 21.552 6 21V19H4Z" fill="currentColor"></path><path d="M14 24H10C9.448 24 9 23.552 9 23V17H6V11C6 9.343 7.343 8 9 8H15C16.657 8 18 9.343 18 11V17H15V23C15 23.552 14.552 24 14 24Z" fill="currentColor"></path><path d="M4 7C2.895 7 2 6.105 2 5C2 3.895 2.895 3 4 3C5.105 3 6 3.895 6 5C6 6.105 5.105 7 4 7Z" fill="currentColor"></path><path d="M20 19V11C20 9.87 19.609 8.838 18.974 8H22C23.105 8 24 8.895 24 10V16H22V21C22 21.552 21.552 22 21 22H19C18.448 22 18 21.552 18 21V19H20Z" fill="currentColor"></path><path d="M20 7C21.105 7 22 6.105 22 5C22 3.895 21.105 3 20 3C18.895 3 18 3.895 18 5C18 6.105 18.895 7 20 7Z" fill="currentColor"></path></svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 6C10.343 6 9 4.657 9 3C9 1.343 10.343 0 12 0C13.657 0 15 1.343 15 3C15 4.657 13.657 6 12 6Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M4 19V11C4 9.87 4.391 8.838 5.026 8H2C0.895 8 0 8.895 0 10V16H2V21C2 21.552 2.448 22 3 22H5C5.552 22 6 21.552 6 21V19H4Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M14 24H10C9.448 24 9 23.552 9 23V17H6V11C6 9.343 7.343 8 9 8H15C16.657 8 18 9.343 18 11V17H15V23C15 23.552 14.552 24 14 24Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M4 7C2.895 7 2 6.105 2 5C2 3.895 2.895 3 4 3C5.105 3 6 3.895 6 5C6 6.105 5.105 7 4 7Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M20 19V11C20 9.87 19.609 8.838 18.974 8H22C23.105 8 24 8.895 24 10V16H22V21C22 21.552 21.552 22 21 22H19C18.448 22 18 21.552 18 21V19H20Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M20 7C21.105 7 22 6.105 22 5C22 3.895 21.105 3 20 3C18.895 3 18 3.895 18 5C18 6.105 18.895 7 20 7Z"
+                fill="currentColor"
+              ></path>
+            </svg>
           </div>
           <p className="link-title">Governance</p>
-        </Link>
-        <Link to="" className="individual-link">
+        </NavLink>
+        <NavLink to="/" className="individual-link">
           <div className="link-ico">
             <svg
               width="24"
@@ -137,11 +182,11 @@ const Header = () => {
             </svg>
           </div>
           <p className="link-title">Docs</p>
-        </Link>
+        </NavLink>
       </div>
       <div className="mobile-belowBar">
         <div className="flex-mbl">
-          <Link to="" className="mbl-individual mbl-active">
+          <NavLink to="/" className="mbl-individual mbl-active">
             <span class="active-underline"></span>
             <div className="mbl-icon">
               <svg
@@ -166,16 +211,16 @@ const Header = () => {
                 </defs>
               </svg>
             </div>
-          </Link>
-          <Link to="" className="mbl-individual ">
+          </NavLink>
+          <NavLink to="/" className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
-               <svg
-              width="24"
-              height="24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   d="M1 4v4c0 1.657 2.686 3 6 3s6-1.343 6-3V4"
                   stroke="currentColor"
@@ -222,19 +267,33 @@ const Header = () => {
                 ></path>
               </svg>
             </div>
-          </Link>
-          <Link to="" className="mbl-individual ">
+          </NavLink>
+          <NavLink to="/" className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
               <i class="fa-solid fa-rotate icon-size icon-height"></i>
             </div>
-          </Link>
-          <Link to="" className="mbl-individual ">
+          </NavLink>
+          <NavLink to="/" className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
-              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 16h-3.3a8.82 8.82 0 0 1 .266 2.011 1 1 0 0 1-1 .989H7v-2h8a4 4 0 0 0-4-4H7c-1.2-1.711-3.695-2-4.9-2H0v8.5l8.192 3.763c1.008.503 2.171.6 3.248.268L24 19.667S23.208 16 20 16Z" fill="currentColor"></path><path d="M15 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm1 9h-2V3h2v6Z" fill="currentColor"></path></svg>
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 16h-3.3a8.82 8.82 0 0 1 .266 2.011 1 1 0 0 1-1 .989H7v-2h8a4 4 0 0 0-4-4H7c-1.2-1.711-3.695-2-4.9-2H0v8.5l8.192 3.763c1.008.503 2.171.6 3.248.268L24 19.667S23.208 16 20 16Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M15 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm1 9h-2V3h2v6Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
             </div>
-          </Link>
+          </NavLink>
           <div onClick={toggleMbl} className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">

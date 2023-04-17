@@ -83,7 +83,7 @@
   opacity: 0.8;
 }
 
-.side-active {
+.individual-link.active {
   opacity: 1 !important;
   background-color: #311B92 !important;
 }
