@@ -46,6 +46,14 @@ const Header = () => {
               </svg>
             </div>
             <p className="link-title">Launchpad</p>
+            <div className="absolute top-[-10px] right-0 abs-numer">
+              <div className="relative w-4 h-4">
+                <div className="w-full h-full custom-clr rounded-full absolute inset-0 animate-ping2" />
+                <div className="w-full h-full custom-clr rounded-full absolute inset-0 inline-flex items-center justify-center text-gamefiDark-900 leading-none font-bold">
+                  1
+                </div>
+              </div>
+            </div>
           </NavLink>
         </div>
         <NavLink to="/staking" className="individual-link">

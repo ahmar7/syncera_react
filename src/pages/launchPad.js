@@ -6,7 +6,7 @@ import Projects from '../components/LaunchPadComponents/Projects/Projects';
 
 const LaunchPad = () => {
     return (
-        <div>
+        <div className='launchpad-pg'>
             <Header/>
             <Banner/>
             <Projects/>

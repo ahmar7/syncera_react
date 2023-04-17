@@ -315,6 +315,9 @@
 .bot-pad{
     padding-bottom: 1.25rem;
 }
+.projects-pool-header{
+  text-align: left !important;
+}
 @media (min-width: 640px) {
     .meb-4{
     margin-bottom: 1.5rem;

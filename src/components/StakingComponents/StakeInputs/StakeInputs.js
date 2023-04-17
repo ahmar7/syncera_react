@@ -2,9 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./StakeInput.css";
 const StakeInputs = () => {
   const [slimInput, setslimInput] = useState("");
+  const [slimLp, setslimLp] = useState("");
+  const [slimLp2, setslimLp2] = useState("");
   const [slimInput2, setslimInput2] = useState("0.00");
   const [DateTime, setDateTime] = useState("");
   const [xSlim, setxSlim] = useState("");
+  const [xSlimLp, setxSlimLp] = useState("");
+  const [finalSlim, setfinalSlim] = useState("");
   const [days, setdays] = useState(365);
   const [requirement, setRequirement] = useState(false);
   const [activeTier1, setactiveTier1] = useState(false);
@@ -12,11 +16,11 @@ const StakeInputs = () => {
   const [activeTier3, setactiveTier3] = useState(false);
   const [activeTier4, setactiveTier4] = useState(false);
   const [activeTier5, setactiveTier5] = useState(false);
-  
+
   let updateTier1 = () => {
-    setslimInput(100)
-    setdays(365)
-    
+    setslimInput(100);
+    setdays(365);
+setslimLp(0)
     setactiveTier1(true);
     setactiveTier2(false);
     setactiveTier3(false);
@@ -25,7 +29,8 @@ const StakeInputs = () => {
     setRequirement(true);
   };
   let updateTier2 = () => {
-      setdays(365)
+    setdays(365);
+setslimLp(0)
     setslimInput(1000);
     setactiveTier1(false);
     setactiveTier2(true);
@@ -35,6 +40,7 @@ const StakeInputs = () => {
     setactiveTier5(false);
   };
   let updateTier3 = () => {
+setslimLp(0)
     setdays(365);
 
     setslimInput(5000);
@@ -47,6 +53,7 @@ const StakeInputs = () => {
   };
   let updateTier4 = () => {
     setdays(365);
+setslimLp(0);
 
     setslimInput(10000);
     setactiveTier1(false);
@@ -57,6 +64,7 @@ const StakeInputs = () => {
     setactiveTier5(false);
   };
   let updateTier5 = () => {
+setslimLp(0)
     setdays(365);
 
     setslimInput(50000);
@@ -80,6 +88,17 @@ const StakeInputs = () => {
       setslimInput2(Number(val).toFixed(2));
     }
   };
+  let changeSlimLp = (e) => {
+    let val = e.target.value;
+    setslimLp2(Number(val).toFixed(2));
+    if (val > 100000000) {
+      setslimLp(100000000.0);
+      setslimLp2(100000000.0);
+    } else {
+      setslimLp(val);
+      setslimLp2(Number(val).toFixed(2));
+    }
+  };
   let changeDays = (e) => {
     let val = e.target.value;
     if (val > 365) {
@@ -88,62 +107,68 @@ const StakeInputs = () => {
       setdays(val);
     }
   };
-  let resetVal=()=>{
-    setslimInput(0)
-    setdays(365)
-  }
+  let resetVal = () => {
+    setslimInput(0);
+    setdays(365);
+    setslimLp(0)
+  };
   useEffect(() => {
     let xSlims = (slimInput * days) / 365;
+    let xSlimsLp = (slimLp * days) / 365 *2.5;
     setxSlim(xSlims.toFixed(2));
-    if (xSlim > 99 && xSlim < 1000) {
-      setactiveTier1(true);
-      setactiveTier2(false);
-      setactiveTier3(false);
-      setactiveTier4(false);
-      setactiveTier5(false);
-      setRequirement(true);
-    } else if (xSlim > 999 && xSlim < 5000) {
-      setactiveTier2(true);
-      setactiveTier1(false);
-      setactiveTier3(false);
-      setactiveTier4(false);
-      setactiveTier5(false);
-      setRequirement(true);
-    } else if (xSlim > 4999 && xSlim < 10000) {
-      setRequirement(true);
-      setactiveTier2(false);
-      setactiveTier1(false);
-      setactiveTier4(false);
-      setactiveTier5(false);
-      setactiveTier3(true);
-    } else if (xSlim > 9999 && xSlim < 50000) {
-      setactiveTier4(true);
-      setactiveTier1(false);
-      setactiveTier3(false);
-      setactiveTier2(false);
-      setactiveTier5(false);
-      setRequirement(true);
-    } else if (xSlim > 49999) {
-      setactiveTier5(true);
-      setactiveTier2(false);
-      setactiveTier3(false);
-      setactiveTier4(false);
-      setactiveTier1(false);
-      setRequirement(true);
-    } else {
-      setRequirement(false);
-      setactiveTier1(false);
-      setactiveTier2(false);
-      setactiveTier3(false);
-      setactiveTier4(false);
-      setactiveTier5(false);
-    }
-   const date = new Date();
-  
-   date.setDate(date.getDate() + parseInt(days===""?0:days));
-    setDateTime(date.toLocaleDateString("en-GB")); 
-  
+    setxSlimLp(xSlimsLp.toFixed(2));
+ 
+    const date = new Date();
+
+    date.setDate(date.getDate() + parseInt(days === "" ? 0 : days));
+    setDateTime(date.toLocaleDateString("en-GB"));
+
     setslimInput2(Number(slimInput).toFixed(2));
+    setslimLp2(Number(slimLp).toFixed(2));
+    setfinalSlim(Math.round(xSlim) + Math.round(xSlimsLp));
+       if (finalSlim > 99 && finalSlim < 1000) {
+         setactiveTier1(true);
+         setactiveTier2(false);
+         setactiveTier3(false);
+         setactiveTier4(false);
+         setactiveTier5(false);
+         setRequirement(true);
+       } else if (finalSlim > 999 && finalSlim < 5000) {
+         setactiveTier2(true);
+         setactiveTier1(false);
+         setactiveTier3(false);
+         setactiveTier4(false);
+         setactiveTier5(false);
+         setRequirement(true);
+       } else if (finalSlim > 4999 && finalSlim < 10000) {
+         setRequirement(true);
+         setactiveTier2(false);
+         setactiveTier1(false);
+         setactiveTier4(false);
+         setactiveTier5(false);
+         setactiveTier3(true);
+       } else if (finalSlim > 9999 && finalSlim < 50000) {
+         setactiveTier4(true);
+         setactiveTier1(false);
+         setactiveTier3(false);
+         setactiveTier2(false);
+         setactiveTier5(false);
+         setRequirement(true);
+       } else if (finalSlim > 49999) {
+         setactiveTier5(true);
+         setactiveTier2(false);
+         setactiveTier3(false);
+         setactiveTier4(false);
+         setactiveTier1(false);
+         setRequirement(true);
+       } else {
+         setRequirement(false);
+         setactiveTier1(false);
+         setactiveTier2(false);
+         setactiveTier3(false);
+         setactiveTier4(false);
+         setactiveTier5(false);
+       }
   }, [slimInput][days]);
   return (
     <div className="grid grid-cols-1 pe-3 ps-3 md:gap-4 items-start lg:grid-cols-6 lg:gap-8 mt-5">
@@ -211,6 +236,8 @@ const StakeInputs = () => {
                           </label>
                           <div className="relative flex h-[60px] border-[1px] rounded-xl border-slate-300">
                             <input
+                              onChange={changeSlimLp}
+                              value={slimLp}
                               placeholder="0"
                               type="number"
                               className="bg-white no-border focus:outline-none p-5 rounded-2xl focus:border-none focus-visible:border-none w-full h-full font-inter-black active:border-none text-solanium-bright-blue text-2xl"
@@ -430,15 +457,12 @@ const StakeInputs = () => {
                     <div className="my-5">
                       <p className="label">Your xSLIM</p>
                       <p className="value">
-                        <span className="block text-xs font-poppins">
-                          formula: {slimInput2} * {days} / 365 {/**/}
-                        </span>
                         <span className="mr-2 font-inter-black">
-                          {xSlim === "" ? "0.00" : xSlim}
+                          {finalSlim === "" ? "0.00" : finalSlim}
                         </span>
                         <span className="small-label">xSLIM</span>
                         <span className="add-label">
-                          +{xSlim === "" ? "0.00" : xSlim} xSLIM
+                          +{finalSlim === "" ? "0.00" : finalSlim} xSLIM
                         </span>
                       </p>
                     </div>
@@ -486,7 +510,7 @@ const StakeInputs = () => {
                             ? "4"
                             : "0" && activeTier5
                             ? "5"
-                            : "0"}
+                            : "0"}{" "}
                           Tiers
                         </span>
                       </div>
@@ -498,7 +522,15 @@ const StakeInputs = () => {
                           {slimInput2}
                         </span>
                         <span className="small-label">SLIM</span>
-                        <span className="add-label">+{slimInput2}SLIM</span>
+                        <span className="add-label">+{slimInput2}{" "}SLIM</span>
+                      </p>
+                    </div>
+                    <div className="my-5">
+                      <p className="label-">Staked SLIM-LP</p>
+                      <p className="value">
+                        <span className="mr-2 font-inter-black">{slimLp2}</span>
+                        <span className="small-label">SLIM</span>
+                        <span className="add-label">+{slimLp2}{" "}SLIM</span>
                       </p>
                     </div>
                     {/**/}

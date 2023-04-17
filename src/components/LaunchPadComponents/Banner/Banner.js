@@ -35,12 +35,10 @@ const Banner = () => {
                 src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271125%27%20height=%271209%27/%3e"
               />
             </span> */}
-            <img
-              alt="" 
-              src={mblGraph}
-              decoding="async"
-              data-nimg="intrinsic"
-            />
+            <div className="uppercase font-bold text-center text-xl mb-4">
+              No fuss, no hassle. Join our next IDO in just 5 steps!
+            </div>
+            <img alt="" src={mblGraph} decoding="async" data-nimg="intrinsic" />
           </span>
         </div>
         <div className=" lg:block md:px-4 lg:px-16 mx-auto py-28 new-container relative for-large select-none">

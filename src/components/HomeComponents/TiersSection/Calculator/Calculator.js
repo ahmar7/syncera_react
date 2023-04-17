@@ -49,6 +49,7 @@ const Calculator = () => {
         } else {
           setslimWarn(false);
         }
+        console.log(newVal,"and" ,newVal2,"and",up);
       },
       [days][inputTop],
       [topNewVal]
