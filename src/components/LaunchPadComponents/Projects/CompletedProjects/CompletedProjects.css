@@ -20,6 +20,10 @@
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.def-height{
+  display: block !important;
+  min-height: 85px;
+}
 .gap-5 {
   gap: 1.25rem;
 }

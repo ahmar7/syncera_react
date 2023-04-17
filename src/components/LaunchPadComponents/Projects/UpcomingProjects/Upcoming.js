@@ -41,7 +41,7 @@ const UpComingProjects = () => {
                       <span className="projects-pool-sub block font-poppins-bold text-sm mb-7 sm:line-clamp-1 leading-6 sm:mb-[10px] sm:text-base">
                         Unlock zkSync's full potential with Syncera
                       </span>
-                      <span className="projects-pool-content pb-pool leading-[26px] text-sm hide-para sm:line-clamp-3">
+                      <span className="def-height projects-pool-content pb-pool leading-[26px] text-sm hide-para sm:line-clamp-3">
                         Syncera aims to innovate and bring adoption to the
                         zkSync ecosystem by providing an all-in-one DeFi
                         platform that will accommodate projects and new
