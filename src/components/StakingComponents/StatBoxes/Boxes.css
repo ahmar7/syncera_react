@@ -1,3 +1,11 @@
+.syncera-box {
+  --tw-bg-opacity: .1;
+  background-color: #311b92 !important;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+}
+
 .staking .stat-label {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -45,7 +53,7 @@
 
 .staking .stake-details .add-label {
   --tw-text-opacity: 1;
-  color: rgb(104 215 250 / var(--tw-text-opacity));
+  color: #ff9393;
   display: block;
   font-size: 0.75rem;
   font-style: italic;

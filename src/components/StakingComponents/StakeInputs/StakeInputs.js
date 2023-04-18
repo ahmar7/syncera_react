@@ -16,6 +16,7 @@ const StakeInputs = () => {
   const [activeTier3, setactiveTier3] = useState(false);
   const [activeTier4, setactiveTier4] = useState(false);
   const [activeTier5, setactiveTier5] = useState(false);
+  const [dayWarn, setdayWarn] = useState(false);
 
   let updateTier1 = () => {
     setslimInput(100);
@@ -125,7 +126,8 @@ setslimLp(0)
 
     setslimInput2(Number(slimInput).toFixed(2));
     setslimLp2(Number(slimLp).toFixed(2));
-    setfinalSlim(Math.round(xSlim) + Math.round(xSlimsLp));
+    let fix = Number(xSlim )+Number( xSlimsLp);
+    setfinalSlim(fix.toFixed(2));
        if (finalSlim > 99 && finalSlim < 1000) {
          setactiveTier1(true);
          setactiveTier2(false);
@@ -169,6 +171,11 @@ setslimLp(0)
          setactiveTier4(false);
          setactiveTier5(false);
        }
+       if(finalSlim>99&&days<14){
+        setdayWarn(true)
+       }else{
+        setdayWarn(false)
+       }
   }, [slimInput][days]);
   return (
     <div className="grid grid-cols-1 pe-3 ps-3 md:gap-4 items-start lg:grid-cols-6 lg:gap-8 mt-5">
@@ -202,19 +209,24 @@ setslimLp(0)
                 <div>
                   <div>
                     <div className="mt-5">
-                      <p className="text-2xl font-poppins-bold mb-2">
-                        Your stake
+                      <div class="alert syncera-warning" role="alert">
+                        <i class="fas fa-exclamation-triangle"></i> Please note
+                        that staking is currently <i>unavailable</i>, but will
+                        become live right after our TGE.
+                      </div>
+                      <p className="text-2xl font-poppins-bold mb-2 font-weight-bold">
+                        Your Stake
                       </p>
                       <p className="font-poppins text-sm mb-5">
-                        Calculate your xSLIM depending on the amount of staked
+                        Calculate your xSERA depending on the amount of staked
                         tokens and your lock time.
                       </p>
                       <div className="flex flex-col h-full">
                         <div className="my-2 lg:w-[60%]">
                           <label className="block flex justify-between text-[12px] font-poppins-regular mb-1 text-solanium-blue">
-                            SLIM stake:
+                            SERA stake:
                             <span className="font-poppins-italic italic opacity-50">
-                              Your total amount of slim: 0
+                              Your total amount of SERA: 0
                             </span>
                           </label>
                           <div className="relative flex h-[60px] border-[1px] rounded-xl border-slate-300">
@@ -229,9 +241,9 @@ setslimLp(0)
                         </div>
                         <div className="my-2 lg:w-[60%]">
                           <label className="block flex justify-between text-[12px] font-poppins-regular mb-1 text-solanium-blue">
-                            SLIM-LP STAKE:
+                            SERA-LP STAKE:
                             <span className="font-poppins-italic italic opacity-50">
-                              Your total amount of slim: 0
+                              Your total amount of SERA-LP: 0
                             </span>
                           </label>
                           <div className="relative flex h-[60px] border-[1px] rounded-xl border-slate-300">
@@ -295,10 +307,10 @@ setslimLp(0)
                               >
                                 <div className="text-center">
                                   <p className="text-xl font-inter-black text-solanium-bright-blue">
-                                    Tier 1
+                                    Minnow
                                   </p>
                                   <p className="text-[#4E3E7D] font-poppins-bold">
-                                    100 xSLIM
+                                    100 xSERA
                                   </p>
                                   <p className="text-xs text-[#4E3E7D]">
                                     1 Ticket
@@ -320,10 +332,10 @@ setslimLp(0)
                               >
                                 <div className="text-center">
                                   <p className="text-xl font-inter-black text-solanium-bright-blue">
-                                    Tier 2
+                                    Goldfish
                                   </p>
                                   <p className="text-[#4E3E7D] font-poppins-bold">
-                                    1000 xSLIM
+                                    1000 xSERA
                                   </p>
                                   <p className="text-xs text-[#4E3E7D]">
                                     12 Tickets
@@ -345,10 +357,10 @@ setslimLp(0)
                               >
                                 <div className="text-center">
                                   <p className="text-xl font-inter-black text-solanium-bright-blue">
-                                    Tier 3
+                                    Barracuda
                                   </p>
                                   <p className="text-[#4E3E7D] font-poppins-bold">
-                                    5000 xSLIM
+                                    5000 xSERA
                                   </p>
                                   <p className="text-xs text-[#4E3E7D]">
                                     100 Tickets
@@ -370,10 +382,10 @@ setslimLp(0)
                               >
                                 <div className="text-center">
                                   <p className="text-xl font-inter-black text-solanium-bright-blue">
-                                    Tier 4
+                                    Swordfish
                                   </p>
                                   <p className="text-[#4E3E7D] font-poppins-bold">
-                                    10000 xSLIM
+                                    10000 xSERA
                                   </p>
                                   <p className="text-xs text-[#4E3E7D]">
                                     Guaranteed
@@ -395,10 +407,10 @@ setslimLp(0)
                               >
                                 <div className="text-center">
                                   <p className="text-xl font-inter-black text-solanium-bright-blue">
-                                    Tier 5
+                                    Blue Whale
                                   </p>
                                   <p className="text-[#4E3E7D] font-poppins-bold">
-                                    50000 xSLIM
+                                    50000 xSERA
                                   </p>
                                   <p className="text-xs text-[#4E3E7D]">
                                     Guaranteed
@@ -414,7 +426,7 @@ setslimLp(0)
                               <span
                                 onClick={resetVal}
                                 type="button"
-                                className="text-solanium-bright-blue underline cursor-pointer"
+                                className="underline cursor-pointer emphasize-link"
                               >
                                 Reset
                               </span>
@@ -426,13 +438,36 @@ setslimLp(0)
                                 </div>
                               </div>
                             )}
+                            {dayWarn && (
+                              <div
+                                data-v-18811a9f
+                                className="w-1/2 flex-grow mx-3 text-sm text-red-500"
+                              >
+                                <i
+                                  data-v-18811a9f
+                                  aria-label="icon: warning"
+                                  className="anticon anticon-warning"
+                                >
+                                  <svg
+                                    viewBox="64 64 896 896"
+                                    data-icon="warning"
+                                    width="1em"
+                                    height="1em"
+                                    fill="currentColor"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    className
+                                  >
+                                    <path d="M464 720a48 48 0 1 0 96 0 48 48 0 1 0-96 0zm16-304v184c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V416c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8zm475.7 440l-416-720c-6.2-10.7-16.9-16-27.7-16s-21.6 5.3-27.7 16l-416 720C56 877.4 71.4 904 96 904h832c24.6 0 40-26.6 27.7-48zm-783.5-27.9L512 239.9l339.8 588.2H172.2z" />
+                                  </svg>
+                                </i>
+                                You need to lock for a minimum of 14 days.
+                              </div>
+                            )}
                           </div>
                           <div className="w-full sm:w-1/2">
-                            <button
-                              className="solanium-button-primary"
-                              disabled
-                            >
-                              <b className="font-inter-bold">Stake</b> SLIM
+                            <button className="btn-one is-fullwidth calc-go-stake btn-disabled">
+                              <b className="font-inter-bold">Stake SERA</b>
                             </button>
                           </div>
                         </div>
@@ -447,22 +482,22 @@ setslimLp(0)
       </div>
       <div className="new-tier stake-details grid grid-cols-1 my-5 md:my-0 gap-4 md:col-span-2 rounded-solaniumDefault overflow-hidden  h-full bg-[#000B45] p-8 ">
         <section className="no-shadow">
-          <h2 className="sr-only">Stake Details</h2>
+          <h2 className="sr-only">Stats Calculator</h2>
           <div className="rounded-lg overflow-hidden  flex flex-col h-full">
             <div className="h-full">
-              <h2 className="text-white font-poppins-bold"> Stake details </h2>
+              <h2 className="text-white font-poppins-bold">Stats Calculator</h2>
               <div className="text-white p-1 h-full">
                 <div className="flex flex-col h-full">
                   <div className="grow">
                     <div className="my-5">
-                      <p className="label">Your xSLIM</p>
+                      <p className="label">Your xSERA</p>
                       <p className="value">
                         <span className="mr-2 font-inter-black">
                           {finalSlim === "" ? "0.00" : finalSlim}
                         </span>
-                        <span className="small-label">xSLIM</span>
+                        <span className="small-label">xSERA</span>
                         <span className="add-label">
-                          +{finalSlim === "" ? "0.00" : finalSlim} xSLIM
+                          +{finalSlim === "" ? "0.00" : finalSlim} xSERA
                         </span>
                       </p>
                     </div>
@@ -470,27 +505,26 @@ setslimLp(0)
                       <p className="label">Your Tier:</p>
                       <div className="value">
                         <span className="text-3xl mr-2 font-inter-black">
-                          Tier{" "}
                           {activeTier1
-                            ? "1"
+                            ? "Minnow"
                             : "0" && activeTier2
-                            ? "2"
+                            ? "Goldfish"
                             : "0" && activeTier3
-                            ? "3"
+                            ? "Barracuda"
                             : "0" && activeTier4
-                            ? "4"
+                            ? "Swordfish"
                             : "0" && activeTier5
-                            ? "5"
+                            ? "Blue Whale"
                             : "0"}
                         </span>
                         <div className="small-label">
                           <span>
                             {activeTier1
-                              ? "100 Tickets"
+                              ? "1 Ticket"
                               : "0 Tickets" && activeTier2
-                              ? "1000 Tickets"
+                              ? "12 Tickets"
                               : "0 Tickets" && activeTier3
-                              ? "5000 Tickets"
+                              ? "100 Tickets"
                               : "0 Tickets" && activeTier4
                               ? "Guaranteed allocation"
                               : "0 Tickets" && activeTier5
@@ -516,21 +550,21 @@ setslimLp(0)
                       </div>
                     </div>
                     <div className="my-5">
-                      <p className="label-">Staked SLIM</p>
+                      <p className="label-">Staked SERA</p>
                       <p className="value">
                         <span className="mr-2 font-inter-black">
                           {slimInput2}
                         </span>
-                        <span className="small-label">SLIM</span>
-                        <span className="add-label">+{slimInput2}{" "}SLIM</span>
+                        <span className="small-label">SERA</span>
+                        <span className="add-label">+{slimInput2} SERA</span>
                       </p>
                     </div>
                     <div className="my-5">
-                      <p className="label-">Staked SLIM-LP</p>
+                      <p className="label-">Staked SERA-LP</p>
                       <p className="value">
                         <span className="mr-2 font-inter-black">{slimLp2}</span>
-                        <span className="small-label">SLIM</span>
-                        <span className="add-label">+{slimLp2}{" "}SLIM</span>
+                        <span className="small-label">SERA</span>
+                        <span className="add-label">+{slimLp2} SERA</span>
                       </p>
                     </div>
                     {/**/}
@@ -552,13 +586,15 @@ setslimLp(0)
                     {/**/}
                   </div>
                   <div className=" ">
-                    <p className="my-5 text-xs font-poppins">
-                      Stake SLIM to participate in whitelists for upcoming IDOs.
+                    <p className="my-5 font-poppins">
+                      *Stake SERA to participate in whitelists for upcoming
+                      IDOs.&nbsp;
                       <a
-                        className="text-[#11E1CF]"
-                        href="https://solanium.medium.com/introducing-solanium-tiers-d5b92bfb1778"
+                        className="pool-whitelist-link"
+                        href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/tiers"
+                        target="_blank"
                       >
-                        Learn more
+                        Learn more!
                       </a>
                     </p>
                   </div>

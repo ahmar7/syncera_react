@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import SynceraLogo from "../../assets/img/syncera-logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   const [drop, setDrop] = useState(false);
@@ -19,15 +20,14 @@ const Header = () => {
       setNav(true);
     }
   };
-  
-   window.addEventListener("scroll", function () { 
 
-     if (window.scrollY > 150) {
-       setSticky(true)
-     } else if (window.scrollY === 0) {
-       setSticky(false);
-     }
-   });
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 150) {
+      setSticky(true);
+    } else if (window.scrollY === 0) {
+      setSticky(false);
+    }
+  });
   return (
     <div>
       <div onClick={toggleDrop} className={drop ? "overlay-active" : ""}></div>
@@ -42,7 +42,7 @@ const Header = () => {
           <span className="navbar-brand">
             <Link to="/">
               <img
-                src="https://firestarter.fi/static/media/logo.fcbc44c0.svg"
+                src={SynceraLogo}
                 alt="Logo"
                 className="d-inline-block align-top header-logo"
               />
@@ -55,14 +55,20 @@ const Header = () => {
                 : "justify-content-end navbar-collapse collapse show-nav"
             }
           >
-            <a href="https://linktr.ee/syncera" target="_blank" className="nav-link nav-txt">
+            <a
+              href="https://linktr.ee/syncera"
+              target="_blank"
+              className="nav-link nav-txt"
+            >
               Linktree
             </a>
             <Link to="/faqs" className="nav-link nav-txt">
               FAQs
             </Link>
             <Link to="/launchpad" className="nav-link btn-one">
-              <span className="btn-nav-txt"><i class="fas fa-fire"></i> Launch App</span>
+              <span className="btn-nav-txt">
+                <i class="fas fa-fire"></i> Launch App
+              </span>
             </Link>
             {/*
             <div

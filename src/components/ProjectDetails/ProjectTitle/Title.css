@@ -19,6 +19,6 @@
 .smflex{
     display: flex;
 }.token-bg{
-    background-image: url("https://static.solanium.com/media/reign_of_terror_saletoken.png") !important; 
+    background-image: url("../../../assets/img/logo-icon.png") !important; 
     border-radius: 50%;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import zkSyncIcon from "../../assets/img/zkSync-icon.png";
+import SynceraLogo from "../../assets/img/syncera-logo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -10,10 +11,7 @@ const Footer = () => {
           <div className="col-xl-3 col-12">
             <div className="footer__logo">
               <Link to="/">
-                <img
-                  src="https://firestarter.fi/static/media/logo.fcbc44c0.svg"
-                  alt="Logo"
-                />
+                <img src={SynceraLogo} alt="Logo" />
               </Link>
             </div>
             <div className="footer__token-address token-address mt-4">
@@ -265,16 +263,33 @@ const Footer = () => {
                 </li>
                 */}
                 <li className="footer__list-item">
-                  <a href="#">Apply for IDO</a>
+                  <a
+                    href="https://1jn712lieeo.typeform.com/to/hypE5Z7h"
+                    target="_blank"
+                  >
+                    Apply for IDO
+                  </a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/" target="_blank">Whitepaper</a>
+                  <a
+                    href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/"
+                    target="_blank"
+                  >
+                    Whitepaper
+                  </a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/" target="_blank">Pitch Deck</a>
+                  <a
+                    href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/"
+                    target="_blank"
+                  >
+                    Pitch Deck
+                  </a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="https://linktr.ee/syncera" target="_blank">Linktree</a>
+                  <a href="https://linktr.ee/syncera" target="_blank">
+                    Linktree
+                  </a>
                 </li>
                 {/*
                 <li className="footer__list-item">
@@ -313,7 +328,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/faqs" target="_blank">FAQs</a>
+                  <a
+                    href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/faqs"
+                    target="_blank"
+                  >
+                    FAQs
+                  </a>
                 </li>
                 {/*
                 <li className="footer__list-item">
@@ -322,7 +342,12 @@ const Footer = () => {
                 */}
 
                 <li className="footer__list-item">
-                  <a href="https://www.buybitcoinbank.com/cryptocurrency/add-zksync-to-metamask" target="_blank">Add zkSync to Metamask</a>
+                  <a
+                    href="https://www.buybitcoinbank.com/cryptocurrency/add-zksync-to-metamask"
+                    target="_blank"
+                  >
+                    Add zkSync to Metamask
+                  </a>
                 </li>
               </ul>
             </div>
@@ -333,7 +358,11 @@ const Footer = () => {
               <div className="footer__col-content">
                 <ul className="footer__socials">
                   <li className="footer__socials-item">
-                    <a href="https://twitter.com/Syncera_io" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://twitter.com/Syncera_io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span
                         path="socials/twitter.svg"
                         className="dynamic-image"
@@ -377,7 +406,11 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="footer__socials-item">
-                    <a href="https://medium.com/@synceraio" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://medium.com/@synceraio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span path="socials/medium.svg" className="dynamic-image">
                         <svg
                           width={32}
@@ -451,9 +484,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-                <h4 className="footer__title">
-                  Join The Syncera Community!
-                </h4>
+                <h4 className="footer__title">Join The Syncera Community!</h4>
                 {/*
                 <a className="round-button light large btn btn-main nop" href="#">
                   Fuel The Fire

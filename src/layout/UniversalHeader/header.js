@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
+import LogoIcon from '../../assets/img/logo-icon.png'
 const Header = () => {
   const [mblFull, setmblFull] = useState(false);
-
+  const [progressComing2, setprogressComing2] = useState(false);
+  const [progressComing, setprogressComing] = useState(false);
   let toggleMbl = () => {
     if (mblFull === false) {
       setmblFull(true);
@@ -11,14 +13,25 @@ const Header = () => {
       setmblFull(false);
     }
   };
+  let progressToggle = () => {
+    setprogressComing(true);
+      setTimeout(() => {
+        setprogressComing(false);
+      }, 5000);
+   
+  };
+  let progressToggle2 = () => {
+    setprogressComing2(true);
+    setTimeout(() => {
+      // progressComing ? setprogressComing2(false) : setprogressComing2(true);
+      setprogressComing2(false)
+    }, 5000);
+  };
   return (
     <div>
       <div className={mblFull ? "side-bar mbl-open pt-10" : "side-bar pt-10"}>
-        <NavLink to="/" className="logo-side">
-          <img
-            src="https://gamefi.org/_next/static/media/gamefi.5bb5d999.svg"
-            alt=""
-          />
+        <NavLink to="/">
+          <img src={LogoIcon} className="logo-icon" alt="" />
         </NavLink>
         <div className="side-links">
           <NavLink to="/launchpad" className="individual-link  ">
@@ -112,13 +125,17 @@ const Header = () => {
           </div>
           <p className="link-title">Staking</p>
         </NavLink>
-        <NavLink to="/" className="individual-link">
+        <NavLink to="/swap" className="individual-link">
           <div className="link-ico">
             <i class="fa-solid fa-rotate icon-size"></i>
           </div>
           <p className="link-title">Swap</p>
         </NavLink>
-        <NavLink to="/" className="individual-link">
+        <button
+          onClick={progressToggle2}
+          disabled={progressComing2 ? true : false}
+          className="individual-link"
+        >
           <div className="link-ico">
             <svg
               width="24"
@@ -137,8 +154,8 @@ const Header = () => {
             </svg>
           </div>
           <p className="link-title">Earn</p>
-        </NavLink>
-        <NavLink to="/" className="individual-link">
+        </button>
+        <NavLink to="/governance" className="individual-link">
           <div className="link-ico">
             <svg
               width="24"
@@ -276,13 +293,18 @@ const Header = () => {
               </svg>
             </div>
           </NavLink>
-          <NavLink to="/" className="mbl-individual ">
+          <NavLink to="/swap" className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
               <i class="fa-solid fa-rotate icon-size icon-height"></i>
             </div>
           </NavLink>
-          <NavLink to="/" className="mbl-individual ">
+
+          <button
+            disabled={progressComing2 ? true : false}
+            onClick={progressToggle2}
+            className="mbl-individual "
+          >
             <span class="active-underline"></span>
             <div className="mbl-icon">
               <svg
@@ -301,7 +323,7 @@ const Header = () => {
                 ></path>
               </svg>
             </div>
-          </NavLink>
+          </button>
           <div onClick={toggleMbl} className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
@@ -320,6 +342,57 @@ const Header = () => {
       <button className="nav-link btn-wallet">
         <i className="fas fa-wallet"></i> Connect
       </button>
+
+      {/*  */}
+      <div className="c-container">
+        <div
+          className={
+            progressComing ? "popup-coming right-full" : "popup-coming  "
+          }
+        >
+          <div className="toast-tba">
+            <div onClick={() => setprogressComing(false)} className="cross-ico">
+              <i class="fa-solid fa-x"></i>
+            </div>
+            <div className="toast-txt">
+              <div className="toast-ico">
+                <i
+                  class="fa-solid fa-circle-info"
+                  style={{ color: "white" }}
+                ></i>
+              </div>
+              <div className="toast-written">Swap coming soon </div>
+            </div>
+          </div>
+          <div className="progress-bar"></div>
+        </div>
+        <div
+          className={
+            progressComing2 ? "popup-coming right-full2 " : "popup-coming  "
+          }
+        >
+          <div className="toast-tba">
+            <div
+              onClick={() => setprogressComing2(false)}
+              className="cross-ico"
+            >
+              <i class="fa-solid fa-x"></i>
+            </div>
+            <div className="toast-txt">
+              <div className="toast-ico">
+                <i
+                  class="fa-solid fa-circle-info"
+                  style={{ color: "white" }}
+                ></i>
+              </div>
+              <div className="toast-written">Earn coming soon </div>
+            </div>
+          </div>
+          <div className="progress-bar"></div>
+        </div>
+      </div>
+
+      {/*  */}
     </div>
   );
 };

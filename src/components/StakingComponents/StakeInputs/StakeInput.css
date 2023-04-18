@@ -1,3 +1,11 @@
+.syncera-warning {
+    background: #fff3cd;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+}
+
 tr:last-child td[data-v-290846d6]:first-child {
     border-bottom-left-radius: 20px
 }
@@ -72,7 +80,7 @@ tr:last-child td[data-v-290846d6]:last-child {
     margin-top: 1.25rem !important;
 }
 .active-tier{
-    border: 2px solid rgb(255, 255, 255) !important;
+    border: 2px solid #ff9393 !important;
 }
 @media (max-width:768px) {
     .new-tier.stake-details

@@ -95,7 +95,7 @@ const Faq = () => {
                       <a
                         href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/syncera-ecosystem-v1/launchpad/tiers"
                         target="_blank"
-                        className="emphasize-link"
+                        className="pool-whitelist-link"
                       >
                         tier system
                       </a>{" "}
@@ -164,7 +164,7 @@ const Faq = () => {
                       yourself with our{" "}
                       <a
                         href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/be-an-ambassador-crew3"
-                        className="emphasize-link"
+                        className="pool-whitelist-link"
                         target="_blank"
                       >
                         ambassador program
@@ -214,7 +214,7 @@ const Faq = () => {
                         <a
                           href="https://zealy.io/c/syncera/questboard/57740b31-e4d3-45f1-8798-b893d472c578c"
                           target="_blank"
-                          className="emphasize-link"
+                          className="pool-whitelist-link"
                         >
                           attain
                         </a>{" "}
@@ -222,7 +222,7 @@ const Faq = () => {
                         <a
                           href="https://zealy.io/c/syncera/questboard/5e8e9de1-8a27-4ef5-9f5b-ebae68d7cc13"
                           target="_blank"
-                          className="emphasize-link"
+                          className="pool-whitelist-link"
                         >
                           register
                         </a>{" "}
@@ -281,7 +281,7 @@ const Faq = () => {
                       The Syncera Champion Program serves as an{" "}
                       <a
                         href="https://syncera-io-or-decentralized-ecos.gitbook.io/syncera.io-or-zksync-launchpad/champion-program-zealy"
-                        class="emphasize-link"
+                        class="pool-whitelist-link"
                         target="_blank"
                       >
                         ambassador program
@@ -290,7 +290,7 @@ const Faq = () => {
                       <a
                         href="https://zealy.io/c/syncera/questboard"
                         target="_blank"
-                        class="emphasize-link"
+                        class="pool-whitelist-link"
                       >
                         Zealy
                       </a>{" "}
@@ -350,7 +350,7 @@ const Faq = () => {
                       Please send an email to{" "}
                       <a
                         href="mailto:support@syncera.io"
-                        className="emphasize-link"
+                        className="pool-whitelist-link"
                       >
                         support@syncera.io
                       </a>{" "}
@@ -359,7 +359,7 @@ const Faq = () => {
                       with{" "}
                       <a
                         href="mailto:business@syncera.io"
-                        className="emphasize-link"
+                        className="pool-whitelist-link"
                       >
                         business@syncera.io
                       </a>{" "}
@@ -367,7 +367,7 @@ const Faq = () => {
                       us through{" "}
                       <a
                         href="mailto:private@syncera.io"
-                        className="emphasize-link"
+                        className="pool-whitelist-link"
                       >
                         private@syncera.io
                       </a>

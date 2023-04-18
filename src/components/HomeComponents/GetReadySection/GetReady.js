@@ -12,7 +12,7 @@ const GetReady = () => {
               </div>
               <a
                 className="round-button light large wide btn btn-main nop"
-                href="#"
+                href="https://1jn712lieeo.typeform.com/to/hypE5Z7h" target="_blank"
               >
                 Apply here
               </a>

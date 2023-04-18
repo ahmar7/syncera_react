@@ -48,6 +48,7 @@
   line-height: 150%;
 }
 .card.accordion .card-header {
+  background: #651FFF;
   border: 0;
   padding: 0;
 }
@@ -67,7 +68,8 @@
   transition: 0.3s linear;
 }
 .card.accordion .btn.active {
-  color: var(--color-text-violet);
+  color: white;
+  font-weight: bold;
 }
 .card.accordion .btn.active svg path {
   fill: var(--color-text-violet);
@@ -77,6 +79,7 @@
 }
 .card.accordion .card-body {
   padding: 0 8rem 2.25rem 2.25rem;
+  background: #651FFF;
 }
 @media (max-width:600px) {
   .card.accordion .btn {

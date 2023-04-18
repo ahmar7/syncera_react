@@ -62,7 +62,7 @@ const Description = () => {
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
                       <span className="text-paragraph-text flex items-center">
-                        Distribution start
+                        Distribution date
                       </span>
                       <div className="font-poppins-bold leading-8">
                         <span>TBD</span>
@@ -78,7 +78,7 @@ const Description = () => {
                     </div>
                     <div className="flex justify-between w-full text-sm md:text-md">
                       <span className="text-paragraph-text flex items-center">
-                        Explorer
+                        Token address
                       </span>
                       <div className="font-poppins-bold leading-8">
                         <a
@@ -95,7 +95,7 @@ const Description = () => {
                         Syncera Shield
                       </span>
                       <div className="font-poppins-bold leading-8">
-                        <span>Yes</span>
+                        <span>Activated</span>
                       </div>
                     </div>
                   </div>
