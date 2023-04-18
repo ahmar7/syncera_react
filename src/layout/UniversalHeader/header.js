@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div>
       <div className={mblFull ? "side-bar mbl-open pt-10" : "side-bar pt-10"}>
-        <NavLink to="/">
+        <NavLink to="/" className="p20">
           <img src={LogoIcon} className="logo-icon" alt="" />
         </NavLink>
         <div className="side-links">
@@ -237,7 +237,7 @@ const Header = () => {
               </svg>
             </div>
           </NavLink>
-          <NavLink to="/" className="mbl-individual ">
+          <NavLink to="/staking" className="mbl-individual ">
             <span class="active-underline"></span>
             <div className="mbl-icon">
               <svg

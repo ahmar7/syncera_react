@@ -1,6 +1,10 @@
 .shom{
     display: none;
 }
+.s-align{
+    align-items: flex-end !important;
+    padding: 0 !important;
+}
 @media (max-width:1024px) {
     .shom{
         display: block;

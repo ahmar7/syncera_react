@@ -325,7 +325,17 @@ position: absolute;
   }
 }
 
+
+
 @media (max-width: 1100px) {
+  .p20{
+    padding-inline: 20px;
+  }
+  .abs-numer{
+    left: 
+    46px !important;
+    top: 2px !important;
+  }
   .mobile-belowBar {
     display: block !important ;
   }
