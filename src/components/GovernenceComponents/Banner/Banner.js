@@ -8,25 +8,17 @@ const Banner = () => {
             data-bn-type="text"
             className="governance-landing-header-subtitle css-1b13r3e"
           >
-            Participate in ApolloX governance
+            Participate in Syncera Governance
           </div>
           <div className="governance-landing-header-main-title">
-            ApolloX DAO
+            Syncera DAO
           </div>
           <div data-bn-type="text" className="css-skkjos">
-            Help shape ApolloX future, stake APX to earn voting power and earn
-            rewards.
+            Help in molding the future of Syncera, stake SERA tokens to acquire the ability to vote and obtain incentives.
           </div>
-          <a
-            data-bn-type="link"
-            href="https://www.apollox.finance/en/governance/vault"
-            target="_blank"
-            className="css-1ebs9p"
-          >
-            <button data-bn-type="button" className=" css-uv48zn">
-              Lock APX
-            </button>
-          </a>
+          <div class="alert syncera-warning mt-4" role="alert">
+            <i class="fas fa-exclamation-triangle"></i> Coming soon in operation.
+          </div>
         </div>
       </div>
     );

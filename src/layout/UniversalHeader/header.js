@@ -300,9 +300,8 @@ const Header = () => {
             </div>
           </NavLink>
 
-          <button
-            disabled={progressComing2 ? true : false}
-            onClick={progressToggle2}
+          <button 
+            
             className="mbl-individual "
           >
             <span class="active-underline"></span>

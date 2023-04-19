@@ -30,6 +30,7 @@
   margin: 0;
   min-width: 0;
   font-size: 16px;
+  opacity: 0.6;
   font-weight: 400;
   line-height: 24px;
   color: #f0f0f5;
@@ -215,14 +216,7 @@
 }
 
 .css-19g42lq .governance-landing-header-main-title {
-  background: linear-gradient(
-      92.49deg,
-      rgba(255, 255, 255, 0.5) 49.68%,
-      rgba(244, 119, 255, 0.41) 93.3%
-    ),
-    linear-gradient(266.3deg, #ffffff 50.45%, #7b88ff 86.95%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #651fff !important;
   -webkit-background-clip: text;
   margin-top: 20px;
   margin-bottom: 20px;

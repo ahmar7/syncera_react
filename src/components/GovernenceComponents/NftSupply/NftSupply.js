@@ -248,10 +248,20 @@ const NftSupply = () => {
           <div className="governance-landing-key-stats-column-wrap">
             <div className="governance-landing-key-stats-column">
               <div data-bn-type="text" className="css-peba8t">
-                Total Locked Supply
+                Total SERA Staked
               </div>
               <div data-bn-type="text" className="css-c7kicv">
-                180.61M
+                N/A
+              </div>
+            </div>
+            <div className="governance-landing-key-stats-column">
+              <div className="css-1aog95r">
+                <div data-bn-type="text" className="css-wiwtne">
+                  % Of Supply Staked
+                </div>
+              </div>
+              <div data-bn-type="text" className="css-c7kicv">
+                N/A
               </div>
             </div>
             <div className="governance-landing-key-stats-column">
@@ -259,105 +269,17 @@ const NftSupply = () => {
                 <div data-bn-type="text" className="css-wiwtne">
                   Average Locked Period
                 </div>
-                <div className="css-m5gimw">
-                  <div
-                    className="bn-tooltip-box css-1fwham2"
-                    style={{
-                      position: "absolute",
-                      left: "-90px",
-                      top: "-40px",
-                      transition:
-                        "opacity 120ms ease-in-out 0s, transform 120ms ease-in-out 0s",
-                      opacity: 0,
-                      transform: "translate3d(0px, -6px, 0px)",
-                      visibility: "hidden",
-                    }}
-                    data-popper-reference-hidden="false"
-                    data-popper-escaped="false"
-                    data-popper-placement="top"
-                  >
-                    Average lock-up time for all users.
-                    <div
-                      className="bn-tooltip-arrow css-1u9esp9"
-                      data-popper-arrow="true"
-                      style={{ position: "absolute", left: "99px" }}
-                    />
-                    <i className="gap-fill" />
-                  </div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    className="css-1xloj19"
-                  >
-                    <path d="M12 9a1 1 0 100-2 1 1 0 100 2zm0 8a1 1 0 001-1v-5a1 1 0 10-2 0v5a1 1 0 001 1z" />
-                    <path
-                      fillRule="evenodd"
-                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-2 0a8 8 0 10-16 0 8 8 0 0016 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
               </div>
               <div data-bn-type="text" className="css-c7kicv">
-                1.62Y
-              </div>
-            </div>
-            <div className="governance-landing-key-stats-column">
-              <div className="css-1aog95r">
-                <div data-bn-type="text" className="css-wiwtne">
-                  Total Power
-                </div>
-                <div className="css-m5gimw">
-                  <div
-                    className="bn-tooltip-box css-1fwham2"
-                    style={{
-                      position: "absolute",
-                      left: "-62.5px",
-                      top: "-40px",
-                      transition:
-                        "opacity 120ms ease-in-out 0s, transform 120ms ease-in-out 0s",
-                      opacity: 0,
-                      transform: "translate3d(0px, -6px, 0px)",
-                      visibility: "hidden",
-                    }}
-                    data-popper-reference-hidden="false"
-                    data-popper-escaped="false"
-                    data-popper-placement="top"
-                  >
-                    Total Power of all users
-                    <div
-                      className="bn-tooltip-arrow css-1u9esp9"
-                      data-popper-arrow="true"
-                      style={{ position: "absolute", left: "71.5px" }}
-                    />
-                    <i className="gap-fill" />
-                  </div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    className="css-1xloj19"
-                  >
-                    <path d="M12 9a1 1 0 100-2 1 1 0 100 2zm0 8a1 1 0 001-1v-5a1 1 0 10-2 0v5a1 1 0 001 1z" />
-                    <path
-                      fillRule="evenodd"
-                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-2 0a8 8 0 10-16 0 8 8 0 0016 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div data-bn-type="text" className="css-c7kicv">
-                65.75M
+                N/A
               </div>
             </div>
             <div className="governance-landing-key-stats-column">
               <div data-bn-type="text" className="css-peba8t">
-                veNFT Supply
+                SERA Stakers
               </div>
               <div data-bn-type="text" className="css-c7kicv">
-                1131
+                N/A
               </div>
             </div>
           </div>

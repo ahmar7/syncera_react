@@ -39,7 +39,12 @@ const Description = () => {
                 <span>
                   <span>
                     <span>
-                      Syncera's objective goes beyond serving solely as a launchpad platform for zkSync. It is creating a comprehensive DeFi ecosystem that includes a range of solutions to assist projects and investors in securely launching and managing their decentralized finances, all within a single entity…{" "}
+                      Syncera's objective goes beyond serving solely as a
+                      launchpad platform for zkSync. It is creating a
+                      comprehensive DeFi ecosystem that includes a range of
+                      solutions to assist projects and investors in securely
+                      launching and managing their decentralized finances, all
+                      within a single entity…{" "}
                     </span>
                   </span>
                 </span>
@@ -62,7 +67,8 @@ const Description = () => {
               className=" guNyXw"
             >
               <h2 className=" kSxSwY  kFGeBv">
-                Introducing Syncera.io | The One-Stop Platform for a Growing Ecosystem
+                Introducing Syncera.io | The First Community-Driven IDO Platform
+                on zkSync
               </h2>
               <span className="rotate-bg">
                 <img
@@ -84,7 +90,8 @@ const Description = () => {
               className=" guNyXw no-border"
             >
               <h2 className=" kSxSwY   kFGeBv">
-                What are the key features and functions of the Syncera IDO launchpad?
+                What are the key features and functions of the Syncera IDO
+                launchpad?
               </h2>
               <span className="rotate-bg">
                 <img
@@ -103,7 +110,8 @@ const Description = () => {
           <div className="cgQZeg faFXTz dOwoXE">
             <p className="kmtZwL cwNaQj">Never want to miss an IDO?</p>
             <h2 className="cTTTua cDqZXm">
-              Sign up for our newsletter to receive the <i>latest</i> news and updates!
+              Sign up for our newsletter to receive the <i>latest</i> news and
+              updates!
             </h2>
           </div>
           <form className="gVoQB fTdEJq ">
@@ -114,7 +122,7 @@ const Description = () => {
                   placeholder="Email Address"
                   type="email"
                   className="hXCqXZ daBJUU"
-                /> 
+                />
               </div>
               <p className="bAkqOa bIYjMb" />
             </div>

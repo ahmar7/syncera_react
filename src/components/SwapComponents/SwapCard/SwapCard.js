@@ -22,7 +22,7 @@ const SwapCard = () => {
                   <div className="relative w-full h-full rounded hover:bg-dark-800 flex items-center">
                     <div className="flex relative">
                       <div
-                        className="  flex items-center justify-center cursor-pointer py-1 px-3"
+                        className="radius-12  flex items-center justify-center cursor-pointer py-1 px-3"
                         id="open-settings-dialog-button"
                         style={{ fontSize: "12px" }}
                       >
@@ -36,6 +36,11 @@ const SwapCard = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="alert syncera-warning" role="alert">
+              <i className="fas fa-exclamation-triangle"></i> Please note that
+              swapping is currently <i>unavailable</i>, but will become live
+              right after our TGE.
             </div>
             <div className="input-container">
               <div
@@ -130,22 +135,22 @@ const SwapCard = () => {
                 </div>
               </div>
               <div className="grid ">
-                <div
-                  className="w-full flex p-0 justify-center transition Row__AutoRow-sc-1ljkvzo-2 iUMUwm"
-                  
-                >
+                <div className="w-full flex p-0 justify-center transition Row__AutoRow-sc-1ljkvzo-2 iUMUwm">
                   <button className="z-10 -mt-6 -mb-6 rounded-full">
-                    <div className="rounded-full rounded-fulle p-3px m-4"style={{borderRadius:"20px!important"}}>
+                    <div
+                      className="rounded-full rounded-fulle p-3px m-4"
+                      style={{ borderRadius: "20px!important" }}
+                    >
                       <div className="p-1 rounded-full">
-                        <div className='w-he'>
+                        <div className="w-he">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 500 500"
-                            className='radiuse-m'
+                            className="radiuse-m"
                             preserveAspectRatio="xMidYMid meet"
                             style={{
                               width: "100%",
-                              borderRadius:"22px",
+                              borderRadius: "22px",
                               height: "100%",
                               transform: "translate3d(0px, 0px, 0px)",
                               contentVisibility: "visible",
@@ -350,19 +355,15 @@ const SwapCard = () => {
                 </button>
               </div>
             </div>
-            <div
-              className="bg-darkBlue flex text-center justify-center p-2 md:w-1/2 mr-auto ml-auto rounded-xl px-2"
-               
-            >
+            <div className="bg-darkBlue flex text-center justify-center p-2 md:w-1/2 mr-auto ml-auto rounded-xl px-2">
               Slippage Tolerance: 0.50%
             </div>
             <div className="absolute -bottom-14 left-0 w-full  md:block">
-              <div className="left-0 px-5 py-222 flex gap-2 justify-center border border-lightBlueSecondary bg-deepCove text-aqua hover:bg-blue cursor-pointer transition w-full text-center text-xxs">
+              <div className="left-0 radius-12 px-5 py-222 flex gap-2 justify-center border border-lightBlueSecondary bg-deepCove text-aqua hover:bg-blue cursor-pointer transition w-full text-center text-xxs">
                 <div>Turn on Advanced Trading</div>
                 <img src="https://app.beamswap.io/images/advanced.svg" />
               </div>
             </div>
-            
           </div>
         </div>
       </div>

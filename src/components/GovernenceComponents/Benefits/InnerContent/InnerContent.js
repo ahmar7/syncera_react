@@ -15,7 +15,7 @@ const InnnerContent = () => {
             className="css-9yla5v"
           />
           <div data-bn-type="text" className="css-n3nj1z">
-            Lock up APX to get double benefits
+            Lock up SERA for double benefits
           </div>
           <div className="css-rf76ov">
             <a
@@ -24,8 +24,8 @@ const InnnerContent = () => {
               target="_blank"
               className="css-9wj43q"
             >
-              <button data-bn-type="button" className=" css-r25z49">
-                Lock &amp; get veNFT
+              <button data-bn-type="button" className="btn-one">
+                Lock SERA
               </button>
             </a>
             <a
@@ -34,17 +34,17 @@ const InnnerContent = () => {
               target="_blank"
               className="css-9wj43q"
             >
-              <button data-bn-type="button" className=" css-o54pln">
+              <button data-bn-type="button" className="btn-two">
                 Vote Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
-                  fill="none"
+                  fill="#651FFF"
                   className="css-aw5qf7"
                 >
                   <path
                     d="M7.33324 3.33343C6.96505 3.33343 6.66658 3.63191 6.66658 4.00009C6.66658 4.36829 6.96506 4.66677 7.33326 4.66676L10.3906 4.66671L4.80915 10.1953C4.54669 10.4553 4.54568 10.8791 4.8069 11.1404C5.06637 11.3998 5.48675 11.4008 5.74745 11.1426L11.3335 5.60945L11.334 8.66676C11.334 9.03492 11.6325 9.33334 12.0007 9.33334C12.3689 9.33334 12.6674 9.03482 12.6673 8.66659L12.6669 4.33329C12.6669 3.78104 12.2192 3.33338 11.6669 3.33338L7.33324 3.33343Z"
-                    fill="#F0F0F5"
+                    fill="#651FFF"
                   />
                 </svg>
               </button>

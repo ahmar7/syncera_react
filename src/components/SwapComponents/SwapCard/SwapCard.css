@@ -4,6 +4,9 @@
 .page-container{
     margin-bottom: 100px;
 }
+.page-container .syncera-warning {
+    background: #651fff;
+    color: white;}
 .page-container .swap-container .swap-blue-border {
   width: 42%;
   border-top: 2px solid #132562;
@@ -412,15 +415,18 @@
   color: rgb(255, 255, 255) !important;
   font-size: 18px;
 }
-:not(html):not(body):not(header):not(nav):not(.py-2.z-10):not(
+/* :not(html):not(body):not(header):not(nav):not(.py-2.z-10):not(
     .z-0.flex.flex-col.items-center
   ):not(#__next):not(#swap-page):not(.glow) {
   border-radius: 12px;
-}
+} */
 .page-container .swap-container #open-settings-dialog-button {
   background-color: rgb(101 31 255);
   color: #15cef7;
   position: relative;
+}
+.radius-12{
+    border-radius: 12px;
 }
 .rounded-fulle {
   border-radius: 30px !important;
